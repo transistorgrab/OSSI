@@ -11,3 +11,4 @@ Join, collaborate, learn and help make the world a better place.
 The sun shines for everyone! 😊
 
 The current activities take place in the Wiki, where we collect the requirements.
+(Currently the Wiki transfer is still delayed due to pending restore on Sourceforge  	☹)
