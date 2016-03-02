@@ -15,4 +15,4 @@ Join, collaborate, learn and help make the world a better place.
 
 The sun shines for everyone! 😊
 
-The current activities take place in the Wiki, where we collect the requirements.
+The current activities take place in the [Wiki](https://github.com/transistorgrab/OSSI/wiki), where we collect the requirements.
