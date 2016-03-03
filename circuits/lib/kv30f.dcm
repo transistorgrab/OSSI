@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KV30F_32QFN
+D NXP KV30F ARM controller Kinetis family 32 pin QFN package
+F http://cache.nxp.com/files/microcontrollers/doc/data_sheet/KV30P64M100SFA.pdf?fpsp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation&fileExt=.pdf
+$ENDCMP
+#
+$CMP KV30F_48LQFP
+D NXP KV30F ARM controller Kinetis family 48 pin LQFP package
+F http://cache.nxp.com/files/microcontrollers/doc/data_sheet/KV30P64M100SFA.pdf?fpsp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation&fileExt=.pdf
+$ENDCMP
+#
+$CMP KV30F_64LQFP
+D NXP KV30F ARM controller Kinetis family 64 pin LQFP package
+F http://cache.nxp.com/files/microcontrollers/doc/data_sheet/KV30P64M100SFA.pdf?fpsp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation&fileExt=.pdf
+$ENDCMP
+#
+#End Doc Library
