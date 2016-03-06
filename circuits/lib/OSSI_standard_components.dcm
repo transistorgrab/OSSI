@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Inductor
+K Resistor
+$ENDCMP
+#
+$CMP Plated_hole
+D Plated hole for mounting hole with net connection
+$ENDCMP
+#
+$CMP Quartz
+D Quartz component 2 pins
+K quartz resonator
+$ENDCMP
+#
+$CMP Quartz_shielded
+D Quartz component 2 pins and shield
+K quartz resonator
+$ENDCMP
+#
+$CMP Resistor
+K Resistor
+$ENDCMP
+#
+$CMP STARPOINT
+D Connects two nets on a dedicated location
+K STAR, CONNECTOR
+$ENDCMP
+#
+$CMP Solder_bridge_closed
+D Provides an closed jumper that may be opened for testing purposes
+$ENDCMP
+#
+$CMP Solder_bridge_open
+D Provides an open solderable jumper
+$ENDCMP
+#
+$CMP Testpoint
+D Testpoint for testing purposes and in-circuit-testers
+$ENDCMP
+#
+#End Doc Library

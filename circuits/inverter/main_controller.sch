@@ -1,0 +1,1142 @@
+EESchema Schematic File Version 2
+LIBS:kv30f
+LIBS:OSSI_standard_components
+LIBS:connectors
+LIBS:OSSI_MK_I-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 10 10
+Title "Main Controller"
+Date "2016-03-04"
+Rev "0.1"
+Comp "Open Source Solar Inverter Project"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KV30F_64LQFP D?
+U 1 1 56D9D69B
+P 7800 2600
+F 0 "D?" H 7800 1550 60  0000 C CNN
+F 1 "KV30F_64LQFP" H 7800 3650 60  0000 C CNN
+F 2 "" H 8350 2400 60  0000 C CNN
+F 3 "" H 8350 2400 60  0000 C CNN
+	1    7800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KV30F_64LQFP D?
+U 2 1 56D9D710
+P 7600 9700
+F 0 "D?" H 7600 9150 60  0000 C CNN
+F 1 "KV30F_64LQFP" H 7600 10250 60  0000 C CNN
+F 2 "" H 8150 9500 60  0000 C CNN
+F 3 "" H 8150 9500 60  0000 C CNN
+	2    7600 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KV30F_64LQFP D?
+U 3 1 56D9D827
+P 11450 6300
+F 0 "D?" H 11450 5250 60  0000 C CNN
+F 1 "KV30F_64LQFP" H 11450 7350 60  0000 C CNN
+F 2 "" H 12000 6100 60  0000 C CNN
+F 3 "" H 12000 6100 60  0000 C CNN
+	3    11450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56D9D8D6
+P 8850 9700
+F 0 "C?" H 8850 9550 60  0000 C CNN
+F 1 "100n" H 8865 9845 60  0000 C CNN
+F 2 "" H 8850 9700 60  0000 C CNN
+F 3 "" H 8850 9700 60  0000 C CNN
+F 4 "%" H 8850 9925 60  0001 C CNN "Tolerance"
+F 5 "M" H 9100 9900 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9100 9800 60  0001 L CNN "Partnumber"
+	1    8850 9700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56D9DA2B
+P 9350 9700
+F 0 "C?" H 9350 9550 60  0000 C CNN
+F 1 "100n" H 9365 9845 60  0000 C CNN
+F 2 "" H 9350 9700 60  0000 C CNN
+F 3 "" H 9350 9700 60  0000 C CNN
+F 4 "%" H 9350 9925 60  0001 C CNN "Tolerance"
+F 5 "M" H 9600 9900 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9600 9800 60  0001 L CNN "Partnumber"
+	1    9350 9700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56D9DA60
+P 9850 9700
+F 0 "C?" H 9850 9550 60  0000 C CNN
+F 1 "100n" H 9865 9845 60  0000 C CNN
+F 2 "" H 9850 9700 60  0000 C CNN
+F 3 "" H 9850 9700 60  0000 C CNN
+F 4 "%" H 9850 9925 60  0001 C CNN "Tolerance"
+F 5 "M" H 10100 9900 60  0001 L CNN "Manufacturer"
+F 6 "P" H 10100 9800 60  0001 L CNN "Partnumber"
+	1    9850 9700
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #GND?
+U 1 1 56D9DA93
+P 8550 10200
+F 0 "#GND?" H 8550 9900 60  0001 C CNN
+F 1 "GND" H 8550 10050 60  0000 C CNN
+F 2 "" H 8550 10200 60  0000 C CNN
+F 3 "" H 8550 10200 60  0000 C CNN
+	1    8550 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 9900 8350 9900
+Wire Wire Line
+	8350 9900 8350 10150
+Wire Wire Line
+	8350 10150 10350 10150
+Wire Wire Line
+	8550 10150 8550 10200
+Wire Wire Line
+	8300 10000 8350 10000
+Connection ~ 8350 10000
+Wire Wire Line
+	8300 10100 8350 10100
+Connection ~ 8350 10100
+Wire Wire Line
+	8850 10150 8850 9800
+Connection ~ 8550 10150
+Wire Wire Line
+	9350 10150 9350 9800
+Connection ~ 8850 10150
+Wire Wire Line
+	9850 10150 9850 9800
+Connection ~ 9350 10150
+Wire Wire Line
+	8850 9250 8850 9600
+Wire Wire Line
+	8350 9250 10350 9250
+Wire Wire Line
+	8350 9250 8350 9500
+Wire Wire Line
+	8350 9500 8300 9500
+Wire Wire Line
+	8300 9400 8350 9400
+Connection ~ 8350 9400
+Wire Wire Line
+	8300 9300 8350 9300
+Connection ~ 8350 9300
+Wire Wire Line
+	9350 9250 9350 9600
+Connection ~ 8850 9250
+Wire Wire Line
+	9850 9250 9850 9600
+Connection ~ 9350 9250
+$Comp
+L +3V3 #+3V3?
+U 1 1 56D9DC05
+P 8550 9150
+F 0 "#+3V3?" H 8550 9425 60  0001 C CNN
+F 1 "+3V3" H 8550 9350 60  0000 C CNN
+F 2 "" H 8550 9150 60  0000 C CNN
+F 3 "" H 8550 9150 60  0000 C CNN
+	1    8550 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 9150 8550 9250
+Connection ~ 8550 9250
+$Comp
+L Capacitor C?
+U 1 1 56D9DE00
+P 10350 9700
+F 0 "C?" H 10350 9550 60  0000 C CNN
+F 1 "1µ/6.3V" H 10365 9845 60  0000 C CNN
+F 2 "" H 10350 9700 60  0000 C CNN
+F 3 "" H 10350 9700 60  0000 C CNN
+F 4 "%" H 10350 9925 60  0001 C CNN "Tolerance"
+F 5 "M" H 10600 9900 60  0001 L CNN "Manufacturer"
+F 6 "P" H 10600 9800 60  0001 L CNN "Partnumber"
+	1    10350 9700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10350 9250 10350 9600
+Connection ~ 9850 9250
+Wire Wire Line
+	10350 10150 10350 9800
+Connection ~ 9850 10150
+$Comp
+L Resistor R?
+U 1 1 56D9E0B4
+P 6950 1400
+F 0 "R?" H 6950 1300 60  0000 C CNN
+F 1 "10k" H 6950 1400 60  0000 C CNN
+F 2 "" H 6950 1490 60  0001 R CNN
+F 3 "" H 6950 1400 60  0000 C CNN
+F 4 "%" H 6950 1500 60  0001 C CNN "Tolerance"
+F 5 "M" H 7125 1600 60  0001 L CNN "Manufacturer"
+F 6 "P" H 7125 1500 60  0001 L CNN "Partnumber"
+	1    6950 1400
+	0    -1   1    0   
+$EndComp
+$Comp
+L +3V3 #+3V?
+U 1 1 56D9E24E
+P 6950 1050
+F 0 "#+3V?" H 6950 1325 60  0001 C CNN
+F 1 "+3V3" H 6950 1250 60  0000 C CNN
+F 2 "" H 6950 1050 60  0000 C CNN
+F 3 "" H 6950 1050 60  0000 C CNN
+	1    6950 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1050 6950 1150
+Wire Wire Line
+	7250 1700 6950 1700
+Wire Wire Line
+	6950 1700 6950 1650
+$Comp
+L AGND #AGND?
+U 1 1 56D9E504
+P 12550 7300
+F 0 "#AGND?" H 12550 7000 60  0001 C CNN
+F 1 "AGND" H 12550 7100 60  0000 C CNN
+F 2 "" H 12550 7300 60  0000 C CNN
+F 3 "" H 12550 7300 60  0000 C CNN
+	1    12550 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 6900 12550 6900
+Wire Wire Line
+	12550 6900 12550 7300
+Wire Wire Line
+	12350 7100 14100 7100
+Connection ~ 12550 7100
+$Comp
+L +3V3 #+3V?
+U 1 1 56D9E5B3
+P 14100 6400
+F 0 "#+3V?" H 14100 6675 60  0001 C CNN
+F 1 "+3V3" H 14100 6600 60  0000 C CNN
+F 2 "" H 14100 6400 60  0000 C CNN
+F 3 "" H 14100 6400 60  0000 C CNN
+	1    14100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductor L?
+U 1 1 56D9E5F8
+P 13300 6500
+F 0 "L?" H 13300 6350 60  0000 C CNN
+F 1 "Ferrite" H 13300 6450 60  0000 C CNN
+F 2 "" H 13300 6500 60  0000 C CNN
+F 3 "" H 13300 6500 60  0000 C CNN
+F 4 "M" H 13475 6700 60  0001 L CNN "Manufacturer"
+F 5 "P" H 13475 6600 60  0001 L CNN "Partnumber"
+	1    13300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56D9E68C
+P 14100 6800
+F 0 "C?" H 14100 6650 60  0000 C CNN
+F 1 "1µ/6.3V" H 14115 6945 60  0000 C CNN
+F 2 "" H 14100 6800 60  0000 C CNN
+F 3 "" H 14100 6800 60  0000 C CNN
+F 4 "%" H 14100 7025 60  0001 C CNN "Tolerance"
+F 5 "M" H 14350 7000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 14350 6900 60  0001 L CNN "Partnumber"
+	1    14100 6800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56D9E770
+P 12950 6800
+F 0 "C?" H 12950 6650 60  0000 C CNN
+F 1 "100n" H 12965 6945 60  0000 C CNN
+F 2 "" H 12950 6800 60  0000 C CNN
+F 3 "" H 12950 6800 60  0000 C CNN
+F 4 "%" H 12950 7025 60  0001 C CNN "Tolerance"
+F 5 "M" H 13200 7000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 13200 6900 60  0001 L CNN "Partnumber"
+	1    12950 6800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56D9EA53
+P 13650 6800
+F 0 "C?" H 13650 6650 60  0000 C CNN
+F 1 "100n" H 13665 6945 60  0000 C CNN
+F 2 "" H 13650 6800 60  0000 C CNN
+F 3 "" H 13650 6800 60  0000 C CNN
+F 4 "%" H 13650 7025 60  0001 C CNN "Tolerance"
+F 5 "M" H 13900 7000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 13900 6900 60  0001 L CNN "Partnumber"
+	1    13650 6800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12350 6500 13050 6500
+Wire Wire Line
+	12550 6500 12550 6700
+Wire Wire Line
+	12550 6700 12350 6700
+Connection ~ 12550 6500
+Wire Wire Line
+	12950 6400 12950 6700
+Connection ~ 12950 6500
+Wire Wire Line
+	12950 7100 12950 6900
+Wire Wire Line
+	14100 6400 14100 6700
+Wire Wire Line
+	13550 6500 14100 6500
+Connection ~ 14100 6500
+Wire Wire Line
+	13650 6500 13650 6700
+Connection ~ 13650 6500
+Wire Wire Line
+	13650 7100 13650 6900
+Connection ~ 12950 7100
+Wire Wire Line
+	14100 7100 14100 6900
+Connection ~ 13650 7100
+$Comp
+L PINHEADER_2×5 X?
+U 1 1 56D9F5B6
+P 5250 9500
+F 0 "X?" H 5250 9150 60  0000 C CNN
+F 1 "PINHEADER_2×5" H 5250 9850 60  0000 C CNN
+F 2 "" H 5250 9500 60  0000 C CNN
+F 3 "" H 5250 9500 60  0000 C CNN
+	1    5250 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 9600 6900 9600
+Wire Wire Line
+	5500 9300 6900 9300
+Wire Wire Line
+	5500 9400 6900 9400
+Wire Wire Line
+	6900 9500 5500 9500
+Wire Wire Line
+	5500 9700 6750 9700
+Wire Wire Line
+	6750 9700 6750 9800
+Wire Wire Line
+	6750 9800 6900 9800
+$Comp
+L +3V3 #+3V?
+U 1 1 56DA0500
+P 4800 9150
+F 0 "#+3V?" H 4800 9425 60  0001 C CNN
+F 1 "+3V3" H 4800 9350 60  0000 C CNN
+F 2 "" H 4800 9150 60  0000 C CNN
+F 3 "" H 4800 9150 60  0000 C CNN
+	1    4800 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 9300 4800 9300
+Wire Wire Line
+	4800 9300 4800 9150
+NoConn ~ 5000 9600
+$Comp
+L GND #GND?
+U 1 1 56DA078D
+P 4800 9800
+F 0 "#GND?" H 4800 9500 60  0001 C CNN
+F 1 "GND" H 4800 9650 60  0000 C CNN
+F 2 "" H 4800 9800 60  0000 C CNN
+F 3 "" H 4800 9800 60  0000 C CNN
+	1    4800 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 9400 4800 9400
+Wire Wire Line
+	4800 9400 4800 9800
+Wire Wire Line
+	5000 9500 4800 9500
+Connection ~ 4800 9500
+Wire Wire Line
+	5000 9700 4800 9700
+Connection ~ 4800 9700
+$Comp
+L Quartz Q?
+U 1 1 56DA0DC9
+P 6150 10500
+F 0 "Q?" H 6150 10300 60  0000 C CNN
+F 1 "Quartz" H 6150 10700 60  0000 C CNN
+F 2 "" H 6150 10500 60  0000 C CNN
+F 3 "" H 6150 10500 60  0000 C CNN
+	1    6150 10500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA0FFE
+P 6750 10600
+F 0 "R?" H 6750 10500 60  0000 C CNN
+F 1 "0R0" H 6750 10600 60  0000 C CNN
+F 2 "" H 6750 10690 60  0001 R CNN
+F 3 "" H 6750 10600 60  0000 C CNN
+F 4 "%" H 6750 10700 60  0001 C CNN "Tolerance"
+F 5 "M" H 6925 10800 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6925 10700 60  0001 L CNN "Partnumber"
+	1    6750 10600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA122F
+P 6500 10500
+F 0 "R?" H 6500 10400 60  0000 C CNN
+F 1 "1M0" H 6500 10500 60  0000 C CNN
+F 2 "" H 6500 10590 60  0001 R CNN
+F 3 "" H 6500 10500 60  0000 C CNN
+F 4 "%" H 6500 10600 60  0001 C CNN "Tolerance"
+F 5 "M" H 6675 10700 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6675 10600 60  0001 L CNN "Partnumber"
+	1    6500 10500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA12E1
+P 5800 10100
+F 0 "C?" H 5800 9950 60  0000 C CNN
+F 1 "12p" H 5815 10245 60  0000 C CNN
+F 2 "" H 5800 10100 60  0000 C CNN
+F 3 "" H 5800 10100 60  0000 C CNN
+F 4 "%" H 5800 10325 60  0001 C CNN "Tolerance"
+F 5 "M" H 6050 10300 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6050 10200 60  0001 L CNN "Partnumber"
+	1    5800 10100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA13BC
+P 5800 10900
+F 0 "C?" H 5800 10750 60  0000 C CNN
+F 1 "12p" H 5815 11045 60  0000 C CNN
+F 2 "" H 5800 10900 60  0000 C CNN
+F 3 "" H 5800 10900 60  0000 C CNN
+F 4 "%" H 5800 11125 60  0001 C CNN "Tolerance"
+F 5 "M" H 6050 11100 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6050 11000 60  0001 L CNN "Partnumber"
+	1    5800 10900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 10000 6150 10000
+Wire Wire Line
+	6150 10000 6150 10150
+Wire Wire Line
+	6900 10100 6750 10100
+Wire Wire Line
+	6750 10100 6750 10350
+Wire Wire Line
+	6750 10900 6750 10850
+Wire Wire Line
+	5900 10900 6750 10900
+Wire Wire Line
+	6150 10850 6150 10900
+Connection ~ 6150 10900
+Wire Wire Line
+	5900 10100 6500 10100
+Connection ~ 6150 10100
+Wire Wire Line
+	6500 10100 6500 10250
+Wire Wire Line
+	6500 10750 6500 10900
+Connection ~ 6500 10900
+Wire Wire Line
+	5700 10100 5600 10100
+Wire Wire Line
+	5600 10100 5600 10900
+Wire Wire Line
+	5600 10900 5700 10900
+$Comp
+L GND #GND?
+U 1 1 56DA2512
+P 5350 10500
+F 0 "#GND?" H 5350 10200 60  0001 C CNN
+F 1 "GND" H 5350 10350 60  0000 C CNN
+F 2 "" H 5350 10500 60  0000 C CNN
+F 3 "" H 5350 10500 60  0000 C CNN
+	1    5350 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 10500 5350 10450
+Wire Wire Line
+	5350 10450 5600 10450
+Connection ~ 5600 10450
+$Comp
+L +3V3_ANA #+3V3_ANA?
+U 1 1 56DA2FD2
+P 12950 6400
+F 0 "#+3V3_ANA?" H 12950 6675 60  0001 C CNN
+F 1 "+3V3_ANA" H 12950 6600 60  0000 C CNN
+F 2 "" H 12950 6400 60  0000 C CNN
+F 3 "" H 12950 6400 60  0000 C CNN
+	1    12950 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3_ANA #+3V3_ANA?
+U 1 1 56DA31C9
+P 7100 4900
+F 0 "#+3V3_ANA?" H 7100 5175 60  0001 C CNN
+F 1 "+3V3_ANA" H 7100 5100 60  0000 C CNN
+F 2 "" H 7100 4900 60  0000 C CNN
+F 3 "" H 7100 4900 60  0000 C CNN
+	1    7100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA3260
+P 10100 7800
+F 0 "C?" H 10100 7650 60  0000 C CNN
+F 1 "10n" H 10115 7945 60  0000 C CNN
+F 2 "" H 10100 7800 60  0000 C CNN
+F 3 "" H 10100 7800 60  0000 C CNN
+F 4 "%" H 10100 8025 60  0001 C CNN "Tolerance"
+F 5 "M" H 10350 8000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 10350 7900 60  0001 L CNN "Partnumber"
+	1    10100 7800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA3433
+P 9850 7450
+F 0 "C?" H 9850 7300 60  0000 C CNN
+F 1 "10n" H 9865 7595 60  0000 C CNN
+F 2 "" H 9850 7450 60  0000 C CNN
+F 3 "" H 9850 7450 60  0000 C CNN
+F 4 "%" H 9850 7675 60  0001 C CNN "Tolerance"
+F 5 "M" H 10100 7650 60  0001 L CNN "Manufacturer"
+F 6 "P" H 10100 7550 60  0001 L CNN "Partnumber"
+	1    9850 7450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA3499
+P 9600 7800
+F 0 "C?" H 9600 7650 60  0000 C CNN
+F 1 "10n" H 9615 7945 60  0000 C CNN
+F 2 "" H 9600 7800 60  0000 C CNN
+F 3 "" H 9600 7800 60  0000 C CNN
+F 4 "%" H 9600 8025 60  0001 C CNN "Tolerance"
+F 5 "M" H 9850 8000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9850 7900 60  0001 L CNN "Partnumber"
+	1    9600 7800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA3521
+P 9350 7450
+F 0 "C?" H 9350 7300 60  0000 C CNN
+F 1 "10n" H 9365 7595 60  0000 C CNN
+F 2 "" H 9350 7450 60  0000 C CNN
+F 3 "" H 9350 7450 60  0000 C CNN
+F 4 "%" H 9350 7675 60  0001 C CNN "Tolerance"
+F 5 "M" H 9600 7650 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9600 7550 60  0001 L CNN "Partnumber"
+	1    9350 7450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA3591
+P 9100 7800
+F 0 "C?" H 9100 7650 60  0000 C CNN
+F 1 "10n" H 9115 7945 60  0000 C CNN
+F 2 "" H 9100 7800 60  0000 C CNN
+F 3 "" H 9100 7800 60  0000 C CNN
+F 4 "%" H 9100 8025 60  0001 C CNN "Tolerance"
+F 5 "M" H 9350 8000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9350 7900 60  0001 L CNN "Partnumber"
+	1    9100 7800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA362B
+P 8850 7450
+F 0 "C?" H 8850 7300 60  0000 C CNN
+F 1 "10n" H 8865 7595 60  0000 C CNN
+F 2 "" H 8850 7450 60  0000 C CNN
+F 3 "" H 8850 7450 60  0000 C CNN
+F 4 "%" H 8850 7675 60  0001 C CNN "Tolerance"
+F 5 "M" H 9100 7650 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9100 7550 60  0001 L CNN "Partnumber"
+	1    8850 7450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA369B
+P 8600 7800
+F 0 "C?" H 8600 7650 60  0000 C CNN
+F 1 "10n" H 8615 7945 60  0000 C CNN
+F 2 "" H 8600 7800 60  0000 C CNN
+F 3 "" H 8600 7800 60  0000 C CNN
+F 4 "%" H 8600 8025 60  0001 C CNN "Tolerance"
+F 5 "M" H 8850 8000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8850 7900 60  0001 L CNN "Partnumber"
+	1    8600 7800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA37A7
+P 7550 5600
+F 0 "R?" H 7775 5550 60  0000 C CNN
+F 1 "220" H 7550 5600 60  0000 C CNN
+F 2 "" H 7550 5690 60  0001 R CNN
+F 3 "" H 7550 5600 60  0000 C CNN
+F 4 "%" H 7550 5700 60  0001 C CNN "Tolerance"
+F 5 "M" H 7725 5800 60  0001 L CNN "Manufacturer"
+F 6 "P" H 7725 5700 60  0001 L CNN "Partnumber"
+	1    7550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA3B60
+P 8150 5700
+F 0 "R?" H 8375 5650 60  0000 C CNN
+F 1 "220" H 8150 5700 60  0000 C CNN
+F 2 "" H 8150 5790 60  0001 R CNN
+F 3 "" H 8150 5700 60  0000 C CNN
+F 4 "%" H 8150 5800 60  0001 C CNN "Tolerance"
+F 5 "M" H 8325 5900 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8325 5800 60  0001 L CNN "Partnumber"
+	1    8150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA3CBA
+P 7550 5800
+F 0 "R?" H 7775 5750 60  0000 C CNN
+F 1 "220" H 7550 5800 60  0000 C CNN
+F 2 "" H 7550 5890 60  0001 R CNN
+F 3 "" H 7550 5800 60  0000 C CNN
+F 4 "%" H 7550 5900 60  0001 C CNN "Tolerance"
+F 5 "M" H 7725 6000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 7725 5900 60  0001 L CNN "Partnumber"
+	1    7550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA3D3E
+P 8150 5900
+F 0 "R?" H 8150 5800 60  0000 C CNN
+F 1 "220" H 8150 5900 60  0000 C CNN
+F 2 "" H 8150 5990 60  0001 R CNN
+F 3 "" H 8150 5900 60  0000 C CNN
+F 4 "%" H 8150 6000 60  0001 C CNN "Tolerance"
+F 5 "M" H 8325 6100 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8325 6000 60  0001 L CNN "Partnumber"
+	1    8150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA3E2E
+P 7550 6100
+F 0 "R?" H 7550 6000 60  0000 C CNN
+F 1 "220" H 7550 6100 60  0000 C CNN
+F 2 "" H 7550 6190 60  0001 R CNN
+F 3 "" H 7550 6100 60  0000 C CNN
+F 4 "%" H 7550 6200 60  0001 C CNN "Tolerance"
+F 5 "M" H 7725 6300 60  0001 L CNN "Manufacturer"
+F 6 "P" H 7725 6200 60  0001 L CNN "Partnumber"
+	1    7550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA3ECA
+P 8150 6300
+F 0 "R?" H 8150 6200 60  0000 C CNN
+F 1 "220" H 8150 6300 60  0000 C CNN
+F 2 "" H 8150 6390 60  0001 R CNN
+F 3 "" H 8150 6300 60  0000 C CNN
+F 4 "%" H 8150 6400 60  0001 C CNN "Tolerance"
+F 5 "M" H 8325 6500 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8325 6400 60  0001 L CNN "Partnumber"
+	1    8150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DA4A26
+P 7550 6600
+F 0 "R?" H 7550 6500 60  0000 C CNN
+F 1 "220" H 7550 6600 60  0000 C CNN
+F 2 "" H 7550 6690 60  0001 R CNN
+F 3 "" H 7550 6600 60  0000 C CNN
+F 4 "%" H 7550 6700 60  0001 C CNN "Tolerance"
+F 5 "M" H 7725 6800 60  0001 L CNN "Manufacturer"
+F 6 "P" H 7725 6700 60  0001 L CNN "Partnumber"
+	1    7550 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5600 10550 5600
+Wire Wire Line
+	8400 5700 10550 5700
+Wire Wire Line
+	7800 5800 10550 5800
+Wire Wire Line
+	8400 5900 10550 5900
+Wire Wire Line
+	7800 6100 10550 6100
+Wire Wire Line
+	8400 6300 10550 6300
+Wire Wire Line
+	7800 6600 10550 6600
+Wire Wire Line
+	8600 7700 8600 5600
+Connection ~ 8600 5600
+Wire Wire Line
+	8850 7350 8850 5700
+Connection ~ 8850 5700
+Wire Wire Line
+	9100 7700 9100 5800
+Connection ~ 9100 5800
+Wire Wire Line
+	9350 7350 9350 5900
+Connection ~ 9350 5900
+Wire Wire Line
+	9600 7700 9600 6100
+Connection ~ 9600 6100
+Wire Wire Line
+	9850 7350 9850 6300
+Connection ~ 9850 6300
+Wire Wire Line
+	10100 7700 10100 6600
+Connection ~ 10100 6600
+$Comp
+L AGND #AGND?
+U 1 1 56DA558C
+P 9350 8100
+F 0 "#AGND?" H 9350 7800 60  0001 C CNN
+F 1 "AGND" H 9350 7900 60  0000 C CNN
+F 2 "" H 9350 8100 60  0000 C CNN
+F 3 "" H 9350 8100 60  0000 C CNN
+	1    9350 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 7550 9350 8100
+Wire Wire Line
+	8600 8050 10350 8050
+Wire Wire Line
+	8600 8050 8600 7900
+Wire Wire Line
+	10100 8050 10100 7900
+Connection ~ 9350 8050
+Wire Wire Line
+	9100 7900 9100 8050
+Connection ~ 9100 8050
+Wire Wire Line
+	8850 7550 8850 8050
+Connection ~ 8850 8050
+Wire Wire Line
+	9600 7900 9600 8050
+Connection ~ 9600 8050
+Wire Wire Line
+	9850 7550 9850 8050
+Connection ~ 9850 8050
+NoConn ~ 10550 5400
+NoConn ~ 10550 5500
+NoConn ~ 10550 6200
+NoConn ~ 10550 6400
+NoConn ~ 10550 6700
+NoConn ~ 10550 6800
+NoConn ~ 10550 6900
+Text HLabel 13600 5800 2    60   Output ~ 0
+1V20_REF
+Wire Wire Line
+	13600 5800 12350 5800
+$Comp
+L Resistor R?
+U 1 1 56DA6BC8
+P 8150 7200
+F 0 "R?" H 8150 7100 60  0000 C CNN
+F 1 "220" H 8150 7200 60  0000 C CNN
+F 2 "" H 8150 7290 60  0001 R CNN
+F 3 "" H 8150 7200 60  0000 C CNN
+F 4 "%" H 8150 7300 60  0001 C CNN "Tolerance"
+F 5 "M" H 8325 7400 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8325 7300 60  0001 L CNN "Partnumber"
+	1    8150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor C?
+U 1 1 56DA6C73
+P 10350 7450
+F 0 "C?" H 10350 7300 60  0000 C CNN
+F 1 "10n" H 10365 7595 60  0000 C CNN
+F 2 "" H 10350 7450 60  0000 C CNN
+F 3 "" H 10350 7450 60  0000 C CNN
+F 4 "%" H 10350 7675 60  0001 C CNN "Tolerance"
+F 5 "M" H 10600 7650 60  0001 L CNN "Manufacturer"
+F 6 "P" H 10600 7550 60  0001 L CNN "Partnumber"
+	1    10350 7450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8400 7200 10550 7200
+Wire Wire Line
+	10350 7200 10350 7350
+Connection ~ 10350 7200
+Wire Wire Line
+	10350 8050 10350 7550
+Connection ~ 10100 8050
+Wire Wire Line
+	7300 5600 5550 5600
+Wire Wire Line
+	7900 5700 5550 5700
+Wire Wire Line
+	7300 5800 5550 5800
+Wire Wire Line
+	7900 5900 5550 5900
+Wire Wire Line
+	7300 6100 5550 6100
+Wire Wire Line
+	7900 6300 5550 6300
+Wire Wire Line
+	7300 6600 5550 6600
+Wire Wire Line
+	7900 7200 5550 7200
+NoConn ~ 10550 7100
+NoConn ~ 8350 3500
+NoConn ~ 8350 3400
+NoConn ~ 8350 3300
+NoConn ~ 8350 3200
+NoConn ~ 8350 3100
+NoConn ~ 8350 3000
+NoConn ~ 8350 2200
+NoConn ~ 8350 1700
+NoConn ~ 7250 2700
+NoConn ~ 7250 2600
+NoConn ~ 7250 2400
+NoConn ~ 7250 2500
+NoConn ~ 7250 1800
+NoConn ~ 7250 1900
+NoConn ~ 7250 2000
+Text HLabel 5550 5600 0    60   Input ~ 0
+DC_Link_Voltage
+Text HLabel 5550 5700 0    60   Input ~ 0
+AC_Grid_Voltage
+Text HLabel 5550 5800 0    60   Input ~ 0
+AC_Current
+Text HLabel 5550 5900 0    60   Input ~ 0
+AC_Relay_Voltage
+Text HLabel 5550 6100 0    60   Input ~ 0
+DC_Input_Voltage
+Text HLabel 5550 6300 0    60   Input ~ 0
+DC_Current
+Text HLabel 5550 6600 0    60   Input ~ 0
+AC_Inverter_Voltage
+Text HLabel 5550 7200 0    60   Input ~ 0
+Relay_Ctrl_Voltage
+Text HLabel 5900 2200 0    60   Input ~ 0
+UART_RX
+Text HLabel 5900 2300 0    60   Output ~ 0
+UART_TX
+Wire Wire Line
+	5900 2200 7250 2200
+$Comp
+L Resistor R?
+U 1 1 56DC8D13
+P 6650 2300
+F 0 "R?" H 6650 2200 60  0000 C CNN
+F 1 "220" H 6650 2300 60  0000 C CNN
+F 2 "" H 6650 2390 60  0001 R CNN
+F 3 "" H 6650 2300 60  0000 C CNN
+F 4 "%" H 6650 2400 60  0001 C CNN "Tolerance"
+F 5 "M" H 6825 2500 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6825 2400 60  0001 L CNN "Partnumber"
+	1    6650 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2300 7250 2300
+Wire Wire Line
+	6400 2300 5900 2300
+Text HLabel 9900 1800 2    60   Output ~ 0
+Bridge_T1
+Text HLabel 9900 1900 2    60   Output ~ 0
+Bridge_T2
+Text HLabel 9900 2000 2    60   Output ~ 0
+Bridge_T3
+Text HLabel 9900 2100 2    60   Output ~ 0
+Bridge_T4
+$Comp
+L Resistor R?
+U 1 1 56DC9C3C
+P 6650 2800
+F 0 "R?" H 6875 2750 60  0000 C CNN
+F 1 "220" H 6650 2800 60  0000 C CNN
+F 2 "" H 6650 2890 60  0001 R CNN
+F 3 "" H 6650 2800 60  0000 C CNN
+F 4 "%" H 6650 2900 60  0001 C CNN "Tolerance"
+F 5 "M" H 6825 3000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6825 2900 60  0001 L CNN "Partnumber"
+	1    6650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DC9CCE
+P 6300 2900
+F 0 "R?" H 6300 2800 60  0000 C CNN
+F 1 "220" H 6300 2900 60  0000 C CNN
+F 2 "" H 6300 2990 60  0001 R CNN
+F 3 "" H 6300 2900 60  0000 C CNN
+F 4 "%" H 6300 3000 60  0001 C CNN "Tolerance"
+F 5 "M" H 6475 3100 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6475 3000 60  0001 L CNN "Partnumber"
+	1    6300 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2800 7250 2800
+Wire Wire Line
+	6400 2800 5900 2800
+Wire Wire Line
+	5900 2900 6050 2900
+Wire Wire Line
+	6550 2900 7250 2900
+$Comp
+L Resistor R?
+U 1 1 56DCA1AA
+P 9350 1800
+F 0 "R?" H 9575 1750 60  0000 C CNN
+F 1 "220" H 9350 1800 60  0000 C CNN
+F 2 "" H 9350 1890 60  0001 R CNN
+F 3 "" H 9350 1800 60  0000 C CNN
+F 4 "%" H 9350 1900 60  0001 C CNN "Tolerance"
+F 5 "M" H 9525 2000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9525 1900 60  0001 L CNN "Partnumber"
+	1    9350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1800 9100 1800
+Wire Wire Line
+	9600 1800 9900 1800
+Wire Wire Line
+	9900 1900 9000 1900
+Wire Wire Line
+	8500 1900 8350 1900
+$Comp
+L Resistor R?
+U 1 1 56DCAA6B
+P 8750 1900
+F 0 "R?" H 8975 1850 60  0000 C CNN
+F 1 "220" H 8750 1900 60  0000 C CNN
+F 2 "" H 8750 1990 60  0001 R CNN
+F 3 "" H 8750 1900 60  0000 C CNN
+F 4 "%" H 8750 2000 60  0001 C CNN "Tolerance"
+F 5 "M" H 8925 2100 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8925 2000 60  0001 L CNN "Partnumber"
+	1    8750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DCAB0A
+P 9350 2000
+F 0 "R?" H 9575 1950 60  0000 C CNN
+F 1 "220" H 9350 2000 60  0000 C CNN
+F 2 "" H 9350 2090 60  0001 R CNN
+F 3 "" H 9350 2000 60  0000 C CNN
+F 4 "%" H 9350 2100 60  0001 C CNN "Tolerance"
+F 5 "M" H 9525 2200 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9525 2100 60  0001 L CNN "Partnumber"
+	1    9350 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2000 9100 2000
+Wire Wire Line
+	9600 2000 9900 2000
+Text HLabel 5900 2800 0    60   Output ~ 0
+Boost_T1
+$Comp
+L Resistor R?
+U 1 1 56DCB09C
+P 8750 2100
+F 0 "R?" H 8975 2050 60  0000 C CNN
+F 1 "220" H 8750 2100 60  0000 C CNN
+F 2 "" H 8750 2190 60  0001 R CNN
+F 3 "" H 8750 2100 60  0000 C CNN
+F 4 "%" H 8750 2200 60  0001 C CNN "Tolerance"
+F 5 "M" H 8925 2300 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8925 2200 60  0001 L CNN "Partnumber"
+	1    8750 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2100 8500 2100
+Text HLabel 5900 2900 0    60   Output ~ 0
+Relay_Voltage_Ctrl
+Wire Wire Line
+	9000 2100 9900 2100
+$Comp
+L Resistor R?
+U 1 1 56DCB528
+P 8750 2300
+F 0 "R?" H 8975 2250 60  0000 C CNN
+F 1 "220" H 8750 2300 60  0000 C CNN
+F 2 "" H 8750 2390 60  0001 R CNN
+F 3 "" H 8750 2300 60  0000 C CNN
+F 4 "%" H 8750 2400 60  0001 C CNN "Tolerance"
+F 5 "M" H 8925 2500 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8925 2400 60  0001 L CNN "Partnumber"
+	1    8750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DCB5C0
+P 9350 2400
+F 0 "R?" H 9575 2350 60  0000 C CNN
+F 1 "220" H 9350 2400 60  0000 C CNN
+F 2 "" H 9350 2490 60  0001 R CNN
+F 3 "" H 9350 2400 60  0000 C CNN
+F 4 "%" H 9350 2500 60  0001 C CNN "Tolerance"
+F 5 "M" H 9525 2600 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9525 2500 60  0001 L CNN "Partnumber"
+	1    9350 2400
+	1    0    0    -1  
+$EndComp
+Text HLabel 9900 2300 2    60   Output ~ 0
+I2C_Clk
+Text HLabel 9900 2400 2    60   Output ~ 0
+I2C_Dat
+Wire Wire Line
+	8350 2300 8500 2300
+Wire Wire Line
+	9000 2300 9900 2300
+Wire Wire Line
+	9900 2400 9600 2400
+Wire Wire Line
+	8350 2400 9100 2400
+$Comp
+L Resistor R?
+U 1 1 56DCCED2
+P 8750 2500
+F 0 "R?" H 8975 2450 60  0000 C CNN
+F 1 "220" H 8750 2500 60  0000 C CNN
+F 2 "" H 8750 2590 60  0001 R CNN
+F 3 "" H 8750 2500 60  0000 C CNN
+F 4 "%" H 8750 2600 60  0001 C CNN "Tolerance"
+F 5 "M" H 8925 2700 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8925 2600 60  0001 L CNN "Partnumber"
+	1    8750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DCCF86
+P 9350 2600
+F 0 "R?" H 9575 2550 60  0000 C CNN
+F 1 "220" H 9350 2600 60  0000 C CNN
+F 2 "" H 9350 2690 60  0001 R CNN
+F 3 "" H 9350 2600 60  0000 C CNN
+F 4 "%" H 9350 2700 60  0001 C CNN "Tolerance"
+F 5 "M" H 9525 2800 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9525 2700 60  0001 L CNN "Partnumber"
+	1    9350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2500 8500 2500
+Wire Wire Line
+	8350 2600 9100 2600
+Wire Wire Line
+	9900 2500 9000 2500
+Wire Wire Line
+	9900 2600 9600 2600
+Text HLabel 9900 2500 2    60   Output ~ 0
+LED_Red_Ctrl
+Text HLabel 9900 2600 2    60   Output ~ 0
+LED_Green_Ctrl
+$Comp
+L Resistor R?
+U 1 1 56DCD68A
+P 8750 2700
+F 0 "R?" H 8975 2650 60  0000 C CNN
+F 1 "220" H 8750 2700 60  0000 C CNN
+F 2 "" H 8750 2790 60  0001 R CNN
+F 3 "" H 8750 2700 60  0000 C CNN
+F 4 "%" H 8750 2800 60  0001 C CNN "Tolerance"
+F 5 "M" H 8925 2900 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8925 2800 60  0001 L CNN "Partnumber"
+	1    8750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56DCD748
+P 9350 2800
+F 0 "R?" H 9575 2750 60  0000 C CNN
+F 1 "220" H 9350 2800 60  0000 C CNN
+F 2 "" H 9350 2890 60  0001 R CNN
+F 3 "" H 9350 2800 60  0000 C CNN
+F 4 "%" H 9350 2900 60  0001 C CNN "Tolerance"
+F 5 "M" H 9525 3000 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9525 2900 60  0001 L CNN "Partnumber"
+	1    9350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2700 8500 2700
+Wire Wire Line
+	8350 2800 9100 2800
+Wire Wire Line
+	9900 2700 9000 2700
+Wire Wire Line
+	9900 2800 9600 2800
+Text HLabel 9900 2700 2    60   Output ~ 0
+Inv_Relay_Ctrl
+Text HLabel 9900 2800 2    60   Output ~ 0
+Grid_Relay_Ctrl
+$EndSCHEMATC

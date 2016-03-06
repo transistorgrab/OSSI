@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PINHEADER_2×5
+D Pin header 2×5 pole
+K pin header 10
+$ENDCMP
+#
+#End Doc Library
