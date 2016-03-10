@@ -1,4 +1,4 @@
-update=Fr 04 Mär 2016 20:13:43 CET
+update=Mi 09 Mär 2016 15:59:41 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,12 +23,14 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../lib
+LibDir=../lib;../../../../../../Program Files (x86)/KiCad/share/kicad/library
 [eeschema/libraries]
 LibName1=kv30f
 LibName2=OSSI_standard_components
 LibName3=connectors
+LibName4=lm4030
+LibName5=/media/andre/Data/Program Files (x86)/KiCad/share/kicad/library/power
+[general]
+version=1

@@ -2,6 +2,8 @@ EESchema Schematic File Version 2
 LIBS:kv30f
 LIBS:OSSI_standard_components
 LIBS:connectors
+LIBS:lm4030
+LIBS:power
 LIBS:OSSI_MK_I-cache
 EELAYER 25 0
 EELAYER END

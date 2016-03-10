@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM4030
+D 2.5 V shunt voltage reference in SOT-23-5 package
+K LM4030 shunt voltage reference
+F http://www.ti.com/lit/ds/symlink/lm4030.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISL21070
+D ISL21070 2.5 V reference voltage in SOT-23-3 package
+K reference voltage
+F http://www.intersil.com/content/dam/Intersil/documents/isl2/isl21070.pdf
+$ENDCMP
+#
+#End Doc Library
