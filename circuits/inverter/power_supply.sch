@@ -1,17 +1,19 @@
 EESchema Schematic File Version 2
+LIBS:lm317
 LIBS:kv30f
 LIBS:OSSI_standard_components
 LIBS:connectors
 LIBS:lm4030
 LIBS:power
+LIBS:acs722
 LIBS:OSSI_MK_I-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
-Title ""
-Date ""
+Sheet 10 11
+Title "Power Supply"
+Date "2016-03-17"
 Rev "0.1"
 Comp "Open Source Solar Inverter Project"
 Comment1 ""
@@ -19,4 +21,182 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Capacitor C?
+U 1 1 56EB37EB
+P 7650 5250
+F 0 "C?" H 7650 5100 60  0000 C CNN
+F 1 "100n" H 7665 5395 60  0000 C CNN
+F 2 "" H 7650 5250 60  0000 C CNN
+F 3 "" H 7650 5250 60  0000 C CNN
+F 4 "%" H 7650 5475 60  0001 C CNN "Tolerance"
+F 5 "M" H 7900 5450 60  0001 L CNN "Manufacturer"
+F 6 "P" H 7900 5350 60  0001 L CNN "Partnumber"
+	1    7650 5250
+	0    -1   1    0   
+$EndComp
+$Comp
+L +15V #+15V?
+U 1 1 56EB3891
+P 7650 4850
+F 0 "#+15V?" H 7650 5125 60  0001 C CNN
+F 1 "+15V" H 7650 5050 60  0000 C CNN
+F 2 "" H 7650 4850 60  0000 C CNN
+F 3 "" H 7650 4850 60  0000 C CNN
+	1    7650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4850 7650 5150
+Wire Wire Line
+	7650 5000 8400 5000
+Connection ~ 7650 5000
+$Comp
+L GND #GND?
+U 1 1 56EB38B3
+P 7650 5650
+F 0 "#GND?" H 7650 5350 60  0001 C CNN
+F 1 "GND" H 7650 5500 60  0000 C CNN
+F 2 "" H 7650 5650 60  0000 C CNN
+F 3 "" H 7650 5650 60  0000 C CNN
+	1    7650 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5350 7650 5650
+$Comp
+L Resistor R?
+U 1 1 56EB38E3
+P 8000 5550
+F 0 "R?" H 8000 5450 60  0000 C CNN
+F 1 "1650" H 8000 5550 60  0000 C CNN
+F 2 "" H 8000 5640 60  0001 R CNN
+F 3 "" H 8000 5550 60  0000 C CNN
+F 4 "1%" H 8000 5650 60  0000 C CNN "Tolerance"
+F 5 "M" H 8175 5750 60  0001 L CNN "Manufacturer"
+F 6 "P" H 8175 5650 60  0001 L CNN "Partnumber"
+	1    8000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56EB3945
+P 9050 5550
+F 0 "R?" H 9050 5450 60  0000 C CNN
+F 1 "1000" H 9050 5550 60  0000 C CNN
+F 2 "" H 9050 5640 60  0001 R CNN
+F 3 "" H 9050 5550 60  0000 C CNN
+F 4 "1%" H 9050 5650 60  0000 C CNN "Tolerance"
+F 5 "M" H 9225 5750 60  0001 L CNN "Manufacturer"
+F 6 "P" H 9225 5650 60  0001 L CNN "Partnumber"
+	1    9050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode D?
+U 1 1 56EB39FF
+P 8800 4600
+F 0 "D?" H 8800 4475 60  0000 C CNN
+F 1 "1N4148" H 8800 4725 60  0000 C CNN
+F 2 "" H 8775 4600 60  0000 C CNN
+F 3 "" H 8775 4600 60  0000 C CNN
+F 4 "M" H 8975 4800 60  0001 L CNN "Manufacturer"
+F 5 "P" H 8975 4700 60  0001 L CNN "Partnumber"
+	1    8800 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5550 7650 5550
+Connection ~ 7650 5550
+Wire Wire Line
+	8250 5550 8800 5550
+Connection ~ 8350 5550
+$Comp
+L Capacitor C?
+U 1 1 56EB3A73
+P 10000 5250
+F 0 "C?" H 10000 5100 60  0000 C CNN
+F 1 "1µ/6.3V" H 10015 5395 60  0000 C CNN
+F 2 "" H 10000 5250 60  0000 C CNN
+F 3 "" H 10000 5250 60  0000 C CNN
+F 4 "%" H 10000 5475 60  0001 C CNN "Tolerance"
+F 5 "M" H 10250 5450 60  0001 L CNN "Manufacturer"
+F 6 "P" H 10250 5350 60  0001 L CNN "Partnumber"
+	1    10000 5250
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #GND?
+U 1 1 56EB3AF8
+P 10000 5650
+F 0 "#GND?" H 10000 5350 60  0001 C CNN
+F 1 "GND" H 10000 5500 60  0000 C CNN
+F 2 "" H 10000 5650 60  0000 C CNN
+F 3 "" H 10000 5650 60  0000 C CNN
+	1    10000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5650 10000 5350
+Wire Wire Line
+	9200 5000 10000 5000
+Wire Wire Line
+	10000 4850 10000 5150
+$Comp
+L +3V3 #+3V3?
+U 1 1 56EB3B1C
+P 10000 4850
+F 0 "#+3V3?" H 10000 5125 60  0001 C CNN
+F 1 "+3V3" H 10000 5050 60  0000 C CNN
+F 2 "" H 10000 4850 60  0000 C CNN
+F 3 "" H 10000 4850 60  0000 C CNN
+	1    10000 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 10000 5000
+Wire Wire Line
+	9350 5300 9200 5300
+Wire Wire Line
+	9350 4600 9350 5550
+Connection ~ 9350 5000
+Wire Wire Line
+	9200 5100 9350 5100
+Connection ~ 9350 5100
+Wire Wire Line
+	9200 5200 9350 5200
+Connection ~ 9350 5200
+Connection ~ 9350 5300
+Wire Wire Line
+	8400 5300 8350 5300
+Wire Wire Line
+	8350 5300 8350 5550
+Text Notes 7500 6200 0    60   ~ 0
+V_out = V_ref × (1 + R2÷R1) + (I_adj × R2)\n      = 1.25 V × (1 + 1650 Ω÷1000 Ω) + (50 µA × 1650 Ω)\n      = 3,395 V
+Wire Wire Line
+	8600 4600 8200 4600
+Wire Wire Line
+	8200 4600 8200 5000
+Connection ~ 8200 5000
+Wire Wire Line
+	9000 4600 9350 4600
+Text Notes 10050 4900 0    60   ~ 0
+I_max = 100 mA
+Wire Wire Line
+	9350 5550 9300 5550
+$Comp
+L LM317L U?
+U 1 1 56EBF05B
+P 8800 5150
+F 0 "U?" H 8800 4900 60  0000 C CNN
+F 1 "LM317L" H 8800 5400 60  0000 C CNN
+F 2 "" H 8800 5150 60  0000 C CNN
+F 3 "" H 8800 5150 60  0000 C CNN
+F 4 "M" H 9050 5550 60  0001 L CNN "Manufacturer"
+F 5 "P" H 9050 5450 60  0001 L CNN "Partnumber"
+F 6 "Place copper area on pins 2,3,6,7" H 9050 5650 50  0001 L CNN "Comment"
+	1    8800 5150
+	1    0    0    -1  
+$EndComp
+Text HLabel 1250 800  0    60   Input ~ 0
+DC_Link_Vtg
 $EndSCHEMATC

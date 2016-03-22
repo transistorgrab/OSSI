@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM317L
+D LM317L voltage regulator 100 mA output current in SO08 package
+K LM 317
+$ENDCMP
+#
+#End Doc Library

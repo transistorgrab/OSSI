@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS722
+D Allegro ACS722 current sensor SO8 package
+K current sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en
+$ENDCMP
+#
+#End Doc Library

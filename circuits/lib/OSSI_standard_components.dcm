@@ -1,7 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Earth_Protective
+D Protective Earth
+K POWER, PWR, EARTH, PROTECTIVE, GND, GROUND, PE
+$ENDCMP
+#
+$CMP IGBT
+D IGBT with internal body diode in TO-220 package
+K IGBT
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00092752.pdf
+$ENDCMP
+#
 $CMP Inductor
 K Resistor
+$ENDCMP
+#
+$CMP PMOS_SO08
+D P-channel MOSFET for SO08 package
 $ENDCMP
 #
 $CMP Plated_hole
@@ -16,6 +31,11 @@ $ENDCMP
 $CMP Quartz_shielded
 D Quartz component 2 pins and shield
 K quartz resonator
+$ENDCMP
+#
+$CMP Relay
+D Standard relay component with one closing contact
+K relay single
 $ENDCMP
 #
 $CMP Resistor

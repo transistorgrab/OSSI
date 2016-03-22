@@ -1,15 +1,17 @@
 EESchema Schematic File Version 2
+LIBS:lm317
 LIBS:kv30f
 LIBS:OSSI_standard_components
 LIBS:connectors
 LIBS:lm4030
 LIBS:power
+LIBS:acs722
 LIBS:OSSI_MK_I-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 10
+Sheet 8 11
 Title "Analog Frontend"
 Date "2016-03-09"
 Rev "0.1"
@@ -144,7 +146,11 @@ $EndComp
 Wire Wire Line
 	4200 2850 4200 2800
 Wire Wire Line
-	4050 2200 5000 2200
+	4050 2200 4200 2200
+Wire Wire Line
+	4200 2200 4650 2200
+Wire Wire Line
+	4650 2200 5000 2200
 Wire Wire Line
 	4200 2300 4200 2200
 Connection ~ 4200 2200
@@ -168,7 +174,9 @@ F 3 "" H 5250 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 1350 5250 1850
+	5250 1350 5250 1450
+Wire Wire Line
+	5250 1450 5250 1850
 $Comp
 L Capacitor C?
 U 1 1 56E09D07
@@ -202,7 +210,9 @@ Wire Wire Line
 	5500 1450 5500 1500
 Connection ~ 5250 1450
 Wire Wire Line
-	5500 2100 6550 2100
+	5500 2100 6000 2100
+Wire Wire Line
+	6000 2100 6550 2100
 $Comp
 L Capacitor C?
 U 1 1 56E0A135
@@ -292,13 +302,17 @@ $EndComp
 Wire Wire Line
 	4650 2000 5000 2000
 Wire Wire Line
-	4650 600  4650 2000
+	4650 600  4650 900 
+Wire Wire Line
+	4650 900  4650 2000
 Wire Wire Line
 	4650 600  5000 600 
 Wire Wire Line
 	5500 600  6000 600 
 Wire Wire Line
-	6000 600  6000 2100
+	6000 600  6000 900 
+Wire Wire Line
+	6000 900  6000 2100
 Connection ~ 6000 2100
 Wire Wire Line
 	4800 900  4650 900 
@@ -398,7 +412,11 @@ $EndComp
 Wire Wire Line
 	4200 5000 4200 4950
 Wire Wire Line
-	4050 4350 5000 4350
+	4050 4350 4200 4350
+Wire Wire Line
+	4200 4350 4650 4350
+Wire Wire Line
+	4650 4350 5000 4350
 Wire Wire Line
 	4200 4450 4200 4350
 Connection ~ 4200 4350
@@ -411,7 +429,9 @@ Wire Wire Line
 Wire Wire Line
 	1400 4350 1750 4350
 Wire Wire Line
-	5500 4250 6550 4250
+	5500 4250 6000 4250
+Wire Wire Line
+	6000 4250 6550 4250
 $Comp
 L Capacitor C?
 U 1 1 56E1C937
@@ -501,13 +521,17 @@ $EndComp
 Wire Wire Line
 	4650 4150 5000 4150
 Wire Wire Line
-	4650 3450 4650 4150
+	4650 3450 4650 3750
+Wire Wire Line
+	4650 3750 4650 4150
 Wire Wire Line
 	4650 3450 5000 3450
 Wire Wire Line
 	5500 3450 6000 3450
 Wire Wire Line
-	6000 3450 6000 4250
+	6000 3450 6000 3750
+Wire Wire Line
+	6000 3750 6000 4250
 Connection ~ 6000 4250
 Wire Wire Line
 	4800 3750 4650 3750
@@ -622,9 +646,13 @@ Wire Wire Line
 Wire Wire Line
 	4200 8050 4200 8100
 Wire Wire Line
-	4200 7400 5000 7400
+	4200 7400 4650 7400
 Wire Wire Line
-	4200 7400 4200 7550
+	4650 7400 5000 7400
+Wire Wire Line
+	4200 7400 4200 7500
+Wire Wire Line
+	4200 7500 4200 7550
 Wire Wire Line
 	3550 7500 3450 7500
 Wire Wire Line
@@ -643,7 +671,9 @@ F 3 "" H 5250 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 6550 5250 7050
+	5250 6550 5250 6650
+Wire Wire Line
+	5250 6650 5250 7050
 $Comp
 L Capacitor C?
 U 1 1 56E20747
@@ -677,7 +707,9 @@ Wire Wire Line
 	5500 6650 5500 6700
 Connection ~ 5250 6650
 Wire Wire Line
-	5500 7300 6550 7300
+	5500 7300 6000 7300
+Wire Wire Line
+	6000 7300 6550 7300
 $Comp
 L Capacitor C?
 U 1 1 56E2075B
@@ -751,7 +783,9 @@ F 6 "P" H 5900 6200 60  0001 L CNN "Partnumber"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 7200 5000 7200
+	4200 7200 4650 7200
+Wire Wire Line
+	4650 7200 5000 7200
 Connection ~ 6000 7300
 Wire Wire Line
 	4750 6100 4650 6100
@@ -858,14 +892,20 @@ $EndComp
 Wire Wire Line
 	11750 5200 11750 5150
 Wire Wire Line
-	11600 4550 12550 4550
+	11600 4550 11750 4550
+Wire Wire Line
+	11750 4550 12200 4550
+Wire Wire Line
+	12200 4550 12550 4550
 Wire Wire Line
 	11750 4650 11750 4550
 Connection ~ 11750 4550
 Wire Wire Line
 	10650 4550 11100 4550
 Wire Wire Line
-	13050 4450 14100 4450
+	13050 4450 13550 4450
+Wire Wire Line
+	13550 4450 14100 4450
 $Comp
 L Capacitor C?
 U 1 1 56E28086
@@ -955,13 +995,17 @@ $EndComp
 Wire Wire Line
 	12200 4350 12550 4350
 Wire Wire Line
-	12200 3650 12200 4350
+	12200 3650 12200 3950
+Wire Wire Line
+	12200 3950 12200 4350
 Wire Wire Line
 	12200 3650 12550 3650
 Wire Wire Line
 	13050 3650 13550 3650
 Wire Wire Line
-	13550 3650 13550 4450
+	13550 3650 13550 3950
+Wire Wire Line
+	13550 3950 13550 4450
 Connection ~ 13550 4450
 Wire Wire Line
 	12350 3950 12200 3950
@@ -1046,9 +1090,13 @@ Wire Wire Line
 Wire Wire Line
 	4200 7100 4200 7200
 Wire Wire Line
-	4200 9550 5000 9550
+	4200 9550 4650 9550
 Wire Wire Line
-	5500 9450 6550 9450
+	4650 9550 5000 9550
+Wire Wire Line
+	5500 9450 6000 9450
+Wire Wire Line
+	6000 9450 6550 9450
 $Comp
 L Capacitor C?
 U 1 1 56E18B09
@@ -1136,13 +1184,19 @@ F 6 "P" H 5900 9000 60  0001 L CNN "Partnumber"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 9350 5000 9350
+	4200 9350 4650 9350
 Wire Wire Line
-	4650 8550 4650 9350
+	4650 9350 5000 9350
+Wire Wire Line
+	4650 8550 4650 8900
+Wire Wire Line
+	4650 8900 4650 9350
 Wire Wire Line
 	4650 8550 4750 8550
 Wire Wire Line
-	6000 8550 6000 9450
+	6000 8550 6000 8900
+Wire Wire Line
+	6000 8900 6000 9450
 Connection ~ 6000 9450
 Wire Wire Line
 	4750 8900 4650 8900
@@ -1275,7 +1329,9 @@ $EndComp
 Wire Wire Line
 	4200 10200 4200 10250
 Wire Wire Line
-	4200 9550 4200 9700
+	4200 9550 4200 9650
+Wire Wire Line
+	4200 9650 4200 9700
 Wire Wire Line
 	3550 9650 3450 9650
 Wire Wire Line
@@ -1438,9 +1494,13 @@ Wire Wire Line
 Wire Wire Line
 	5900 8550 6000 8550
 Wire Wire Line
-	6000 5750 6000 7300
+	6000 5750 6000 6100
 Wire Wire Line
-	4650 5750 4650 7200
+	6000 6100 6000 7300
+Wire Wire Line
+	4650 5750 4650 6100
+Wire Wire Line
+	4650 6100 4650 7200
 $Comp
 L Resistor R?
 U 1 1 56E2BCF5
@@ -1574,9 +1634,13 @@ Wire Wire Line
 Wire Wire Line
 	12000 3050 12000 3100
 Wire Wire Line
-	12000 2400 12800 2400
+	12000 2400 12450 2400
 Wire Wire Line
-	12000 2400 12000 2550
+	12450 2400 12800 2400
+Wire Wire Line
+	12000 2400 12000 2500
+Wire Wire Line
+	12000 2500 12000 2550
 Wire Wire Line
 	11350 2500 11250 2500
 Wire Wire Line
@@ -1595,7 +1659,9 @@ F 3 "" H 13050 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13050 1550 13050 2050
+	13050 1550 13050 1650
+Wire Wire Line
+	13050 1650 13050 2050
 $Comp
 L Capacitor C?
 U 1 1 56E32699
@@ -1629,7 +1695,9 @@ Wire Wire Line
 	13300 1650 13300 1700
 Connection ~ 13050 1650
 Wire Wire Line
-	13300 2300 14350 2300
+	13300 2300 13800 2300
+Wire Wire Line
+	13800 2300 14350 2300
 $Comp
 L Capacitor C?
 U 1 1 56E326AE
@@ -1703,7 +1771,9 @@ F 6 "P" H 13700 1200 60  0001 L CNN "Partnumber"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12000 2200 12800 2200
+	12000 2200 12450 2200
+Wire Wire Line
+	12450 2200 12800 2200
 Connection ~ 13800 2300
 Wire Wire Line
 	12550 1100 12450 1100
@@ -1842,9 +1912,13 @@ F 6 "P" H 9650 2600 60  0001 L CNN "Partnumber"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	13800 750  13800 2300
+	13800 750  13800 1100
 Wire Wire Line
-	12450 750  12450 2200
+	13800 1100 13800 2300
+Wire Wire Line
+	12450 750  12450 1100
+Wire Wire Line
+	12450 1100 12450 2200
 $Comp
 L Resistor R?
 U 1 1 56E32736
@@ -1909,7 +1983,9 @@ $EndComp
 Text HLabel 14750 7150 2    60   Output ~ 0
 DC_Current
 Wire Wire Line
-	12750 7850 12750 7400
+	12750 7850 12750 7550
+Wire Wire Line
+	12750 7550 12750 7400
 $Comp
 L +3V3_ANA #+3V3_ANA?
 U 1 1 56E36149
@@ -1922,7 +1998,9 @@ F 3 "" H 12750 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12750 6650 12750 6900
+	12750 6650 12750 6700
+Wire Wire Line
+	12750 6700 12750 6900
 $Comp
 L Capacitor C?
 U 1 1 56E36154
@@ -1945,7 +2023,9 @@ Wire Wire Line
 	13200 6700 13200 6750
 Connection ~ 12750 6700
 Wire Wire Line
-	13000 7150 14050 7150
+	13000 7150 13500 7150
+Wire Wire Line
+	13500 7150 14050 7150
 $Comp
 L Capacitor C?
 U 1 1 56E36169
@@ -2019,15 +2099,23 @@ F 6 "P" H 13350 6250 60  0001 L CNN "Partnumber"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	11650 7050 12500 7050
+	11650 7050 12150 7050
 Wire Wire Line
-	12150 5800 12150 7050
+	12150 7050 12300 7050
+Wire Wire Line
+	12300 7050 12500 7050
+Wire Wire Line
+	12150 5800 12150 6150
+Wire Wire Line
+	12150 6150 12150 7050
 Wire Wire Line
 	12150 5800 12500 5800
 Wire Wire Line
 	13000 5800 13500 5800
 Wire Wire Line
-	13500 5800 13500 7150
+	13500 5800 13500 6150
+Wire Wire Line
+	13500 6150 13500 7150
 Connection ~ 13500 7150
 Wire Wire Line
 	12300 6150 12150 6150
@@ -2071,9 +2159,13 @@ $EndComp
 Wire Wire Line
 	10300 6100 10550 6100
 Wire Wire Line
-	10550 6100 10550 6350
+	10550 6100 10550 6300
 Wire Wire Line
-	10550 6850 10550 7150
+	10550 6300 10550 6350
+Wire Wire Line
+	10550 6850 10550 6900
+Wire Wire Line
+	10550 6900 10550 7150
 Wire Wire Line
 	10550 7150 10300 7150
 Text Notes 10350 6650 2    60   ~ 0
@@ -2154,7 +2246,11 @@ Connection ~ 12150 7050
 Wire Wire Line
 	10700 7050 10700 7850
 Wire Wire Line
-	10700 7850 12750 7850
+	10700 7850 11900 7850
+Wire Wire Line
+	11900 7850 12300 7850
+Wire Wire Line
+	12300 7850 12750 7850
 Wire Wire Line
 	13200 7550 12750 7550
 Connection ~ 12750 7550
@@ -2163,7 +2259,11 @@ Wire Wire Line
 	11900 7700 11900 7850
 Connection ~ 11900 7850
 Wire Wire Line
-	11900 5800 11900 7500
+	11900 5800 11900 6150
+Wire Wire Line
+	11900 6150 11900 7250
+Wire Wire Line
+	11900 7250 11900 7500
 Connection ~ 11900 7250
 Wire Wire Line
 	11650 5800 11900 5800
@@ -2175,4 +2275,53 @@ Wire Wire Line
 Wire Wire Line
 	12300 7500 12300 7050
 Connection ~ 12300 7050
+Text HLabel 10350 8500 0    60   Input ~ 0
+AC_Cur_In
+Text HLabel 10350 8700 0    60   Output ~ 0
+AC_Cur_Out
+Text HLabel 14750 8550 2    60   Output ~ 0
+AC_Current
+$Sheet
+S 10800 8250 2050 600 
+U 56E3F85C
+F0 "AC_current_measurement" 60
+F1 "AC_current_measurement.sch" 60
+F2 "AC_Cur_In" I L 10800 8500 60 
+F3 "AC_Cur_Out" O L 10800 8700 60 
+F4 "AC_Current" O R 12850 8550 60 
+F5 "1V25_Ref" I L 10800 8300 60 
+$EndSheet
+Wire Notes Line
+	11550 8350 11550 8400
+Wire Notes Line
+	11500 8400 11600 8400
+Wire Notes Line
+	11600 8400 11600 8700
+Wire Notes Line
+	11600 8700 11500 8700
+Wire Notes Line
+	11500 8700 11500 8400
+Wire Notes Line
+	11550 8700 11550 8750
+Wire Notes Line
+	11650 8400 11850 8550
+Wire Notes Line
+	11850 8550 11650 8700
+Wire Notes Line
+	11650 8700 11650 8400
+Wire Notes Line
+	11850 8550 12200 8550
+Wire Wire Line
+	12850 8550 14750 8550
+Text HLabel 10350 8300 0    60   Input ~ 0
+1V25_REF
+Wire Wire Line
+	10350 8300 10800 8300
+Wire Wire Line
+	10350 8500 10800 8500
+Wire Wire Line
+	10350 8700 10800 8700
+Text Notes 12900 8800 0    60   ~ 0
+Actual scale with 20 A sensor:\n66 mV/A@3.3 V ⇒ 50 mv/A@2.5 V
+Connection ~ 10700 7050
 $EndSCHEMATC

@@ -1,15 +1,17 @@
 EESchema Schematic File Version 2
+LIBS:lm317
 LIBS:kv30f
 LIBS:OSSI_standard_components
 LIBS:connectors
 LIBS:lm4030
 LIBS:power
+LIBS:acs722
 LIBS:OSSI_MK_I-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 6 11
 Title ""
 Date ""
 Rev "0.1"
@@ -19,4 +21,808 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1450 3050 0    60   Input ~ 0
+Relay_Voltage_Ctrl
+Text HLabel 1400 850  0    60   Output ~ 0
+Relay_Ctrl_Vtg
+Text HLabel 4950 6150 0    60   Input ~ 0
+Grid_Relay_Ctrl
+$Comp
+L Relay K?
+U 2 1 56ED85C3
+P 8900 1950
+F 0 "K?" H 8850 1825 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 8850 2075 60  0000 R CNN
+F 2 "" H 8900 1950 60  0000 C CNN
+F 3 "" H 8900 1950 60  0000 C CNN
+F 4 "Tyco Electronics" H 9150 2150 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 9150 2050 60  0001 L CNN "Partnumber"
+	2    8900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductor L?
+U 1 1 56ED9712
+P 3200 1350
+F 0 "L?" H 3200 1200 60  0000 C CNN
+F 1 "1mH/500mA" H 3200 1300 60  0000 C CNN
+F 2 "" H 3200 1350 60  0000 C CNN
+F 3 "" H 3200 1350 60  0000 C CNN
+F 4 "M" H 3375 1550 60  0001 L CNN "Manufacturer"
+F 5 "P" H 3375 1450 60  0001 L CNN "Partnumber"
+	1    3200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +15V #+15V?
+U 1 1 56ED9838
+P 2000 1250
+F 0 "#+15V?" H 2000 1525 60  0001 C CNN
+F 1 "+15V" H 2000 1450 60  0000 C CNN
+F 2 "" H 2000 1250 60  0000 C CNN
+F 3 "" H 2000 1250 60  0000 C CNN
+	1    2000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOS Q?
+U 1 1 56ED992B
+P 2550 2950
+F 0 "Q?" H 2550 2750 60  0000 R CNN
+F 1 "BSS138" H 2550 3150 60  0000 R CNN
+F 2 "" H 2450 2650 60  0000 C CNN
+F 3 "" H 2550 2750 60  0000 C CNN
+F 4 "M" H 2725 3150 60  0001 L CNN "Manufacturer"
+F 5 "P" H 2725 3050 60  0001 L CNN "Partnumber"
+	1    2550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56ED998A
+P 2650 2350
+F 0 "R?" H 2650 2250 60  0000 C CNN
+F 1 "1k" H 2650 2350 60  0000 C CNN
+F 2 "" H 2650 2440 60  0001 R CNN
+F 3 "" H 2650 2350 60  0000 C CNN
+F 4 "%" H 2650 2450 60  0001 C CNN "Tolerance"
+F 5 "M" H 2825 2550 60  0001 L CNN "Manufacturer"
+F 6 "P" H 2825 2450 60  0001 L CNN "Partnumber"
+	1    2650 2350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56ED9A56
+P 2100 1650
+F 0 "R?" H 2100 1550 60  0000 C CNN
+F 1 "1k" H 2100 1650 60  0000 C CNN
+F 2 "" H 2100 1740 60  0001 R CNN
+F 3 "" H 2100 1650 60  0000 C CNN
+F 4 "%" H 2100 1750 60  0001 C CNN "Tolerance"
+F 5 "M" H 2275 1850 60  0001 L CNN "Manufacturer"
+F 6 "P" H 2275 1750 60  0001 L CNN "Partnumber"
+	1    2100 1650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2000 1250 2000 1350
+Wire Wire Line
+	2000 1350 2350 1350
+Wire Wire Line
+	2100 1350 2100 1400
+Connection ~ 2100 1350
+Wire Wire Line
+	2650 1600 2650 2100
+Wire Wire Line
+	2100 1900 2100 2000
+Wire Wire Line
+	2100 2000 2650 2000
+Connection ~ 2650 2000
+$Comp
+L Resistor R?
+U 1 1 56ED9C9F
+P 2250 3350
+F 0 "R?" H 2250 3250 60  0000 C CNN
+F 1 "10k" H 2250 3350 60  0000 C CNN
+F 2 "" H 2250 3440 60  0001 R CNN
+F 3 "" H 2250 3350 60  0000 C CNN
+F 4 "%" H 2250 3450 60  0001 C CNN "Tolerance"
+F 5 "M" H 2425 3550 60  0001 L CNN "Manufacturer"
+F 6 "P" H 2425 3450 60  0001 L CNN "Partnumber"
+	1    2250 3350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Resistor R?
+U 1 1 56ED9FF1
+P 1850 3050
+F 0 "R?" H 1850 2950 60  0000 C CNN
+F 1 "1k" H 1850 3050 60  0000 C CNN
+F 2 "" H 1850 3140 60  0001 R CNN
+F 3 "" H 1850 3050 60  0000 C CNN
+F 4 "%" H 1850 3150 60  0001 C CNN "Tolerance"
+F 5 "M" H 2025 3250 60  0001 L CNN "Manufacturer"
+F 6 "P" H 2025 3150 60  0001 L CNN "Partnumber"
+	1    1850 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #GND?
+U 1 1 56EDA034
+P 2650 3750
+F 0 "#GND?" H 2650 3450 60  0001 C CNN
+F 1 "GND" H 2650 3600 60  0000 C CNN
+F 2 "" H 2650 3750 60  0000 C CNN
+F 3 "" H 2650 3750 60  0000 C CNN
+	1    2650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3050 1600 3050
+Wire Wire Line
+	2100 3050 2400 3050
+Wire Wire Line
+	2250 3100 2250 3050
+Connection ~ 2250 3050
+Wire Wire Line
+	2650 2600 2650 2750
+Wire Wire Line
+	2650 3150 2650 3750
+Wire Wire Line
+	2250 3600 2250 3650
+Wire Wire Line
+	2250 3650 2650 3650
+Connection ~ 2650 3650
+$Comp
+L PMOS_SO08 Q?
+U 1 1 56EDA78F
+P 2550 1450
+F 0 "Q?" H 2550 1250 60  0000 R CNN
+F 1 "SI4401" H 2550 1650 60  0000 R CNN
+F 2 "" H 2450 1150 60  0000 C CNN
+F 3 "" H 2550 1250 60  0000 C CNN
+F 4 "M" H 2775 1625 60  0001 L CNN "Manufacturer"
+F 5 "P" H 2775 1550 60  0001 L CNN "Partnumber"
+	1    2550 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 1250 2250 1250
+Wire Wire Line
+	2250 1250 2250 1350
+Connection ~ 2250 1350
+Wire Wire Line
+	2350 1300 2250 1300
+Connection ~ 2250 1300
+Wire Wire Line
+	2750 1350 2950 1350
+Wire Wire Line
+	2750 1200 2850 1200
+Wire Wire Line
+	2850 1200 2850 1350
+Connection ~ 2850 1350
+Wire Wire Line
+	2750 1250 2850 1250
+Connection ~ 2850 1250
+Wire Wire Line
+	2750 1300 2850 1300
+Connection ~ 2850 1300
+$Comp
+L Capacitor C?
+U 1 1 56EDAA1F
+P 3600 1750
+F 0 "C?" H 3600 1600 60  0000 C CNN
+F 1 "22µ/35V" H 3615 1895 60  0000 C CNN
+F 2 "" H 3600 1750 60  0000 C CNN
+F 3 "" H 3600 1750 60  0000 C CNN
+F 4 "%" H 3600 1975 60  0000 C CNN "Tolerance"
+F 5 "M" H 3850 1950 60  0001 L CNN "Manufacturer"
+F 6 "P" H 3850 1850 60  0001 L CNN "Partnumber"
+	1    3600 1750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3600 1650 3600 1350
+Connection ~ 3600 1350
+Connection ~ 5000 1350
+Wire Wire Line
+	1400 850  3950 850 
+Connection ~ 5950 1350
+$Comp
+L GND #GND?
+U 1 1 56EDB3D6
+P 3600 1950
+F 0 "#GND?" H 3600 1650 60  0001 C CNN
+F 1 "GND" H 3600 1800 60  0000 C CNN
+F 2 "" H 3600 1950 60  0000 C CNN
+F 3 "" H 3600 1950 60  0000 C CNN
+	1    3600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1850 3600 1950
+$Comp
+L Relay K?
+U 2 1 56EDBC5C
+P 9900 1950
+F 0 "K?" H 9850 1825 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 9850 2075 60  0000 R CNN
+F 2 "" H 9900 1950 60  0000 C CNN
+F 3 "" H 9900 1950 60  0000 C CNN
+F 4 "Tyco Electronics" H 10150 2150 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 10150 2050 60  0001 L CNN "Partnumber"
+	2    9900 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1350 7250 1350
+Connection ~ 6300 1350
+Wire Wire Line
+	3950 850  3950 1350
+Connection ~ 3950 1350
+Wire Wire Line
+	4950 3400 6350 3400
+Wire Wire Line
+	6350 3400 6350 3250
+Wire Wire Line
+	6350 3250 6400 3250
+Connection ~ 5050 3400
+Wire Wire Line
+	5050 3250 5050 3400
+Wire Wire Line
+	5100 3250 5050 3250
+Wire Wire Line
+	6900 3250 7000 3250
+$Comp
+L Resistor R?
+U 1 1 56EDBAC2
+P 6650 3250
+F 0 "R?" H 6650 3150 60  0000 C CNN
+F 1 "1k" H 6650 3250 60  0000 C CNN
+F 2 "" H 6650 3340 60  0001 R CNN
+F 3 "" H 6650 3250 60  0000 C CNN
+F 4 "%" H 6650 3350 60  0001 C CNN "Tolerance"
+F 5 "M" H 6825 3450 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6825 3350 60  0001 L CNN "Partnumber"
+	1    6650 3250
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7250 2500
+Wire Wire Line
+	6550 2500 6300 2500
+Wire Wire Line
+	7250 2500 7050 2500
+$Comp
+L Resistor R?
+U 1 1 56EDBAB6
+P 6800 2500
+F 0 "R?" H 6800 2400 60  0000 C CNN
+F 1 "10" H 6800 2500 60  0000 C CNN
+F 2 "" H 6800 2590 60  0001 R CNN
+F 3 "" H 6800 2500 60  0000 C CNN
+F 4 "%" H 6800 2600 60  0000 C CNN "Tolerance"
+F 5 "M" H 6975 2700 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6975 2600 60  0001 L CNN "Partnumber"
+	1    6800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOS Q?
+U 1 1 56EDBAAD
+P 7150 3150
+F 0 "Q?" H 7150 2950 60  0000 R CNN
+F 1 "BSS138" H 7150 3350 60  0000 R CNN
+F 2 "" H 7050 2850 60  0000 C CNN
+F 3 "" H 7150 2950 60  0000 C CNN
+F 4 "M" H 7325 3350 60  0001 L CNN "Manufacturer"
+F 5 "P" H 7325 3250 60  0001 L CNN "Partnumber"
+	1    7150 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1350 6300 1450
+Wire Wire Line
+	7250 3350 7250 3650
+$Comp
+L GND #GND?
+U 1 1 56EDBAA3
+P 7250 3650
+F 0 "#GND?" H 7250 3350 60  0001 C CNN
+F 1 "GND" H 7250 3500 60  0000 C CNN
+F 2 "" H 7250 3650 60  0000 C CNN
+F 3 "" H 7250 3650 60  0000 C CNN
+	1    7250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2500 6300 2400
+Wire Wire Line
+	7250 2100 7250 2950
+Wire Wire Line
+	6300 1850 6300 2000
+Wire Wire Line
+	7250 1350 7250 1800
+$Comp
+L Zener D?
+U 1 1 56EDBA98
+P 6300 1650
+F 0 "D?" H 6300 1525 60  0000 C CNN
+F 1 "Zener" H 6300 1775 60  0000 C CNN
+F 2 "" H 6300 1650 60  0000 C CNN
+F 3 "" H 6300 1650 60  0000 C CNN
+F 4 "12V" H 6300 1850 60  0000 C CNN "Voltage"
+F 5 "M" H 6475 1850 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6475 1750 60  0001 L CNN "Partnumber"
+	1    6300 1650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode D?
+U 1 1 56EDBA8F
+P 6300 2200
+F 0 "D?" H 6300 2075 60  0000 C CNN
+F 1 "Diode" H 6300 2325 60  0000 C CNN
+F 2 "" H 6275 2200 60  0000 C CNN
+F 3 "" H 6275 2200 60  0000 C CNN
+F 4 "M" H 6475 2400 60  0001 L CNN "Manufacturer"
+F 5 "P" H 6475 2300 60  0001 L CNN "Partnumber"
+	1    6300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay K?
+U 1 1 56EDBA87
+P 7250 1950
+F 0 "K?" H 7200 1825 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 7200 2075 60  0000 R CNN
+F 2 "" H 7250 1950 60  0000 C CNN
+F 3 "" H 7250 1950 60  0000 C CNN
+F 4 "Tyco Electronics" H 7500 2150 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 7500 2050 60  0001 L CNN "Partnumber"
+	1    7250 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3250 5700 3250
+$Comp
+L Resistor R?
+U 1 1 56EDB57A
+P 5350 3250
+F 0 "R?" H 5350 3150 60  0000 C CNN
+F 1 "1k" H 5350 3250 60  0000 C CNN
+F 2 "" H 5350 3340 60  0001 R CNN
+F 3 "" H 5350 3250 60  0000 C CNN
+F 4 "%" H 5350 3350 60  0001 C CNN "Tolerance"
+F 5 "M" H 5525 3450 60  0001 L CNN "Manufacturer"
+F 6 "P" H 5525 3350 60  0001 L CNN "Partnumber"
+	1    5350 3250
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5950 2500
+Wire Wire Line
+	5250 2500 5000 2500
+Wire Wire Line
+	5950 2500 5750 2500
+$Comp
+L Resistor R?
+U 1 1 56EDB17E
+P 5500 2500
+F 0 "R?" H 5500 2400 60  0000 C CNN
+F 1 "10" H 5500 2500 60  0000 C CNN
+F 2 "" H 5500 2590 60  0001 R CNN
+F 3 "" H 5500 2500 60  0000 C CNN
+F 4 "%" H 5500 2600 60  0000 C CNN "Tolerance"
+F 5 "M" H 5675 2700 60  0001 L CNN "Manufacturer"
+F 6 "P" H 5675 2600 60  0001 L CNN "Partnumber"
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOS Q?
+U 1 1 56EDB005
+P 5850 3150
+F 0 "Q?" H 5850 2950 60  0000 R CNN
+F 1 "BSS138" H 5850 3350 60  0000 R CNN
+F 2 "" H 5750 2850 60  0000 C CNN
+F 3 "" H 5850 2950 60  0000 C CNN
+F 4 "M" H 6025 3350 60  0001 L CNN "Manufacturer"
+F 5 "P" H 6025 3250 60  0001 L CNN "Partnumber"
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1350 5000 1450
+Wire Wire Line
+	5950 3350 5950 3650
+$Comp
+L GND #GND?
+U 1 1 56EDAAC0
+P 5950 3650
+F 0 "#GND?" H 5950 3350 60  0001 C CNN
+F 1 "GND" H 5950 3500 60  0000 C CNN
+F 2 "" H 5950 3650 60  0000 C CNN
+F 3 "" H 5950 3650 60  0000 C CNN
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2500 5000 2400
+Wire Wire Line
+	5950 2100 5950 2950
+Wire Wire Line
+	5000 1850 5000 2000
+Wire Wire Line
+	5950 1350 5950 1800
+$Comp
+L Zener D?
+U 1 1 56ED8CA1
+P 5000 1650
+F 0 "D?" H 5000 1525 60  0000 C CNN
+F 1 "Zener" H 5000 1775 60  0000 C CNN
+F 2 "" H 5000 1650 60  0000 C CNN
+F 3 "" H 5000 1650 60  0000 C CNN
+F 4 "12V" H 5000 1850 60  0000 C CNN "Voltage"
+F 5 "M" H 5175 1850 60  0001 L CNN "Manufacturer"
+F 6 "P" H 5175 1750 60  0001 L CNN "Partnumber"
+	1    5000 1650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode D?
+U 1 1 56ED8AAA
+P 5000 2200
+F 0 "D?" H 5000 2075 60  0000 C CNN
+F 1 "Diode" H 5000 2325 60  0000 C CNN
+F 2 "" H 4975 2200 60  0000 C CNN
+F 3 "" H 4975 2200 60  0000 C CNN
+F 4 "M" H 5175 2400 60  0001 L CNN "Manufacturer"
+F 5 "P" H 5175 2300 60  0001 L CNN "Partnumber"
+	1    5000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay K?
+U 1 1 56ED854A
+P 5950 1950
+F 0 "K?" H 5900 1825 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 5900 2075 60  0000 R CNN
+F 2 "" H 5950 1950 60  0000 C CNN
+F 3 "" H 5950 1950 60  0000 C CNN
+F 4 "Tyco Electronics" H 6200 2150 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 6200 2050 60  0001 L CNN "Partnumber"
+	1    5950 1950
+	1    0    0    -1  
+$EndComp
+Text HLabel 4950 3400 0    60   Input ~ 0
+Inv_Relay_Ctrl
+Wire Wire Line
+	4950 6150 6350 6150
+Wire Wire Line
+	6350 6150 6350 6000
+Wire Wire Line
+	6350 6000 6400 6000
+Connection ~ 5050 6150
+Wire Wire Line
+	5050 6000 5050 6150
+Wire Wire Line
+	5100 6000 5050 6000
+Wire Wire Line
+	6900 6000 7000 6000
+$Comp
+L Resistor R?
+U 1 1 56EDCFEC
+P 6650 6000
+F 0 "R?" H 6650 5900 60  0000 C CNN
+F 1 "1k" H 6650 6000 60  0000 C CNN
+F 2 "" H 6650 6090 60  0001 R CNN
+F 3 "" H 6650 6000 60  0000 C CNN
+F 4 "%" H 6650 6100 60  0001 C CNN "Tolerance"
+F 5 "M" H 6825 6200 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6825 6100 60  0001 L CNN "Partnumber"
+	1    6650 6000
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7250 5250
+Wire Wire Line
+	6550 5250 6300 5250
+Wire Wire Line
+	7250 5250 7050 5250
+$Comp
+L Resistor R?
+U 1 1 56EDCFF8
+P 6800 5250
+F 0 "R?" H 6800 5150 60  0000 C CNN
+F 1 "10" H 6800 5250 60  0000 C CNN
+F 2 "" H 6800 5340 60  0001 R CNN
+F 3 "" H 6800 5250 60  0000 C CNN
+F 4 "%" H 6800 5350 60  0000 C CNN "Tolerance"
+F 5 "M" H 6975 5450 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6975 5350 60  0001 L CNN "Partnumber"
+	1    6800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOS Q?
+U 1 1 56EDD000
+P 7150 5900
+F 0 "Q?" H 7150 5700 60  0000 R CNN
+F 1 "BSS138" H 7150 6100 60  0000 R CNN
+F 2 "" H 7050 5600 60  0000 C CNN
+F 3 "" H 7150 5700 60  0000 C CNN
+F 4 "M" H 7325 6100 60  0001 L CNN "Manufacturer"
+F 5 "P" H 7325 6000 60  0001 L CNN "Partnumber"
+	1    7150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4100 6300 4200
+Wire Wire Line
+	7250 6100 7250 6400
+$Comp
+L GND #GND?
+U 1 1 56EDD008
+P 7250 6400
+F 0 "#GND?" H 7250 6100 60  0001 C CNN
+F 1 "GND" H 7250 6250 60  0000 C CNN
+F 2 "" H 7250 6400 60  0000 C CNN
+F 3 "" H 7250 6400 60  0000 C CNN
+	1    7250 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5250 6300 5150
+Wire Wire Line
+	7250 4850 7250 5700
+Wire Wire Line
+	6300 4600 6300 4750
+Wire Wire Line
+	7250 4100 7250 4550
+$Comp
+L Zener D?
+U 1 1 56EDD015
+P 6300 4400
+F 0 "D?" H 6300 4275 60  0000 C CNN
+F 1 "Zener" H 6300 4525 60  0000 C CNN
+F 2 "" H 6300 4400 60  0000 C CNN
+F 3 "" H 6300 4400 60  0000 C CNN
+F 4 "V" H 6300 4600 60  0000 C CNN "Voltage"
+F 5 "M" H 6475 4600 60  0001 L CNN "Manufacturer"
+F 6 "P" H 6475 4500 60  0001 L CNN "Partnumber"
+	1    6300 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode D?
+U 1 1 56EDD01D
+P 6300 4950
+F 0 "D?" H 6300 4825 60  0000 C CNN
+F 1 "Diode" H 6300 5075 60  0000 C CNN
+F 2 "" H 6275 4950 60  0000 C CNN
+F 3 "" H 6275 4950 60  0000 C CNN
+F 4 "M" H 6475 5150 60  0001 L CNN "Manufacturer"
+F 5 "P" H 6475 5050 60  0001 L CNN "Partnumber"
+	1    6300 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay K?
+U 1 1 56EDD025
+P 7250 4700
+F 0 "K?" H 7200 4575 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 7200 4825 60  0000 R CNN
+F 2 "" H 7250 4700 60  0000 C CNN
+F 3 "" H 7250 4700 60  0000 C CNN
+F 4 "Tyco Electronics" H 7500 4900 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 7500 4800 60  0001 L CNN "Partnumber"
+	1    7250 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6000 5700 6000
+$Comp
+L Resistor R?
+U 1 1 56EDD02F
+P 5350 6000
+F 0 "R?" H 5350 5900 60  0000 C CNN
+F 1 "1k" H 5350 6000 60  0000 C CNN
+F 2 "" H 5350 6090 60  0001 R CNN
+F 3 "" H 5350 6000 60  0000 C CNN
+F 4 "%" H 5350 6100 60  0001 C CNN "Tolerance"
+F 5 "M" H 5525 6200 60  0001 L CNN "Manufacturer"
+F 6 "P" H 5525 6100 60  0001 L CNN "Partnumber"
+	1    5350 6000
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5950 5250
+Wire Wire Line
+	5250 5250 5000 5250
+Wire Wire Line
+	5950 5250 5750 5250
+$Comp
+L Resistor R?
+U 1 1 56EDD03B
+P 5500 5250
+F 0 "R?" H 5500 5150 60  0000 C CNN
+F 1 "10" H 5500 5250 60  0000 C CNN
+F 2 "" H 5500 5340 60  0001 R CNN
+F 3 "" H 5500 5250 60  0000 C CNN
+F 4 "%" H 5500 5350 60  0000 C CNN "Tolerance"
+F 5 "M" H 5675 5450 60  0001 L CNN "Manufacturer"
+F 6 "P" H 5675 5350 60  0001 L CNN "Partnumber"
+	1    5500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L NMOS Q?
+U 1 1 56EDD043
+P 5850 5900
+F 0 "Q?" H 5850 5700 60  0000 R CNN
+F 1 "BSS138" H 5850 6100 60  0000 R CNN
+F 2 "" H 5750 5600 60  0000 C CNN
+F 3 "" H 5850 5700 60  0000 C CNN
+F 4 "M" H 6025 6100 60  0001 L CNN "Manufacturer"
+F 5 "P" H 6025 6000 60  0001 L CNN "Partnumber"
+	1    5850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4100 5000 4200
+Wire Wire Line
+	5950 6100 5950 6400
+$Comp
+L GND #GND?
+U 1 1 56EDD04B
+P 5950 6400
+F 0 "#GND?" H 5950 6100 60  0001 C CNN
+F 1 "GND" H 5950 6250 60  0000 C CNN
+F 2 "" H 5950 6400 60  0000 C CNN
+F 3 "" H 5950 6400 60  0000 C CNN
+	1    5950 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5250 5000 5150
+Wire Wire Line
+	5950 4850 5950 5700
+Wire Wire Line
+	5000 4600 5000 4750
+Wire Wire Line
+	5950 4100 5950 4550
+$Comp
+L Zener D?
+U 1 1 56EDD058
+P 5000 4400
+F 0 "D?" H 5000 4275 60  0000 C CNN
+F 1 "Zener" H 5000 4525 60  0000 C CNN
+F 2 "" H 5000 4400 60  0000 C CNN
+F 3 "" H 5000 4400 60  0000 C CNN
+F 4 "V" H 5000 4600 60  0000 C CNN "Voltage"
+F 5 "M" H 5175 4600 60  0001 L CNN "Manufacturer"
+F 6 "P" H 5175 4500 60  0001 L CNN "Partnumber"
+	1    5000 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode D?
+U 1 1 56EDD060
+P 5000 4950
+F 0 "D?" H 5000 4825 60  0000 C CNN
+F 1 "Diode" H 5000 5075 60  0000 C CNN
+F 2 "" H 4975 4950 60  0000 C CNN
+F 3 "" H 4975 4950 60  0000 C CNN
+F 4 "M" H 5175 5150 60  0001 L CNN "Manufacturer"
+F 5 "P" H 5175 5050 60  0001 L CNN "Partnumber"
+	1    5000 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Relay K?
+U 1 1 56EDD068
+P 5950 4700
+F 0 "K?" H 5900 4575 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 5900 4825 60  0000 R CNN
+F 2 "" H 5950 4700 60  0000 C CNN
+F 3 "" H 5950 4700 60  0000 C CNN
+F 4 "Tyco Electronics" H 6200 4900 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 6200 4800 60  0001 L CNN "Partnumber"
+	1    5950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4100 7250 4100
+Connection ~ 6300 4100
+Connection ~ 5950 4100
+Wire Wire Line
+	4100 4100 4100 1350
+Connection ~ 4100 1350
+Connection ~ 5000 4100
+$Comp
+L Relay K?
+U 2 1 56EDDCB8
+P 8900 4700
+F 0 "K?" H 8850 4575 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 8850 4825 60  0000 R CNN
+F 2 "" H 8900 4700 60  0000 C CNN
+F 3 "" H 8900 4700 60  0000 C CNN
+F 4 "Tyco Electronics" H 9150 4900 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 9150 4800 60  0001 L CNN "Partnumber"
+	2    8900 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L Relay K?
+U 2 1 56EDDCC0
+P 9900 4700
+F 0 "K?" H 9850 4575 60  0000 R CNN
+F 1 "OJE-SH-112HM" H 9850 4825 60  0000 R CNN
+F 2 "" H 9900 4700 60  0000 C CNN
+F 3 "" H 9900 4700 60  0000 C CNN
+F 4 "Tyco Electronics" H 10150 4900 60  0001 L CNN "Manufacturer"
+F 5 "1461402-6" H 10150 4800 60  0001 L CNN "Partnumber"
+	2    9900 4700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8900 2150 8900 4500
+Wire Wire Line
+	9900 2150 9900 4500
+$Comp
+L Plated_hole MB?
+U 1 1 56EDE1AD
+P 8900 5700
+F 0 "MB?" H 8900 5550 60  0000 C CNN
+F 1 "AC_N" H 8910 5860 60  0000 C CNN
+F 2 "" H 8900 5700 60  0000 C CNN
+F 3 "" H 8900 5700 60  0000 C CNN
+	1    8900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Plated_hole MB?
+U 1 1 56EDE2B3
+P 9900 5700
+F 0 "MB?" H 9900 5550 60  0000 C CNN
+F 1 "AC_L" H 9910 5860 60  0000 C CNN
+F 2 "" H 9900 5700 60  0000 C CNN
+F 3 "" H 9900 5700 60  0000 C CNN
+	1    9900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 4900 8900 5700
+Wire Wire Line
+	9900 4900 9900 5700
+Text HLabel 10400 5000 2    60   Output ~ 0
+AC_Grid_Vtg_L
+Wire Wire Line
+	10400 5000 9900 5000
+Connection ~ 9900 5000
+Text HLabel 10400 5200 2    60   Output ~ 0
+AC_Grid_Vtg_N
+Wire Wire Line
+	10400 5200 8900 5200
+Connection ~ 8900 5200
+Text HLabel 10400 3500 2    60   Output ~ 0
+AC_Relay_Vtg_L
+Text HLabel 10400 3700 2    60   Output ~ 0
+AC_Relay_Vtg_N
+Wire Wire Line
+	10400 3500 9900 3500
+Connection ~ 9900 3500
+Wire Wire Line
+	10400 3700 8900 3700
+Connection ~ 8900 3700
+Text HLabel 8650 700  0    60   Input ~ 0
+AC_Inverter_Vtg_L
+Text HLabel 8650 950  0    60   Input ~ 0
+AC_Inverter_Vtg_N
+Wire Wire Line
+	8650 950  8900 950 
+Wire Wire Line
+	8900 950  8900 1750
+Wire Wire Line
+	8650 700  9900 700 
+Wire Wire Line
+	9900 700  9900 1750
 $EndSCHEMATC
