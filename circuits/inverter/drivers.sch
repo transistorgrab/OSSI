@@ -4,14 +4,13 @@ LIBS:kv30f
 LIBS:OSSI_standard_components
 LIBS:connectors
 LIBS:lm4030
-LIBS:power
 LIBS:acs722
 LIBS:OSSI_MK_I-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 7 11
 Title ""
 Date ""
 Rev "0.1"
