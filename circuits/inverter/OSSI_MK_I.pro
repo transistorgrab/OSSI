@@ -1,4 +1,4 @@
-update=Do 17 Mär 2016 20:40:33 CET
+update=25.03.2017 11:10:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -34,5 +34,4 @@ LibName2=kv30f
 LibName3=OSSI_standard_components
 LibName4=connectors
 LibName5=lm4030
-LibName6=/media/andre/Data/Program Files (x86)/KiCad/share/kicad/library/power
-LibName7=acs722
+LibName6=acs722

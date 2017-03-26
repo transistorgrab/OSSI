@@ -1,5 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Crystal
+D Quartz component 2 pins
+K quartz resonator
+$ENDCMP
+#
+$CMP Crystal_shielded
+D Quartz component 2 pins and shield
+K quartz resonator
+$ENDCMP
+#
+$CMP DUAL_COMP
+D Dual Comparator
+K Comparator
+$ENDCMP
+#
+$CMP DUAL_OPAMP
+D Dual Operational Amplifier
+K OP, Opamp
+$ENDCMP
+#
 $CMP Earth_Protective
 D Protective Earth
 K POWER, PWR, EARTH, PROTECTIVE, GND, GROUND, PE
@@ -12,7 +32,7 @@ F http://www.st.com/web/en/resource/technical/document/datasheet/DM00092752.pdf
 $ENDCMP
 #
 $CMP Inductor
-K Resistor
+K Inductor, L
 $ENDCMP
 #
 $CMP PMOS_SO08
@@ -21,16 +41,6 @@ $ENDCMP
 #
 $CMP Plated_hole
 D Plated hole for mounting hole with net connection
-$ENDCMP
-#
-$CMP Quartz
-D Quartz component 2 pins
-K quartz resonator
-$ENDCMP
-#
-$CMP Quartz_shielded
-D Quartz component 2 pins and shield
-K quartz resonator
 $ENDCMP
 #
 $CMP Relay
