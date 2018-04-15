@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name OSSI_standard_footprints)(type KiCad)(uri /media/andre/Data/Projects/OSSI/Github_project/OSSI/circuits/lib/OSSI_standard_footprints.pretty)(options "")(descr ""))
+  (lib (name OSSI_standard_footprints)(type KiCad)(uri D:/Projects/OSSI/Github_project/OSSI/circuits/lib/OSSI_standard_footprints.pretty)(options "")(descr ""))
 )

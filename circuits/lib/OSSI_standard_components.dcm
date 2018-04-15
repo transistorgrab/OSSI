@@ -11,7 +11,7 @@ K quartz resonator
 $ENDCMP
 #
 $CMP DUAL_COMP
-D Dual Comparator
+D Dual Comparator with open collector output
 K Comparator
 $ENDCMP
 #
