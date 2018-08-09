@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LM431
+#
+DEF LM431 D 0 40 Y N 1 F N
+F0 "D" 80 -85 39 H V C CNN
+F1 "LM431" 125 120 39 H V C CNN
+F2 "" 5 130 39 H V C CNN
+F3 "" 0 15 60 V V C CNN
+F4 "M" 235 -25 35 H I L CNN "Manufacturer"
+F5 "P" 235 -75 35 H I L CNN "Partnumber"
+F6 "S" 235 25 35 H I L CNN "Supplier"
+F7 "O.No." 235 75 35 H I L CNN "Order No."
+$FPLIST
+ SOT23*
+$ENDFPLIST
+DRAW
+P 2 0 0 12 50 15 50 40 N
+P 3 0 0 12 0 -150 0 25 0 150 N
+P 6 0 0 12 -50 40 0 40 -50 -40 50 -40 0 40 50 40 N
+X K 1 0 150 50 D 31 31 0 0 B
+X A 3 0 -150 50 U 31 31 0 0 B
+P 2 0 1 12 -25 0 -150 0 N
+X R 2 -150 0 50 R 31 31 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

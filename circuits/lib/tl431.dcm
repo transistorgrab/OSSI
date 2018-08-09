@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL431
+D 2.5 V Shunt Regulator in TO-92/TO-226 package
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM431
+D 2.5 V Shunt Regulator in SOT23 package
+$ENDCMP
+#
+#End Doc Library
