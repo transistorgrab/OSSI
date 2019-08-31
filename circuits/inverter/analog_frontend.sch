@@ -1,16 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:lm317
-LIBS:kv30f
-LIBS:OSSI_standard_components
-LIBS:connectors
-LIBS:lm4030
-LIBS:acs722
+EESchema Schematic File Version 4
 LIBS:OSSI_MK_I-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 11
+Sheet 6 11
 Title "Analog Frontend"
 Date "2016-03-09"
 Rev "0.1"
@@ -27,7 +21,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2750 4200 2850
 Wire Wire Line
-	4000 2200 5000 2200
+	4000 2200 4200 2200
 Wire Wire Line
 	4200 2200 4200 2350
 Connection ~ 4200 2200
@@ -40,7 +34,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 2200 1800 2200
 Wire Wire Line
-	5250 1350 5250 1850
+	5250 1350 5250 1450
 Wire Wire Line
 	5500 1700 5500 1750
 Wire Wire Line
@@ -49,7 +43,7 @@ Wire Wire Line
 	5500 1450 5500 1500
 Connection ~ 5250 1450
 Wire Wire Line
-	5500 2100 6600 2100
+	5500 2100 6000 2100
 Wire Wire Line
 	4650 2450 4650 2200
 Connection ~ 4650 2200
@@ -58,13 +52,13 @@ Wire Wire Line
 Wire Wire Line
 	4650 2000 5000 2000
 Wire Wire Line
-	4650 600  4650 2000
+	4650 600  4650 900 
 Wire Wire Line
 	4650 600  5050 600 
 Wire Wire Line
 	5450 600  6000 600 
 Wire Wire Line
-	6000 600  6000 2100
+	6000 600  6000 900 
 Connection ~ 6000 2100
 Wire Wire Line
 	4650 900  4850 900 
@@ -83,7 +77,7 @@ DC_Link_Voltage
 Wire Wire Line
 	4200 4900 4200 5000
 Wire Wire Line
-	4000 4350 5000 4350
+	4000 4350 4200 4350
 Wire Wire Line
 	4200 4350 4200 4500
 Connection ~ 4200 4350
@@ -96,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 4350 1800 4350
 Wire Wire Line
-	5500 4250 6600 4250
+	5500 4250 6000 4250
 Wire Wire Line
 	4650 4600 4650 4350
 Connection ~ 4650 4350
@@ -105,13 +99,13 @@ Wire Wire Line
 Wire Wire Line
 	4650 4150 5000 4150
 Wire Wire Line
-	4650 3450 4650 4150
+	4650 3450 4650 3750
 Wire Wire Line
 	4650 3450 5050 3450
 Wire Wire Line
 	5450 3450 6000 3450
 Wire Wire Line
-	6000 3450 6000 4250
+	6000 3450 6000 3750
 Connection ~ 6000 4250
 Wire Wire Line
 	4650 3750 4850 3750
@@ -132,9 +126,9 @@ Wire Wire Line
 Wire Wire Line
 	4200 8100 4200 8000
 Wire Wire Line
-	4200 7400 5000 7400
+	4200 7400 4650 7400
 Wire Wire Line
-	4200 7400 4200 7600
+	4200 7400 4200 7500
 Wire Wire Line
 	3400 7500 3600 7500
 Wire Wire Line
@@ -142,7 +136,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 7500 2400 7500
 Wire Wire Line
-	5250 6550 5250 7050
+	5250 6550 5250 6650
 Wire Wire Line
 	5500 6900 5500 6950
 Wire Wire Line
@@ -151,14 +145,14 @@ Wire Wire Line
 	5500 6650 5500 6700
 Connection ~ 5250 6650
 Wire Wire Line
-	5500 7300 6600 7300
+	5500 7300 6000 7300
 Wire Wire Line
 	4650 7650 4650 7400
 Connection ~ 4650 7400
 Wire Wire Line
 	4650 8050 4650 7850
 Wire Wire Line
-	4200 7200 5000 7200
+	4200 7200 4650 7200
 Connection ~ 6000 7300
 Wire Wire Line
 	4650 6100 4800 6100
@@ -199,14 +193,14 @@ Relay_Ctrl_Voltage
 Wire Wire Line
 	11750 5100 11750 5200
 Wire Wire Line
-	11550 4550 12550 4550
+	11550 4550 11750 4550
 Wire Wire Line
 	11750 4550 11750 4700
 Connection ~ 11750 4550
 Wire Wire Line
 	10650 4550 11150 4550
 Wire Wire Line
-	13050 4450 14150 4450
+	13050 4450 13550 4450
 Wire Wire Line
 	12200 4800 12200 4550
 Connection ~ 12200 4550
@@ -215,13 +209,13 @@ Wire Wire Line
 Wire Wire Line
 	12200 4350 12550 4350
 Wire Wire Line
-	12200 3650 12200 4350
+	12200 3650 12200 3950
 Wire Wire Line
 	12200 3650 12600 3650
 Wire Wire Line
 	13000 3650 13550 3650
 Wire Wire Line
-	13550 3650 13550 4450
+	13550 3650 13550 3950
 Connection ~ 13550 4450
 Wire Wire Line
 	12200 3950 12400 3950
@@ -250,22 +244,22 @@ Wire Wire Line
 Wire Wire Line
 	4200 7100 4200 7200
 Wire Wire Line
-	4200 9550 5000 9550
+	4200 9550 4650 9550
 Wire Wire Line
-	5500 9450 6600 9450
+	5500 9450 6000 9450
 Wire Wire Line
 	4650 9800 4650 9550
 Connection ~ 4650 9550
 Wire Wire Line
 	4650 10200 4650 10000
 Wire Wire Line
-	4200 9350 5000 9350
+	4200 9350 4650 9350
 Wire Wire Line
-	4650 8550 4650 9350
+	4650 8550 4650 8900
 Wire Wire Line
 	4650 8550 4800 8550
 Wire Wire Line
-	6000 8550 6000 9450
+	6000 8550 6000 8900
 Connection ~ 6000 9450
 Wire Wire Line
 	4650 8900 4800 8900
@@ -301,7 +295,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 10150 4200 10250
 Wire Wire Line
-	4200 9550 4200 9750
+	4200 9550 4200 9650
 Wire Wire Line
 	3400 9650 3600 9650
 Wire Wire Line
@@ -338,9 +332,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 8550 6000 8550
 Wire Wire Line
-	6000 5750 6000 7300
+	6000 5750 6000 6100
 Wire Wire Line
-	4650 5750 4650 7200
+	4650 5750 4650 6100
 Wire Wire Line
 	4650 5750 4800 5750
 Wire Wire Line
@@ -352,9 +346,9 @@ Wire Wire Line
 Wire Wire Line
 	12000 3000 12000 3100
 Wire Wire Line
-	12000 2400 12800 2400
+	12000 2400 12450 2400
 Wire Wire Line
-	12000 2400 12000 2600
+	12000 2400 12000 2500
 Wire Wire Line
 	11200 2500 11400 2500
 Wire Wire Line
@@ -362,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 2500 10200 2500
 Wire Wire Line
-	13050 1550 13050 2050
+	13050 1550 13050 1650
 Wire Wire Line
 	13300 1900 13300 1950
 Wire Wire Line
@@ -371,14 +365,14 @@ Wire Wire Line
 	13300 1650 13300 1700
 Connection ~ 13050 1650
 Wire Wire Line
-	13300 2300 14400 2300
+	13300 2300 13800 2300
 Wire Wire Line
 	12450 2650 12450 2400
 Connection ~ 12450 2400
 Wire Wire Line
 	12450 3050 12450 2850
 Wire Wire Line
-	12000 2200 12800 2200
+	12000 2200 12450 2200
 Connection ~ 13800 2300
 Wire Wire Line
 	12450 1100 12600 1100
@@ -419,9 +413,9 @@ Wire Wire Line
 Wire Wire Line
 	9300 2500 9200 2500
 Wire Wire Line
-	13800 750  13800 2300
+	13800 750  13800 1100
 Wire Wire Line
-	12450 750  12450 2200
+	12450 750  12450 1100
 Wire Wire Line
 	12450 750  12600 750 
 Wire Wire Line
@@ -431,9 +425,9 @@ Wire Wire Line
 Text HLabel 14750 7150 2    60   Output ~ 0
 DC_Current
 Wire Wire Line
-	12750 7850 12750 7400
+	12750 7850 12750 7550
 Wire Wire Line
-	12750 6650 12750 6900
+	12750 6650 12750 6700
 Wire Wire Line
 	13200 6950 13200 7550
 Wire Wire Line
@@ -442,19 +436,19 @@ Wire Wire Line
 	13200 6700 13200 6750
 Connection ~ 12750 6700
 Wire Wire Line
-	13000 7150 14100 7150
+	13000 7150 13500 7150
 Wire Wire Line
 	12300 7850 12300 7700
 Wire Wire Line
-	11600 7050 12500 7050
+	11600 7050 12150 7050
 Wire Wire Line
-	12150 5800 12150 7050
+	12150 5800 12150 6150
 Wire Wire Line
 	12150 5800 12550 5800
 Wire Wire Line
 	12950 5800 13500 5800
 Wire Wire Line
-	13500 5800 13500 7150
+	13500 5800 13500 6150
 Connection ~ 13500 7150
 Wire Wire Line
 	12150 6150 12350 6150
@@ -473,28 +467,28 @@ DC-_Shunt
 Wire Wire Line
 	10300 6100 10550 6100
 Wire Wire Line
-	10550 6100 10550 6400
+	10550 6100 10550 6300
 Wire Wire Line
-	10550 6800 10550 7150
+	10550 6800 10550 6900
 Wire Wire Line
 	10550 7150 10300 7150
 Text Notes 10350 6650 2    60   ~ 0
 This connection must carry 20 A.
-Wire Notes Line
+Wire Notes Line style solid
 	10200 6500 10500 6250
-Wire Notes Line
+Wire Notes Line style solid
 	10200 6700 10500 7050
-Wire Notes Line
+Wire Notes Line style solid
 	10500 7050 10500 7000
-Wire Notes Line
+Wire Notes Line style solid
 	10500 7000 10450 7050
-Wire Notes Line
+Wire Notes Line style solid
 	10450 7050 10500 7050
-Wire Notes Line
+Wire Notes Line style solid
 	10500 6250 10450 6250
-Wire Notes Line
+Wire Notes Line style solid
 	10450 6250 10500 6300
-Wire Notes Line
+Wire Notes Line style solid
 	10500 6300 10500 6250
 Wire Wire Line
 	10550 6300 10700 6150
@@ -514,7 +508,7 @@ Connection ~ 12150 7050
 Wire Wire Line
 	10700 7050 10700 7850
 Wire Wire Line
-	10700 7850 12750 7850
+	10700 7850 11900 7850
 Wire Wire Line
 	13200 7550 12750 7550
 Connection ~ 12750 7550
@@ -523,7 +517,7 @@ Wire Wire Line
 	11900 7700 11900 7850
 Connection ~ 11900 7850
 Wire Wire Line
-	11900 5800 11900 7500
+	11900 5800 11900 6150
 Connection ~ 11900 7250
 Wire Wire Line
 	11600 5800 11900 5800
@@ -551,25 +545,25 @@ F3 "AC_Cur_Out" O L 10800 8700 60
 F4 "AC_Current" O R 12850 8550 60 
 F5 "1V25_Ref" I L 10800 8300 60 
 $EndSheet
-Wire Notes Line
+Wire Notes Line style solid
 	11550 8350 11550 8400
-Wire Notes Line
+Wire Notes Line style solid
 	11500 8400 11600 8400
-Wire Notes Line
+Wire Notes Line style solid
 	11600 8400 11600 8700
-Wire Notes Line
+Wire Notes Line style solid
 	11600 8700 11500 8700
-Wire Notes Line
+Wire Notes Line style solid
 	11500 8700 11500 8400
-Wire Notes Line
+Wire Notes Line style solid
 	11550 8700 11550 8750
-Wire Notes Line
+Wire Notes Line style solid
 	11650 8400 11850 8550
-Wire Notes Line
+Wire Notes Line style solid
 	11850 8550 11650 8700
-Wire Notes Line
+Wire Notes Line style solid
 	11650 8700 11650 8400
-Wire Notes Line
+Wire Notes Line style solid
 	11850 8550 12200 8550
 Wire Wire Line
 	12850 8550 14750 8550
@@ -585,7 +579,7 @@ Text Notes 12900 8800 0    60   ~ 0
 Actual scale with 20 A sensor:\n66 mV/A@3.3 V ⇒ 50 mV/A@2.5 V
 Connection ~ 10700 7050
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D945E8
 P 2000 2200
 F 0 "R?" H 2000 2120 39  0000 C CNN
@@ -601,7 +595,7 @@ F 8 "O.No." H 2125 2425 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D95D1A
 P 2600 2200
 F 0 "R?" H 2600 2120 39  0000 C CNN
@@ -617,7 +611,7 @@ F 8 "O.No." H 2725 2425 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D95E94
 P 3200 2200
 F 0 "R?" H 3200 2120 39  0000 C CNN
@@ -633,7 +627,7 @@ F 8 "O.No." H 3325 2425 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D96011
 P 3800 2200
 F 0 "R?" H 3800 2120 39  0000 C CNN
@@ -649,7 +643,7 @@ F 8 "O.No." H 3925 2425 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9618D
 P 4200 2550
 F 0 "R?" H 4200 2470 39  0000 C CNN
@@ -665,7 +659,7 @@ F 8 "O.No." H 4325 2775 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D965F4
 P 5250 600
 F 0 "R?" H 5250 520 39  0000 C CNN
@@ -681,7 +675,7 @@ F 8 "O.No." H 5375 825 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D97852
 P 5050 900
 F 0 "R?" H 5050 820 39  0000 C CNN
@@ -697,7 +691,7 @@ F 8 "O.No." H 5175 1125 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D9795F
 P 5600 900
 F 0 "C?" V 5700 950 39  0000 L CNN
@@ -713,7 +707,7 @@ F 8 "O.No." H 5660 1205 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D9805F
 P 5500 1600
 F 0 "C?" H 5560 1500 39  0000 L CNN
@@ -729,7 +723,7 @@ F 8 "O.No." H 5560 1905 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D986BF
 P 6800 2100
 F 0 "R?" H 6800 2020 39  0000 C CNN
@@ -745,7 +739,7 @@ F 8 "O.No." H 6925 2325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D98E52
 P 4650 2550
 F 0 "C?" H 4710 2450 39  0000 L CNN
@@ -761,7 +755,7 @@ F 8 "O.No." H 4710 2855 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 1 1 58D991E1
 P 5200 2100
 F 0 "U?" H 5150 1855 39  0000 R CNN
@@ -776,7 +770,7 @@ F 7 "O.No." H 5375 2370 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 2 1 58D995D1
 P 5200 4250
 F 0 "U?" H 5150 4005 39  0000 R CNN
@@ -791,7 +785,7 @@ F 7 "O.No." H 5375 4520 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 2 1 58D9A188
 P 5200 9450
 F 0 "U?" H 5150 9205 39  0000 R CNN
@@ -806,7 +800,7 @@ F 7 "O.No." H 5375 9720 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 1 1 58D9A393
 P 5200 7300
 F 0 "U?" H 5150 7055 39  0000 R CNN
@@ -821,7 +815,7 @@ F 7 "O.No." H 5375 7570 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9B974
 P 5250 3450
 F 0 "R?" H 5250 3370 39  0000 C CNN
@@ -837,7 +831,7 @@ F 8 "O.No." H 5375 3675 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9BB42
 P 5050 3750
 F 0 "R?" H 5050 3670 39  0000 C CNN
@@ -853,7 +847,7 @@ F 8 "O.No." H 5175 3975 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D9BCB7
 P 5600 3750
 F 0 "C?" V 5700 3800 39  0000 L CNN
@@ -869,7 +863,7 @@ F 8 "O.No." H 5660 4055 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9BF04
 P 6800 4250
 F 0 "R?" H 6800 4170 39  0000 C CNN
@@ -885,7 +879,7 @@ F 8 "O.No." H 6925 4475 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9CBF7
 P 4200 4700
 F 0 "R?" H 4200 4620 39  0000 C CNN
@@ -901,7 +895,7 @@ F 8 "O.No." H 4325 4925 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D9CE4A
 P 4650 4700
 F 0 "C?" H 4710 4600 39  0000 L CNN
@@ -917,7 +911,7 @@ F 8 "O.No." H 4710 5005 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9DFBA
 P 2000 4350
 F 0 "R?" H 2000 4270 39  0000 C CNN
@@ -933,7 +927,7 @@ F 8 "O.No." H 2125 4575 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9E17B
 P 2600 4350
 F 0 "R?" H 2600 4270 39  0000 C CNN
@@ -949,7 +943,7 @@ F 8 "O.No." H 2725 4575 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9E2F5
 P 3200 4350
 F 0 "R?" H 3200 4270 39  0000 C CNN
@@ -965,7 +959,7 @@ F 8 "O.No." H 3325 4575 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9E472
 P 3800 4350
 F 0 "R?" H 3800 4270 39  0000 C CNN
@@ -981,7 +975,7 @@ F 8 "O.No." H 3925 4575 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9EF54
 P 5000 5750
 F 0 "R?" H 5000 5670 39  0000 C CNN
@@ -997,7 +991,7 @@ F 8 "O.No." H 5125 5975 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D9F1A8
 P 5650 5750
 F 0 "R?" H 5650 5670 39  0000 C CNN
@@ -1013,7 +1007,7 @@ F 8 "O.No." H 5775 5975 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA051D
 P 5000 6100
 F 0 "R?" H 5000 6020 39  0000 C CNN
@@ -1029,7 +1023,7 @@ F 8 "O.No." H 5125 6325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DA2284
 P 5650 6100
 F 0 "C?" V 5750 6150 39  0000 L CNN
@@ -1045,7 +1039,7 @@ F 8 "O.No." H 5710 6405 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DA3966
 P 5500 6800
 F 0 "C?" H 5560 6700 39  0000 L CNN
@@ -1061,7 +1055,7 @@ F 8 "O.No." H 5560 7105 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DA4528
 P 5650 8900
 F 0 "C?" V 5750 8950 39  0000 L CNN
@@ -1077,7 +1071,7 @@ F 8 "O.No." H 5710 9205 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA470F
 P 5000 8900
 F 0 "R?" H 5000 8820 39  0000 C CNN
@@ -1093,7 +1087,7 @@ F 8 "O.No." H 5125 9125 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA48EF
 P 5000 8550
 F 0 "R?" H 5000 8470 39  0000 C CNN
@@ -1109,7 +1103,7 @@ F 8 "O.No." H 5125 8775 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA4AD2
 P 5650 8550
 F 0 "R?" H 5650 8470 39  0000 C CNN
@@ -1125,7 +1119,7 @@ F 8 "O.No." H 5775 8775 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA58BB
 P 3800 10250
 F 0 "R?" H 3800 10170 39  0000 C CNN
@@ -1141,7 +1135,7 @@ F 8 "O.No." H 3925 10475 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA5AAC
 P 4200 9950
 F 0 "R?" H 4200 9870 39  0000 C CNN
@@ -1157,7 +1151,7 @@ F 8 "O.No." H 4325 10175 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA5D53
 P 4200 7800
 F 0 "R?" H 4200 7720 39  0000 C CNN
@@ -1173,7 +1167,7 @@ F 8 "O.No." H 4325 8025 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA5F0E
 P 3800 8100
 F 0 "R?" H 3800 8020 39  0000 C CNN
@@ -1189,7 +1183,7 @@ F 8 "O.No." H 3925 8325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DA6C6C
 P 1600 7100
 F 0 "C?" V 1750 7050 39  0000 L CNN
@@ -1205,7 +1199,7 @@ F 8 "O.No." H 1660 7405 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DA7239
 P 1600 7500
 F 0 "C?" V 1750 7450 39  0000 L CNN
@@ -1221,7 +1215,7 @@ F 8 "O.No." H 1660 7805 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DA73B7
 P 1600 9250
 F 0 "C?" V 1750 9200 39  0000 L CNN
@@ -1237,7 +1231,7 @@ F 8 "O.No." H 1660 9555 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DA755A
 P 1600 9650
 F 0 "C?" V 1750 9600 39  0000 L CNN
@@ -1253,7 +1247,7 @@ F 8 "O.No." H 1660 9955 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA83C4
 P 2000 7100
 F 0 "R?" H 2000 7020 39  0000 C CNN
@@ -1269,7 +1263,7 @@ F 8 "O.No." H 2125 7325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA8A2D
 P 2600 7100
 F 0 "R?" H 2600 7020 39  0000 C CNN
@@ -1285,7 +1279,7 @@ F 8 "O.No." H 2725 7325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA8B83
 P 3200 7100
 F 0 "R?" H 3200 7020 39  0000 C CNN
@@ -1301,7 +1295,7 @@ F 8 "O.No." H 3325 7325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA8E13
 P 3800 7100
 F 0 "R?" H 3800 7020 39  0000 C CNN
@@ -1317,7 +1311,7 @@ F 8 "O.No." H 3925 7325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA8F73
 P 3800 7500
 F 0 "R?" H 3800 7420 39  0000 C CNN
@@ -1333,7 +1327,7 @@ F 8 "O.No." H 3925 7725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA90C2
 P 3200 7500
 F 0 "R?" H 3200 7420 39  0000 C CNN
@@ -1349,7 +1343,7 @@ F 8 "O.No." H 3325 7725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA9224
 P 2600 7500
 F 0 "R?" H 2600 7420 39  0000 C CNN
@@ -1365,7 +1359,7 @@ F 8 "O.No." H 2725 7725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA9381
 P 2000 7500
 F 0 "R?" H 2000 7420 39  0000 C CNN
@@ -1381,7 +1375,7 @@ F 8 "O.No." H 2125 7725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA9C5D
 P 2000 9250
 F 0 "R?" H 2000 9170 39  0000 C CNN
@@ -1397,7 +1391,7 @@ F 8 "O.No." H 2125 9475 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA9DFE
 P 2600 9250
 F 0 "R?" H 2600 9170 39  0000 C CNN
@@ -1413,7 +1407,7 @@ F 8 "O.No." H 2725 9475 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DA9F64
 P 3200 9250
 F 0 "R?" H 3200 9170 39  0000 C CNN
@@ -1429,7 +1423,7 @@ F 8 "O.No." H 3325 9475 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAA0D1
 P 3800 9250
 F 0 "R?" H 3800 9170 39  0000 C CNN
@@ -1445,7 +1439,7 @@ F 8 "O.No." H 3925 9475 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAAF21
 P 2000 9650
 F 0 "R?" H 2000 9570 39  0000 C CNN
@@ -1461,7 +1455,7 @@ F 8 "O.No." H 2125 9875 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAB092
 P 2600 9650
 F 0 "R?" H 2600 9570 39  0000 C CNN
@@ -1477,7 +1471,7 @@ F 8 "O.No." H 2725 9875 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAB208
 P 3200 9650
 F 0 "R?" H 3200 9570 39  0000 C CNN
@@ -1493,7 +1487,7 @@ F 8 "O.No." H 3325 9875 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAB381
 P 3800 9650
 F 0 "R?" H 3800 9570 39  0000 C CNN
@@ -1509,7 +1503,7 @@ F 8 "O.No." H 3925 9875 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DAC1E7
 P 4650 7750
 F 0 "C?" H 4710 7650 39  0000 L CNN
@@ -1525,7 +1519,7 @@ F 8 "O.No." H 4710 8055 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DAC65C
 P 4650 9900
 F 0 "C?" H 4710 9800 39  0000 L CNN
@@ -1541,7 +1535,7 @@ F 8 "O.No." H 4710 10205 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 1 1 58DADA64
 P 13000 2300
 F 0 "U?" H 12950 2055 39  0000 R CNN
@@ -1556,7 +1550,7 @@ F 7 "O.No." H 13175 2570 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 2 1 58DADC81
 P 12750 4450
 F 0 "U?" H 12700 4205 39  0000 R CNN
@@ -1571,7 +1565,7 @@ F 7 "O.No." H 12925 4720 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DAEF89
 P 9400 2100
 F 0 "C?" V 9550 2050 39  0000 L CNN
@@ -1587,7 +1581,7 @@ F 8 "O.No." H 9460 2405 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DAF1B9
 P 9400 2500
 F 0 "C?" V 9550 2450 39  0000 L CNN
@@ -1603,7 +1597,7 @@ F 8 "O.No." H 9460 2805 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAF2FC
 P 9800 2100
 F 0 "R?" H 9800 2020 39  0000 C CNN
@@ -1619,7 +1613,7 @@ F 8 "O.No." H 9925 2325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAF5E0
 P 9800 2500
 F 0 "R?" H 9800 2420 39  0000 C CNN
@@ -1635,7 +1629,7 @@ F 8 "O.No." H 9925 2725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAF72B
 P 10400 2500
 F 0 "R?" H 10400 2420 39  0000 C CNN
@@ -1651,7 +1645,7 @@ F 8 "O.No." H 10525 2725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAF881
 P 10400 2100
 F 0 "R?" H 10400 2020 39  0000 C CNN
@@ -1667,7 +1661,7 @@ F 8 "O.No." H 10525 2325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAF9D4
 P 11000 2100
 F 0 "R?" H 11000 2020 39  0000 C CNN
@@ -1683,7 +1677,7 @@ F 8 "O.No." H 11125 2325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAFB38
 P 11000 2500
 F 0 "R?" H 11000 2420 39  0000 C CNN
@@ -1699,7 +1693,7 @@ F 8 "O.No." H 11125 2725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAFC91
 P 11600 2500
 F 0 "R?" H 11600 2420 39  0000 C CNN
@@ -1715,7 +1709,7 @@ F 8 "O.No." H 11725 2725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAFDF5
 P 11600 2100
 F 0 "R?" H 11600 2020 39  0000 C CNN
@@ -1731,7 +1725,7 @@ F 8 "O.No." H 11725 2325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DAFF58
 P 12800 750
 F 0 "R?" H 12800 670 39  0000 C CNN
@@ -1747,7 +1741,7 @@ F 8 "O.No." H 12925 975 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB0208
 P 13450 750
 F 0 "R?" H 13450 670 39  0000 C CNN
@@ -1763,7 +1757,7 @@ F 8 "O.No." H 13575 975 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB048B
 P 12800 1100
 F 0 "R?" H 12800 1020 39  0000 C CNN
@@ -1779,7 +1773,7 @@ F 8 "O.No." H 12925 1325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB0785
 P 13450 1100
 F 0 "C?" V 13550 1150 39  0000 L CNN
@@ -1795,7 +1789,7 @@ F 8 "O.No." H 13510 1405 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB0BD0
 P 12450 2750
 F 0 "C?" H 12510 2650 39  0000 L CNN
@@ -1811,7 +1805,7 @@ F 8 "O.No." H 12510 3055 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB0F22
 P 12000 2800
 F 0 "R?" H 12000 2720 39  0000 C CNN
@@ -1827,7 +1821,7 @@ F 8 "O.No." H 12125 3025 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB11F5
 P 11600 3100
 F 0 "R?" H 11600 3020 39  0000 C CNN
@@ -1843,7 +1837,7 @@ F 8 "O.No." H 11725 3325 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB2834
 P 14600 2300
 F 0 "R?" H 14600 2220 39  0000 C CNN
@@ -1859,7 +1853,7 @@ F 8 "O.No." H 14725 2525 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB2A5B
 P 13300 1800
 F 0 "C?" H 13360 1700 39  0000 L CNN
@@ -1875,7 +1869,7 @@ F 8 "O.No." H 13360 2105 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB2FE3
 P 12800 3650
 F 0 "R?" H 12800 3570 39  0000 C CNN
@@ -1891,7 +1885,7 @@ F 8 "O.No." H 12925 3875 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB3269
 P 12600 3950
 F 0 "R?" H 12600 3870 39  0000 C CNN
@@ -1907,7 +1901,7 @@ F 8 "O.No." H 12725 4175 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB33EE
 P 13150 3950
 F 0 "C?" V 13250 4000 39  0000 L CNN
@@ -1923,7 +1917,7 @@ F 8 "O.No." H 13210 4255 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB37F9
 P 14350 4450
 F 0 "R?" H 14350 4370 39  0000 C CNN
@@ -1939,7 +1933,7 @@ F 8 "O.No." H 14475 4675 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB446A
 P 12200 4900
 F 0 "C?" H 12260 4800 39  0000 L CNN
@@ -1955,7 +1949,7 @@ F 8 "O.No." H 12260 5205 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB469F
 P 11750 4900
 F 0 "R?" H 11750 4820 39  0000 C CNN
@@ -1971,7 +1965,7 @@ F 8 "O.No." H 11875 5125 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB4B87
 P 11350 4550
 F 0 "R?" H 11350 4470 39  0000 C CNN
@@ -1987,7 +1981,7 @@ F 8 "O.No." H 11475 4775 35  0001 L CNN "Order No."
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB5C50
 P 11400 5800
 F 0 "R?" H 11400 5720 39  0000 C CNN
@@ -2003,7 +1997,7 @@ F 8 "O.No." H 11525 6025 35  0001 L CNN "Order No."
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB5DE8
 P 11400 6150
 F 0 "R?" H 11400 6070 39  0000 C CNN
@@ -2019,7 +2013,7 @@ F 8 "O.No." H 11525 6375 35  0001 L CNN "Order No."
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB6243
 P 11400 7050
 F 0 "R?" H 11400 6970 39  0000 C CNN
@@ -2035,7 +2029,7 @@ F 8 "O.No." H 11525 7275 35  0001 L CNN "Order No."
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB6BEC
 P 11900 7600
 F 0 "C?" H 11960 7500 39  0000 L CNN
@@ -2051,7 +2045,7 @@ F 8 "O.No." H 11960 7905 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB6DC1
 P 12300 7600
 F 0 "C?" H 12360 7500 39  0000 L CNN
@@ -2067,7 +2061,7 @@ F 8 "O.No." H 12360 7905 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB6F31
 P 12750 5800
 F 0 "R?" H 12750 5720 39  0000 C CNN
@@ -2083,7 +2077,7 @@ F 8 "O.No." H 12875 6025 35  0001 L CNN "Order No."
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB748A
 P 12550 6150
 F 0 "R?" H 12550 6070 39  0000 C CNN
@@ -2099,7 +2093,7 @@ F 8 "O.No." H 12675 6375 35  0001 L CNN "Order No."
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB7C60
 P 13100 6150
 F 0 "C?" V 13200 6200 39  0000 L CNN
@@ -2115,7 +2109,7 @@ F 8 "O.No." H 13160 6455 35  0001 L CNN "Order No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58DB8373
 P 13200 6850
 F 0 "C?" H 13260 6750 39  0000 L CNN
@@ -2131,7 +2125,7 @@ F 8 "O.No." H 13260 7155 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DB8730
 P 14300 7150
 F 0 "R?" H 14300 7070 39  0000 C CNN
@@ -2147,7 +2141,7 @@ F 8 "O.No." H 14425 7375 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 1 1 58DBA439
 P 12700 7150
 F 0 "U?" H 12650 6905 39  0000 R CNN
@@ -2162,7 +2156,7 @@ F 7 "O.No." H 12875 7420 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DC4D4E
 P 6800 7300
 F 0 "R?" H 6800 7220 39  0000 C CNN
@@ -2178,7 +2172,7 @@ F 8 "O.No." H 6925 7525 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58DC4F9F
 P 6800 9450
 F 0 "R?" H 6800 9370 39  0000 C CNN
@@ -2194,7 +2188,7 @@ F 8 "O.No." H 6925 9675 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_OPAMP U?
+L OSSI_standard_components:DUAL_OPAMP U?
 U 2 1 58E20713
 P 12700 9400
 F 0 "U?" H 12650 9155 39  0000 R CNN
@@ -2213,7 +2207,7 @@ Text HLabel 11400 9500 0    60   Input ~ 0
 Wire Wire Line
 	11400 9500 11950 9500
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58E23C61
 P 12150 9500
 F 0 "R?" H 12150 9420 39  0000 C CNN
@@ -2241,7 +2235,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 9400 13050 9150
 $Comp
-L +3V3_ANA #+3V3_ANA?
+L OSSI_standard_components:+3V3_ANA #+3V3_ANA?
 U 1 1 58E26453
 P 5250 1350
 F 0 "#+3V3_ANA?" H 5250 1625 60  0001 C CNN
@@ -2252,7 +2246,7 @@ F 3 "" H 5250 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E26B33
 P 5500 1750
 F 0 "#AGND?" H 5500 1550 39  0001 C CNN
@@ -2263,7 +2257,7 @@ F 3 "" H 5500 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E279BB
 P 13300 1950
 F 0 "#AGND?" H 13300 1750 39  0001 C CNN
@@ -2274,7 +2268,7 @@ F 3 "" H 13300 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3_ANA #+3V3_ANA?
+L OSSI_standard_components:+3V3_ANA #+3V3_ANA?
 U 1 1 58E27B16
 P 13050 1550
 F 0 "#+3V3_ANA?" H 13050 1825 60  0001 C CNN
@@ -2285,7 +2279,7 @@ F 3 "" H 13050 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E29822
 P 13050 2600
 F 0 "#AGND?" H 13050 2400 39  0001 C CNN
@@ -2296,7 +2290,7 @@ F 3 "" H 13050 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2997D
 P 12450 3050
 F 0 "#AGND?" H 12450 2850 39  0001 C CNN
@@ -2307,7 +2301,7 @@ F 3 "" H 12450 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E29D92
 P 12200 5200
 F 0 "#AGND?" H 12200 5000 39  0001 C CNN
@@ -2318,7 +2312,7 @@ F 3 "" H 12200 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2A375
 P 11750 5200
 F 0 "#AGND?" H 11750 5000 39  0001 C CNN
@@ -2329,7 +2323,7 @@ F 3 "" H 11750 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3_ANA #+3V3_ANA?
+L OSSI_standard_components:+3V3_ANA #+3V3_ANA?
 U 1 1 58E2AFAF
 P 12750 6650
 F 0 "#+3V3_ANA?" H 12750 6925 60  0001 C CNN
@@ -2340,7 +2334,7 @@ F 3 "" H 12750 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3_ANA #+3V3_ANA?
+L OSSI_standard_components:+3V3_ANA #+3V3_ANA?
 U 1 1 58E2CE7F
 P 5250 6550
 F 0 "#+3V3_ANA?" H 5250 6825 60  0001 C CNN
@@ -2351,7 +2345,7 @@ F 3 "" H 5250 6550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2D139
 P 5500 6950
 F 0 "#AGND?" H 5500 6750 39  0001 C CNN
@@ -2362,7 +2356,7 @@ F 3 "" H 5500 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2D294
 P 5250 7600
 F 0 "#AGND?" H 5250 7400 39  0001 C CNN
@@ -2373,7 +2367,7 @@ F 3 "" H 5250 7600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2D3EF
 P 4650 8050
 F 0 "#AGND?" H 4650 7850 39  0001 C CNN
@@ -2384,7 +2378,7 @@ F 3 "" H 4650 8050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2D69C
 P 4650 5000
 F 0 "#AGND?" H 4650 4800 39  0001 C CNN
@@ -2395,7 +2389,7 @@ F 3 "" H 4650 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2D7F7
 P 4200 5000
 F 0 "#AGND?" H 4200 4800 39  0001 C CNN
@@ -2406,7 +2400,7 @@ F 3 "" H 4200 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2DB20
 P 4200 2850
 F 0 "#AGND?" H 4200 2650 39  0001 C CNN
@@ -2417,7 +2411,7 @@ F 3 "" H 4200 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2DC7B
 P 4650 2850
 F 0 "#AGND?" H 4650 2650 39  0001 C CNN
@@ -2428,7 +2422,7 @@ F 3 "" H 4650 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2DE4B
 P 5250 2400
 F 0 "#AGND?" H 5250 2200 39  0001 C CNN
@@ -2439,7 +2433,7 @@ F 3 "" H 5250 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AGND #AGND?
+L OSSI_standard_components:AGND #AGND?
 U 1 1 58E2F47F
 P 4650 10200
 F 0 "#AGND?" H 4650 10000 39  0001 C CNN
@@ -2452,7 +2446,7 @@ $EndComp
 Text Notes 9550 6050 0    39   ~ 0
 DC Current Offset: 1.25 V * (1000R/101000R) = 12.38 mV\n  => 12.38 mV * 25 A/V = 309.4 mA Current Offset
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D98DA2
 P 10550 6600
 F 0 "R?" H 10550 6520 39  0000 C CNN
@@ -2468,7 +2462,7 @@ F 8 "O.No." H 10675 6825 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58D9B0A6
 P 10300 6100
 F 0 "#GND?" H 10300 5910 60  0001 C CNN
@@ -2478,4 +2472,102 @@ F 3 "" H 10300 6100 60  0000 C CNN
 	1    10300 6100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4200 2200 4650 2200
+Wire Wire Line
+	5250 1450 5250 1850
+Wire Wire Line
+	4650 2200 5000 2200
+Wire Wire Line
+	6000 2100 6600 2100
+Wire Wire Line
+	4650 900  4650 2000
+Wire Wire Line
+	6000 900  6000 2100
+Wire Wire Line
+	4200 4350 4650 4350
+Wire Wire Line
+	4650 4350 5000 4350
+Wire Wire Line
+	6000 4250 6600 4250
+Wire Wire Line
+	4650 3750 4650 4150
+Wire Wire Line
+	6000 3750 6000 4250
+Wire Wire Line
+	5250 6650 5250 7050
+Wire Wire Line
+	4650 7400 5000 7400
+Wire Wire Line
+	6000 7300 6600 7300
+Wire Wire Line
+	4650 6100 4650 7200
+Wire Wire Line
+	6000 6100 6000 7300
+Wire Wire Line
+	11750 4550 12200 4550
+Wire Wire Line
+	12200 4550 12550 4550
+Wire Wire Line
+	13550 4450 14150 4450
+Wire Wire Line
+	12200 3950 12200 4350
+Wire Wire Line
+	13550 3950 13550 4450
+Wire Wire Line
+	4650 9550 5000 9550
+Wire Wire Line
+	6000 9450 6600 9450
+Wire Wire Line
+	4650 8900 4650 9350
+Wire Wire Line
+	6000 8900 6000 9450
+Wire Wire Line
+	4650 7200 5000 7200
+Wire Wire Line
+	4200 7500 4200 7600
+Wire Wire Line
+	4650 9350 5000 9350
+Wire Wire Line
+	4200 9650 4200 9750
+Wire Wire Line
+	13050 1650 13050 2050
+Wire Wire Line
+	12450 2400 12800 2400
+Wire Wire Line
+	13800 2300 14400 2300
+Wire Wire Line
+	12450 1100 12450 2200
+Wire Wire Line
+	13800 1100 13800 2300
+Wire Wire Line
+	12450 2200 12800 2200
+Wire Wire Line
+	12000 2500 12000 2600
+Wire Wire Line
+	12750 6700 12750 6900
+Wire Wire Line
+	13500 7150 14100 7150
+Wire Wire Line
+	12150 6150 12150 7050
+Wire Wire Line
+	13500 6150 13500 7150
+Wire Wire Line
+	10550 6300 10550 6400
+Wire Wire Line
+	10550 6900 10550 7150
+Wire Wire Line
+	12150 7050 12300 7050
+Wire Wire Line
+	12750 7550 12750 7400
+Wire Wire Line
+	12300 7850 12750 7850
+Wire Wire Line
+	11900 7850 12300 7850
+Wire Wire Line
+	11900 7250 11900 7500
+Wire Wire Line
+	11900 6150 11900 7250
+Wire Wire Line
+	12300 7050 12500 7050
 $EndSCHEMATC

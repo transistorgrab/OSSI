@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Choke_cc
+D Current--compensated Choke
+K Inductor, Choke, L
+$ENDCMP
+#
 $CMP Crystal
 D Quartz component 2 pins
 K quartz resonator
@@ -29,10 +34,6 @@ $CMP IGBT
 D IGBT with internal body diode in TO-220 package
 K IGBT
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00092752.pdf
-$ENDCMP
-#
-$CMP Inductor
-K Inductor, L
 $ENDCMP
 #
 $CMP PMOS_SO08

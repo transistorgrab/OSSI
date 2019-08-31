@@ -1,4 +1,4 @@
-update=25.03.2017 11:10:17
+update=24/08/2019 08:46:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,11 +27,14 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../lib;../../../../../../Program Files (x86)/KiCad/share/kicad/library
-[eeschema/libraries]
-LibName1=lm317
-LibName2=kv30f
-LibName3=OSSI_standard_components
-LibName4=connectors
-LibName5=lm4030
-LibName6=acs722
+LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

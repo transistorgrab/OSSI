@@ -1,12 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:lm317
-LIBS:kv30f
-LIBS:OSSI_standard_components
-LIBS:connectors
-LIBS:lm4030
-LIBS:acs722
+EESchema Schematic File Version 4
 LIBS:OSSI_MK_I-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -27,22 +21,7 @@ DC_link+
 Text HLabel 1300 3150 0    60   Input ~ 0
 Boost_T1i
 $Comp
-L Inductor L?
-U 1 1 58D7F810
-P 2200 1050
-F 0 "L?" H 2200 1000 39  0000 C CNN
-F 1 "Inductor" H 2200 1130 39  0000 C CNN
-F 2 "" H 2200 1205 35  0000 C CNN
-F 3 "" H 2200 1050 60  0000 C CNN
-F 4 "M" H 2370 1235 35  0001 L CNN "Manufacturer"
-F 5 "P" H 2370 1180 35  0001 L CNN "Partnumber"
-F 6 "S" H 2370 1290 35  0001 L CNN "Supplier"
-F 7 "O.No." H 2370 1340 35  0001 L CNN "Order No."
-	1    2200 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D7F88F
 P 3100 1600
 F 0 "R?" H 3100 1520 39  0000 C CNN
@@ -58,7 +37,7 @@ F 8 "O.No." H 3225 1825 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D7FFA2
 P 4050 2200
 F 0 "R?" H 4050 2120 39  0000 C CNN
@@ -74,7 +53,7 @@ F 8 "O.No." H 4175 2425 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D800DB
 P 4400 1900
 F 0 "R?" H 4400 1820 39  0000 C CNN
@@ -90,7 +69,7 @@ F 8 "O.No." H 4525 2125 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D80A4E
 P 4850 1800
 F 0 "C?" H 4910 1700 39  0000 L CNN
@@ -106,7 +85,7 @@ F 8 "O.No." H 4910 2105 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMOS Q?
+L OSSI_standard_components:PMOS Q?
 U 1 1 58D80C47
 P 5450 2100
 F 0 "Q?" H 5450 1900 39  0000 R CNN
@@ -121,7 +100,7 @@ F 7 "O.No." H 5625 2400 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D8166D
 P 4050 2550
 F 0 "C?" V 4150 2500 39  0000 R CNN
@@ -137,7 +116,7 @@ F 8 "O.No." H 4110 2855 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L NMOS Q?
+L OSSI_standard_components:NMOS Q?
 U 1 1 58D81E73
 P 3450 2400
 F 0 "Q?" H 3450 2200 39  0000 R CNN
@@ -152,7 +131,7 @@ F 7 "O.No." H 3625 2685 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D8231E
 P 3100 2750
 F 0 "C?" H 3160 2650 39  0000 L CNN
@@ -168,10 +147,10 @@ F 8 "O.No." H 3160 3055 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND015
+L OSSI_standard_components:GND #GND?
 U 1 1 58D824A2
 P 4850 1950
-F 0 "#GND015" H 4850 1760 60  0001 C CNN
+F 0 "#GND?" H 4850 1760 60  0001 C CNN
 F 1 "GND" H 4850 1850 47  0000 C CNB
 F 2 "" H 4850 1950 60  0000 C CNN
 F 3 "" H 4850 1950 60  0000 C CNN
@@ -179,10 +158,10 @@ F 3 "" H 4850 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND016
+L OSSI_standard_components:GND #GND?
 U 1 1 58D82616
 P 3550 3000
-F 0 "#GND016" H 3550 2810 60  0001 C CNN
+F 0 "#GND?" H 3550 2810 60  0001 C CNN
 F 1 "GND" H 3550 2900 47  0000 C CNB
 F 2 "" H 3550 3000 60  0000 C CNN
 F 3 "" H 3550 3000 60  0000 C CNN
@@ -190,10 +169,10 @@ F 3 "" H 3550 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND017
+L OSSI_standard_components:GND #GND?
 U 1 1 58D8267E
 P 3100 2950
-F 0 "#GND017" H 3100 2760 60  0001 C CNN
+F 0 "#GND?" H 3100 2760 60  0001 C CNN
 F 1 "GND" H 3100 2850 47  0000 C CNB
 F 2 "" H 3100 2950 60  0000 C CNN
 F 3 "" H 3100 2950 60  0000 C CNN
@@ -201,7 +180,7 @@ F 3 "" H 3100 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D828FA
 P 2500 2850
 F 0 "R?" H 2500 2770 39  0000 C CNN
@@ -217,7 +196,7 @@ F 8 "O.No." H 2625 3075 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Schottky D?
+L OSSI_standard_components:Schottky D?
 U 1 1 58D82B05
 P 2500 2500
 F 0 "D?" H 2500 2400 39  0000 C CNN
@@ -232,7 +211,7 @@ F 7 "O.No." H 2650 2725 35  0001 L CNN "Order No."
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Schottky D?
+L OSSI_standard_components:Schottky D?
 U 1 1 58D83271
 P 2500 3500
 F 0 "D?" H 2500 3400 39  0000 C CNN
@@ -247,7 +226,7 @@ F 7 "O.No." H 2650 3725 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D8330E
 P 2500 3850
 F 0 "R?" H 2500 3770 39  0000 C CNN
@@ -263,9 +242,9 @@ F 8 "O.No." H 2625 4075 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 1050 1950 1050
+	1300 1050 5125 1050
 Wire Wire Line
-	2450 1050 6900 1050
+	5625 1050 6900 1050
 Wire Wire Line
 	6900 1050 7750 1050
 Wire Wire Line
@@ -476,7 +455,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 2400 10100 2850
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D83762
 P 3100 4150
 F 0 "C?" H 3160 4050 39  0000 L CNN
@@ -492,7 +471,7 @@ F 8 "O.No." H 3160 4455 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMOS Q?
+L OSSI_standard_components:PMOS Q?
 U 1 1 58D83933
 P 3450 3750
 F 0 "Q?" H 3450 3550 39  0000 R CNN
@@ -507,7 +486,7 @@ F 7 "O.No." H 3625 4050 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D83A53
 P 4050 3700
 F 0 "C?" V 4150 3650 39  0000 R CNN
@@ -523,7 +502,7 @@ F 8 "O.No." H 4110 4005 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D83B16
 P 4050 4000
 F 0 "R?" H 4050 3920 39  0000 C CNN
@@ -539,7 +518,7 @@ F 8 "O.No." H 4175 4225 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L NMOS Q?
+L OSSI_standard_components:NMOS Q?
 U 1 1 58D84080
 P 4400 4550
 F 0 "Q?" H 4400 4350 39  0000 R CNN
@@ -554,7 +533,7 @@ F 7 "O.No." H 4575 4835 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D84385
 P 5100 4450
 F 0 "R?" H 5100 4370 39  0000 C CNN
@@ -570,7 +549,7 @@ F 8 "O.No." H 5225 4675 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L NMOS Q?
+L OSSI_standard_components:NMOS Q?
 U 1 1 58D84654
 P 5450 3900
 F 0 "Q?" H 5450 3700 39  0000 R CNN
@@ -585,7 +564,7 @@ F 7 "O.No." H 5625 4185 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D84A1F
 P 6150 3150
 F 0 "R?" H 6150 3070 39  0000 C CNN
@@ -601,7 +580,7 @@ F 8 "O.No." H 6275 3375 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D84FBF
 P 7300 3500
 F 0 "C?" H 7360 3400 39  0000 L CNN
@@ -617,7 +596,7 @@ F 8 "O.No." H 7360 3805 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D852FD
 P 7300 3050
 F 0 "R?" H 7300 2970 39  0000 C CNN
@@ -633,7 +612,7 @@ F 8 "O.No." H 7425 3275 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L IGBT Q?
+L OSSI_standard_components:IGBT Q?
 U 1 1 58D85492
 P 6800 3050
 F 0 "Q?" H 6800 2850 39  0000 R CNN
@@ -648,7 +627,7 @@ F 7 "O.No." H 6975 3365 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode D?
+L OSSI_standard_components:Diode D?
 U 1 1 58D858BF
 P 8500 1050
 F 0 "D?" H 8500 950 39  0000 C CNN
@@ -663,7 +642,7 @@ F 7 "O.No." H 8675 1320 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D85C8D
 P 8250 750
 F 0 "R?" H 8250 670 39  0000 C CNN
@@ -679,7 +658,7 @@ F 8 "O.No." H 8375 975 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C?
+L OSSI_standard_components:Capacitor C?
 U 1 1 58D8665C
 P 8850 750
 F 0 "C?" V 8950 700 39  0000 R CNN
@@ -695,7 +674,7 @@ F 8 "O.No." H 8910 1055 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L Capacitor_pol C?
+L OSSI_standard_components:Capacitor_pol C?
 U 1 1 58D86DDF
 P 9200 2300
 F 0 "C?" H 9245 2200 39  0000 L CNN
@@ -710,7 +689,7 @@ F 7 "O.No." H 9240 2600 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor_pol C?
+L OSSI_standard_components:Capacitor_pol C?
 U 1 1 58D873CF
 P 9650 2300
 F 0 "C?" H 9695 2200 39  0000 L CNN
@@ -725,7 +704,7 @@ F 7 "O.No." H 9690 2600 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor_pol C?
+L OSSI_standard_components:Capacitor_pol C?
 U 1 1 58D8744F
 P 10100 2300
 F 0 "C?" H 10145 2200 39  0000 L CNN
@@ -740,7 +719,7 @@ F 7 "O.No." H 10140 2600 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor R?
+L OSSI_standard_components:Resistor R?
 U 1 1 58D87C36
 P 1850 3550
 F 0 "R?" H 1850 3470 39  0000 C CNN
@@ -756,7 +735,7 @@ F 8 "O.No." H 1975 3775 35  0001 L CNN "Order No."
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EA26
 P 1850 3900
 F 0 "#GND?" H 1850 3710 60  0001 C CNN
@@ -767,7 +746,7 @@ F 3 "" H 1850 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EA8E
 P 3100 4350
 F 0 "#GND?" H 3100 4160 60  0001 C CNN
@@ -778,7 +757,7 @@ F 3 "" H 3100 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EAF6
 P 4500 4850
 F 0 "#GND?" H 4500 4660 60  0001 C CNN
@@ -789,7 +768,7 @@ F 3 "" H 4500 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EB5E
 P 5100 4850
 F 0 "#GND?" H 5100 4660 60  0001 C CNN
@@ -800,7 +779,7 @@ F 3 "" H 5100 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EBC6
 P 5550 4850
 F 0 "#GND?" H 5550 4660 60  0001 C CNN
@@ -811,7 +790,7 @@ F 3 "" H 5550 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EC2E
 P 6900 3700
 F 0 "#GND?" H 6900 3510 60  0001 C CNN
@@ -822,7 +801,7 @@ F 3 "" H 6900 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EC96
 P 7300 3700
 F 0 "#GND?" H 7300 3510 60  0001 C CNN
@@ -833,7 +812,7 @@ F 3 "" H 7300 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1ECFE
 P 9200 2850
 F 0 "#GND?" H 9200 2660 60  0001 C CNN
@@ -844,7 +823,7 @@ F 3 "" H 9200 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1ED66
 P 9650 2850
 F 0 "#GND?" H 9650 2660 60  0001 C CNN
@@ -855,7 +834,7 @@ F 3 "" H 9650 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #GND?
+L OSSI_standard_components:GND #GND?
 U 1 1 58E1EDCE
 P 10100 2850
 F 0 "#GND?" H 10100 2660 60  0001 C CNN
@@ -866,7 +845,7 @@ F 3 "" H 10100 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +15V #+15V?
+L OSSI_standard_components:+15V #+15V?
 U 1 1 58E3805F
 P 2700 1550
 F 0 "#+15V?" H 2700 1825 60  0001 C CNN
@@ -877,14 +856,29 @@ F 3 "" H 2700 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #+3V3?
+L OSSI_standard_components:+3V3 #+3V?
 U 1 1 58E381A9
 P 3550 3400
-F 0 "#+3V3?" H 3550 3675 60  0001 C CNN
+F 0 "#+3V?" H 3550 3675 60  0001 C CNN
 F 1 "+3V3" H 3550 3600 47  0000 C CNB
 F 2 "" H 3550 3400 60  0000 C CNN
 F 3 "" H 3550 3400 60  0000 C CNN
 	1    3550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSSI_standard_components:Inductor L?
+U 1 1 5CD7F9AC
+P 5375 1050
+F 0 "L?" H 5375 1000 39  0000 C CNN
+F 1 "Inductor" H 5375 1130 39  0000 C CNN
+F 2 "" H 5375 1205 35  0000 C CNN
+F 3 "" H 5375 1050 60  0000 C CNN
+F 4 "M" H 5545 1235 35  0001 L CNN "Manufacturer"
+F 5 "P" H 5545 1180 35  0001 L CNN "Partnumber"
+F 6 "S" H 5545 1290 35  0001 L CNN "Supplier"
+F 7 "O.No." H 5545 1340 35  0001 L CNN "Order No."
+	1    5375 1050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

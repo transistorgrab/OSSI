@@ -1,12 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:lm317
-LIBS:kv30f
-LIBS:OSSI_standard_components
-LIBS:connectors
-LIBS:lm4030
-LIBS:acs722
+EESchema Schematic File Version 4
 LIBS:OSSI_MK_I-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -28,4 +22,8 @@ Text HLabel 1150 1250 0    60   Input ~ 0
 AC_Vtg_N
 Text HLabel 1150 950  0    60   Input ~ 0
 AC_Vtg_L
+Text HLabel 10975 5275 0    50   Output ~ 0
+AC_Cur_from_Sensor
+Text HLabel 10975 5125 0    50   Input ~ 0
+AC_Cur_to_Sensor
 $EndSCHEMATC
