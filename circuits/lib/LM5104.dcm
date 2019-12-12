@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM5104
+D High-Voltage Half-Bridge Gate Driver With Adaptive Delay
+K gate driver half bridge
+$ENDCMP
+#
+#End Doc Library
