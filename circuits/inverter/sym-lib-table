@@ -9,4 +9,5 @@
   (lib (name Si871x_2x)(type Legacy)(uri ${KIPRJMOD}/../lib/Si871x_2x.lib)(options "")(descr ""))
   (lib (name Si86xx)(type Legacy)(uri ${KIPRJMOD}/../lib/Si86xx.lib)(options "")(descr ""))
   (lib (name LM75x)(type Legacy)(uri ${KIPRJMOD}/../lib/LM75x.lib)(options "")(descr ""))
+  (lib (name LM5104)(type Legacy)(uri D:/Projects/OSSI/Github_project/OSSI/circuits/lib/LM5104.lib)(options "")(descr ""))
 )

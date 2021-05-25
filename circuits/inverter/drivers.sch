@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:OSSI_MK_I-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 8 12
 Title ""
 Date ""
 Rev "0.1"

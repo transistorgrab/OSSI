@@ -1,4 +1,5 @@
-(module C_pol_LS5.08mm_D10mm (layer F.Cu) (tedit 597B5C84)
+(module C_pol_LS5.08mm_D10mm (layer F.Cu) (tedit 5E6E5515)
+  (descr "electrolyte capacitor package radial lead space 5.08 mm")
   (fp_text reference REF** (at 0 2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

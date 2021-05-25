@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L OSSI_standard_components:+15V #PWR?
+L OSSI_standard_components:+15V #PWR0101
 U 1 1 5DAAD26F
 P 5350 1400
-F 0 "#PWR?" H 5350 1675 60  0001 C CNN
+F 0 "#PWR0101" H 5350 1675 60  0001 C CNN
 F 1 "+15V" H 5350 1600 47  0000 C CNB
 F 2 "" H 5350 1400 60  0000 C CNN
 F 3 "" H 5350 1400 60  0000 C CNN
@@ -144,10 +144,10 @@ F 8 "O.No." H 6110 2205 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:GND #PWR?
+L OSSI_standard_components:GND #PWR0102
 U 1 1 5DAB5ECB
 P 5350 5050
-F 0 "#PWR?" H 5350 4860 60  0001 C CNN
+F 0 "#PWR0102" H 5350 4860 60  0001 C CNN
 F 1 "GND" H 5350 4950 47  0000 C CNB
 F 2 "" H 5350 5050 60  0000 C CNN
 F 3 "" H 5350 5050 60  0000 C CNN
@@ -378,10 +378,10 @@ F 7 "O.No." H 5640 2000 35  0001 L CNN "Order No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:GND #PWR?
+L OSSI_standard_components:GND #PWR0103
 U 1 1 5DF3F426
 P 5600 1900
-F 0 "#PWR?" H 5600 1710 60  0001 C CNN
+F 0 "#PWR0103" H 5600 1710 60  0001 C CNN
 F 1 "GND" H 5600 1800 47  0000 C CNB
 F 2 "" H 5600 1900 60  0000 C CNN
 F 3 "" H 5600 1900 60  0000 C CNN
@@ -552,10 +552,10 @@ F 8 "O.No." H 2260 3505 35  0001 L CNN "Order No."
 	1    0    0    1   
 $EndComp
 $Comp
-L OSSI_standard_components:GND #PWR?
+L OSSI_standard_components:GND #PWR0104
 U 1 1 5DFCAC4A
 P 2200 3350
-F 0 "#PWR?" H 2200 3160 60  0001 C CNN
+F 0 "#PWR0104" H 2200 3160 60  0001 C CNN
 F 1 "GND" H 2200 3250 47  0000 C CNB
 F 2 "" H 2200 3350 60  0000 C CNN
 F 3 "" H 2200 3350 60  0000 C CNN
@@ -574,10 +574,10 @@ Connection ~ 2200 3050
 Wire Wire Line
 	2200 3050 1950 3050
 $Comp
-L OSSI_standard_components:+15V #PWR?
+L OSSI_standard_components:+15V #PWR0105
 U 1 1 5DFD5B07
 P 1950 2700
-F 0 "#PWR?" H 1950 2975 60  0001 C CNN
+F 0 "#PWR0105" H 1950 2975 60  0001 C CNN
 F 1 "+15V" H 1950 2900 47  0000 C CNB
 F 2 "" H 1950 2700 60  0000 C CNN
 F 3 "" H 1950 2700 60  0000 C CNN
@@ -585,10 +585,10 @@ F 3 "" H 1950 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:GND #PWR?
+L OSSI_standard_components:GND #PWR0106
 U 1 1 5DFD617E
 P 2250 4350
-F 0 "#PWR?" H 2250 4160 60  0001 C CNN
+F 0 "#PWR0106" H 2250 4160 60  0001 C CNN
 F 1 "GND" H 2250 4250 47  0000 C CNB
 F 2 "" H 2250 4350 60  0000 C CNN
 F 3 "" H 2250 4350 60  0000 C CNN
@@ -618,10 +618,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 4300 3200 4350
 $Comp
-L OSSI_standard_components:GND #PWR?
+L OSSI_standard_components:GND #PWR0107
 U 1 1 5DFF13FC
 P 3200 4350
-F 0 "#PWR?" H 3200 4160 60  0001 C CNN
+F 0 "#PWR0107" H 3200 4160 60  0001 C CNN
 F 1 "GND" H 3200 4250 47  0000 C CNB
 F 2 "" H 3200 4350 60  0000 C CNN
 F 3 "" H 3200 4350 60  0000 C CNN
@@ -855,7 +855,7 @@ L OSSI_standard_components:Resistor R?
 U 1 1 5E074F8A
 P 3200 4100
 F 0 "R?" V 3350 4150 39  0000 L CNN
-F 1 "1k" H 3200 4100 39  0000 C CNN
+F 1 "68k" H 3200 4100 39  0000 C CNN
 F 2 "" H 3200 4170 35  0000 C CNN
 F 3 "" H 3200 4100 60  0000 C CNN
 F 4 "%" H 3200 4225 35  0001 C CNN "Tolerance"
@@ -1018,4 +1018,6 @@ F 7 "O.No." H 6750 4425 35  0001 L CNN "Order No."
 $EndComp
 Text Notes 6450 2850 0    50   ~ 0
 Voltage between\nprimary and secondary\nand each secondary\nmax. 600 V
+Text Notes 6450 5000 0    50   ~ 0
+Transformer:\n- TDK E25 core N87 ferrite\n- no airgap\n- 18 windings primary 5 × AWG30\n- 45 windings secondary 2 × AWG30
 $EndSCHEMATC

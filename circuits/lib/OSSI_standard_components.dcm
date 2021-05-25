@@ -36,6 +36,10 @@ K IGBT
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00092752.pdf
 $ENDCMP
 #
+$CMP LDO_3pin_f
+F abc
+$ENDCMP
+#
 $CMP PMOS_SO08
 D P-channel MOSFET for SO08 package
 $ENDCMP

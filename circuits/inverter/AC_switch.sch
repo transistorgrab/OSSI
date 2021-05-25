@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:OSSI_MK_I-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 3 12
 Title ""
 Date ""
 Rev "0.1"
@@ -819,10 +818,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 700  9900 1750
 $Comp
-L OSSI_standard_components:GND #GND?
+L OSSI_standard_components:GND #GND0101
 U 1 1 58E3502D
 P 5950 5800
-F 0 "#GND?" H 5950 5610 60  0001 C CNN
+F 0 "#GND0101" H 5950 5610 60  0001 C CNN
 F 1 "GND" H 5950 5700 47  0000 C CNB
 F 2 "" H 5950 5800 60  0000 C CNN
 F 3 "" H 5950 5800 60  0000 C CNN
@@ -830,10 +829,10 @@ F 3 "" H 5950 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:GND #GND?
+L OSSI_standard_components:GND #GND0102
 U 1 1 58E3563B
 P 7250 5800
-F 0 "#GND?" H 7250 5610 60  0001 C CNN
+F 0 "#GND0102" H 7250 5610 60  0001 C CNN
 F 1 "GND" H 7250 5700 47  0000 C CNB
 F 2 "" H 7250 5800 60  0000 C CNN
 F 3 "" H 7250 5800 60  0000 C CNN
@@ -841,10 +840,10 @@ F 3 "" H 7250 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:GND #GND?
+L OSSI_standard_components:GND #GND0103
 U 1 1 58E359D8
 P 5950 3400
-F 0 "#GND?" H 5950 3210 60  0001 C CNN
+F 0 "#GND0103" H 5950 3210 60  0001 C CNN
 F 1 "GND" H 5950 3300 47  0000 C CNB
 F 2 "" H 5950 3400 60  0000 C CNN
 F 3 "" H 5950 3400 60  0000 C CNN
@@ -852,10 +851,10 @@ F 3 "" H 5950 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:GND #GND?
+L OSSI_standard_components:GND #GND0104
 U 1 1 58E35A55
 P 7250 3400
-F 0 "#GND?" H 7250 3210 60  0001 C CNN
+F 0 "#GND0104" H 7250 3210 60  0001 C CNN
 F 1 "GND" H 7250 3300 47  0000 C CNB
 F 2 "" H 7250 3400 60  0000 C CNN
 F 3 "" H 7250 3400 60  0000 C CNN
@@ -863,10 +862,10 @@ F 3 "" H 7250 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:GND #GND?
+L OSSI_standard_components:GND #GND0105
 U 1 1 58E35D34
 P 2650 3750
-F 0 "#GND?" H 2650 3560 60  0001 C CNN
+F 0 "#GND0105" H 2650 3560 60  0001 C CNN
 F 1 "GND" H 2650 3650 47  0000 C CNB
 F 2 "" H 2650 3750 60  0000 C CNN
 F 3 "" H 2650 3750 60  0000 C CNN
@@ -896,10 +895,10 @@ F 3 "" H 9900 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSSI_standard_components:+15V #+15V?
+L OSSI_standard_components:+15V #+15V0101
 U 1 1 58E3762A
 P 2000 1250
-F 0 "#+15V?" H 2000 1525 60  0001 C CNN
+F 0 "#+15V0101" H 2000 1525 60  0001 C CNN
 F 1 "+15V" H 2000 1450 47  0000 C CNB
 F 2 "" H 2000 1250 60  0000 C CNN
 F 3 "" H 2000 1250 60  0000 C CNN
@@ -909,10 +908,10 @@ $EndComp
 Text Notes 5675 1100 0    39   ~ 0
 720 Ω coil resistance\n→ 12 V÷720 Ω≈17 mA
 $Comp
-L OSSI_standard_components:GND #GND?
+L OSSI_standard_components:GND #GND0106
 U 1 1 58E35DB1
 P 3825 1950
-F 0 "#GND?" H 3825 1760 60  0001 C CNN
+F 0 "#GND0106" H 3825 1760 60  0001 C CNN
 F 1 "GND" H 3825 1850 47  0000 C CNB
 F 2 "" H 3825 1950 60  0000 C CNN
 F 3 "" H 3825 1950 60  0000 C CNN
@@ -960,10 +959,10 @@ F 7 "O.No." H 3225 1920 35  0001 L CNN "Order No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OSSI_standard_components:GND #GND?
+L OSSI_standard_components:GND #GND0107
 U 1 1 5D862822
 P 3050 1950
-F 0 "#GND?" H 3050 1760 60  0001 C CNN
+F 0 "#GND0107" H 3050 1760 60  0001 C CNN
 F 1 "GND" H 3050 1850 47  0000 C CNB
 F 2 "" H 3050 1950 60  0000 C CNN
 F 3 "" H 3050 1950 60  0000 C CNN
