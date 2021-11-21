@@ -1,7 +1,7 @@
 # OSSI
 Open Source Solar Inverter - Software, Hardware, Mechanics
 
-This repository initially clones all content from the former Sourceforge hostet project site(https://sourceforge.net/projects/os-si/). Since the outages on Sourceforge became more frequently I decided to change over to Github which seems more reliable at this time.
+This repository initially clones all content from the former Sourceforge hosted project site (https://sourceforge.net/projects/os-si/). Since the outages on Sourceforge became more frequent, I decided to change over to Github which seems more reliable at this time.
 
 This project aims to build an Open Source (Software and Hardware) Solar Inverter.
 
