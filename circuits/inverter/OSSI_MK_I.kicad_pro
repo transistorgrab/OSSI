@@ -363,6 +363,10 @@
     [
       "00000000-0000-0000-0000-000056d9c195",
       "AC switch circuit"
+    ],
+    [
+      "cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38",
+      "Interface"
     ]
   ],
   "text_variables": {}

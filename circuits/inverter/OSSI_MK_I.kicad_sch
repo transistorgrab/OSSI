@@ -2019,6 +2019,34 @@
     )
   )
 
+  (sheet (at 247.65 228.6) (size 36.83 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38)
+    (property "Sheet name" "Interface" (id 0) (at 247.65 227.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "interface.kicad_sch" (id 1) (at 247.65 264.7446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "LED_Red_Ctrl" input (at 247.65 231.14 180)
+      (effects (font (size 0.9906 0.9906)) (justify left))
+      (uuid 821ba10e-7826-434f-95ad-6f81f6b6e6ac)
+    )
+    (pin "UART_RX" output (at 247.65 240.03 180)
+      (effects (font (size 0.9906 0.9906)) (justify left))
+      (uuid 2cb26f31-2205-4791-a144-43a3f14c3ed9)
+    )
+    (pin "LED_Green_Ctrl" input (at 247.65 233.68 180)
+      (effects (font (size 0.9906 0.9906)) (justify left))
+      (uuid 32824b62-3381-4bd9-80d8-9a4f140dd9f1)
+    )
+    (pin "UART_TX" input (at 247.65 242.57 180)
+      (effects (font (size 0.9906 0.9906)) (justify left))
+      (uuid f49a89b0-1d3d-40d6-a9cd-b9c7f1b3cb85)
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/00000000-0000-0000-0000-000056d9d68d" (page "2"))
@@ -2032,6 +2060,7 @@
     (path "/00000000-0000-0000-0000-000056d9c185" (page "10"))
     (path "/00000000-0000-0000-0000-000056d9c18a" (page "11"))
     (path "/00000000-0000-0000-0000-000056d9c195" (page "12"))
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38" (page "13"))
   )
 
   (symbol_instances
@@ -2371,13 +2400,22 @@
     (path "/00000000-0000-0000-0000-000056d9d1ec/0992ed1f-41a4-4706-bb55-c8ce6c8b1f51"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/24fd0624-2007-4122-82ab-d6982361155f"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d1ec/39f18c5d-a191-414a-8e3d-baa12b17ccd3"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/4536eb1c-3ee1-40e4-bf2a-a50e43a75300"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/4a6a5826-af06-429d-8371-d254b7144429"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/58b2b19d-ae44-4114-a133-5844c5538374"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/5cc2558d-561c-4033-bb6a-58ed22ed60fe"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9c185/60306fc6-2f05-4323-ac12-24dac2e47345"
@@ -2398,11 +2436,17 @@
     (path "/00000000-0000-0000-0000-000056d9d1ec/a59aaa7f-5d8b-464b-9fae-e8f84a80156d"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/a8f53d73-e8e5-4f6b-b6ba-c54f6c8f0ffa"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9c185/acfce14d-664f-4864-9245-c60ab2efdb5e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/b6303e43-8c2b-46d1-b68e-9bb3903c6163"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/db090e56-d20c-4650-8ee4-96538a65021b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/f7051609-0a75-451f-a24f-5dcb366680b0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -2842,6 +2886,12 @@
     (path "/00000000-0000-0000-0000-000056d9d1ec/a905b08e-4ea7-462b-b411-aaf41d335a0c"
       (reference "D?") (unit 1) (value "Diode") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/20e91ff9-7fe9-431f-adfc-c8eb609ce138"
+      (reference "H?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/2f9ebda7-e579-43a6-b79d-08e2052404b8"
+      (reference "H?") (unit 1) (value "LED") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9c195/00000000-0000-0000-0000-000058d8c008"
       (reference "K?") (unit 1) (value "OJE-SH-112HM") (footprint "")
     )
@@ -2958,6 +3008,12 @@
     )
     (path "/00000000-0000-0000-0000-000056d9c185/cbe51d4b-2404-47b2-9190-5b44ed10e06a"
       (reference "Q?") (unit 1) (value "IGBT") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/da062af7-c447-4676-abf1-3dd5aee197f5"
+      (reference "Q?") (unit 1) (value "NMOS") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/e4fbf319-9b1d-4cd1-a193-ee5f26329782"
+      (reference "Q?") (unit 1) (value "NMOS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9be97/00000000-0000-0000-0000-000058d7f88f"
       (reference "R?") (unit 1) (value "10") (footprint "")
@@ -3442,11 +3498,20 @@
     (path "/00000000-0000-0000-0000-000056d9d692/00000000-0000-0000-0000-00005e0d5d74"
       (reference "R?") (unit 1) (value "220") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/05c98823-39c3-4e60-b2d4-bea04efc21da"
+      (reference "R?") (unit 1) (value "220") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d1ec/05f9f019-22ce-45e7-b901-b07b44309d40"
       (reference "R?") (unit 1) (value "Resistor") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/173744ed-6048-4a5f-b226-d3e34b4687aa"
       (reference "R?") (unit 1) (value "Resistor") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/2bddfd85-ac0c-4edc-b4d5-bea8cac8034c"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/3194626b-3fa9-4b75-9083-ffc943f9837f"
+      (reference "R?") (unit 1) (value "0") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/36517a78-427d-4081-90ae-088eec68fda2"
       (reference "R?") (unit 1) (value "45.3") (footprint "")
@@ -3457,11 +3522,17 @@
     (path "/00000000-0000-0000-0000-000056d9d1ec/48bb3c05-4e91-4fc0-b878-b7428954bfe5"
       (reference "R?") (unit 1) (value "Resistor") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000056d9d692/5013f733-a331-49d0-82c4-189004e2283c"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d1ec/531ed155-8409-4b46-9d49-491653344012"
       (reference "R?") (unit 1) (value "Resistor") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/77851f0b-4bd4-4eda-b831-576f06c8d65d"
       (reference "R?") (unit 1) (value "45.3") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/834cfa90-a32e-4ad2-9d19-256d41e10425"
+      (reference "R?") (unit 1) (value "220") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/8520746c-287c-4c7c-a6bd-13211ca98b9e"
       (reference "R?") (unit 1) (value "Resistor") (footprint "")
@@ -3471,6 +3542,9 @@
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/91973751-16bb-4235-826c-d6c5913fad52"
       (reference "R?") (unit 1) (value "Resistor") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/9928c283-c43d-4cf0-8279-acc1fefb1e7d"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/9e33e13a-e821-4041-8888-0ccd3e027740"
       (reference "R?") (unit 1) (value "45.3") (footprint "")
@@ -3546,6 +3620,9 @@
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/211cd571-08b2-4e59-abdf-7bf246ef848f"
       (reference "U?") (unit 1) (value "SN74LVC14") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/8765685c-0431-4101-87c6-5c376195bd02"
+      (reference "U?") (unit 1) (value "NodeMCU") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/dc217ae5-0ff4-4377-9165-cb14842534ee"
       (reference "U?") (unit 1) (value "UCC23313") (footprint "")
