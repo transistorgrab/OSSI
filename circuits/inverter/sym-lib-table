@@ -14,4 +14,5 @@
   (lib (name "SN47HCS04")(type "KiCad")(uri "${KIPRJMOD}/../lib/SN47HCS04.kicad_sym")(options "")(descr ""))
   (lib (name "NCP1117LP")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/NCP1117LP.kicad_sym")(options "")(descr ""))
   (lib (name "NodeMCU")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/NodeMCU.kicad_sym")(options "")(descr ""))
+  (lib (name "pin_headers")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/pin_headers.kicad_sym")(options "")(descr ""))
 )

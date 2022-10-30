@@ -2412,6 +2412,9 @@
     (path "/00000000-0000-0000-0000-000056d9d1ec/4a6a5826-af06-429d-8371-d254b7144429"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/56ce7a1d-027d-4d21-ba6a-c3f70a2bae0e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d1ec/58b2b19d-ae44-4114-a133-5844c5538374"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -2442,14 +2445,23 @@
     (path "/00000000-0000-0000-0000-000056d9c185/acfce14d-664f-4864-9245-c60ab2efdb5e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/ad8138f3-f0be-43b5-9321-f65444e3e5c4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d1ec/b6303e43-8c2b-46d1-b68e-9bb3903c6163"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/db090e56-d20c-4650-8ee4-96538a65021b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/f0cb021d-ba8a-46c5-9620-ce57802f4cb7"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d1ec/f7051609-0a75-451f-a24f-5dcb366680b0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/f75eb83a-f7bb-4666-a9b5-32447e822f62"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d1ec/fc69bdcd-0b31-4dee-a1c8-7eb6def45e09"
       (reference "#PWR?") (unit 1) (value "+15V") (footprint "")
@@ -2739,8 +2751,17 @@
     (path "/00000000-0000-0000-0000-000056d9d1ec/6b8e1d67-cbab-4f13-a20a-17574a7d39d9"
       (reference "C?") (unit 1) (value "1µ/50V") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/87ce57e4-2546-4344-8fbf-3e61aca18b15"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/96bbfbf8-849c-49df-b3c4-e84c7211f7d8"
+      (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d1ec/a14283c8-a31d-4532-ba73-26d5328ef6ff"
       (reference "C?") (unit 1) (value "Capacitor") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/a7322a4a-33f3-471a-bb26-2b4f4ad8231a"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9c185/b8852cff-ed04-4f9a-a1d0-d10dac932809"
       (reference "C?") (unit 1) (value "330p") (footprint "")
@@ -3573,6 +3594,12 @@
     (path "/00000000-0000-0000-0000-00005da6285c/00000000-0000-0000-0000-00005df1da97"
       (reference "T?") (unit 1) (value "Transformer 1:2.5:2.5") (footprint "")
     )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/b0ffb21a-ebfb-4864-a1de-ee8e024c704a"
+      (reference "TP?") (unit 1) (value "Testpoint") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/f3172fb2-8fb7-409f-af49-126a41c6a7dc"
+      (reference "TP?") (unit 1) (value "Testpoint") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000056d9d375/00000000-0000-0000-0000-000058d991e1"
       (reference "U?") (unit 1) (value "OPA2317") (footprint "OSSI_standard_footprints:SOIC8")
     )
@@ -3677,6 +3704,12 @@
     )
     (path "/00000000-0000-0000-0000-000056d9d692/00000000-0000-0000-0000-000058e1ab6e"
       (reference "X?") (unit 1) (value "PINHEADER_2×5") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/9272045c-82fc-4f9b-b306-c4beca9bb67f"
+      (reference "X?") (unit 1) (value "TFT_CON") (footprint "")
+    )
+    (path "/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38/a084dfe4-b642-41a4-890b-2d2e40387eb0"
+      (reference "X?") (unit 1) (value "OLED_CON") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000056d9d692/00000000-0000-0000-0000-000058e11793"
       (reference "Y?") (unit 1) (value "10MHz") (footprint "")
