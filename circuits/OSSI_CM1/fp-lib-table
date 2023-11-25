@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OSSI_standard_footprints")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/OSSI_standard_footprints.pretty")(options "")(descr ""))
+  (lib (name "OSSI_CM1")(type "KiCad")(uri "${KIPRJMOD}/OSSI_CM1.pretty")(options "")(descr ""))
+)
