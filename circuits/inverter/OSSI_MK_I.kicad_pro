@@ -357,10 +357,6 @@
       "DC boost converter and buffer"
     ],
     [
-      "00000000-0000-0000-0000-000056d9d692",
-      "Main Controller"
-    ],
-    [
       "00000000-0000-0000-0000-000056d9d1ec",
       "AC Bridge Driver "
     ],
