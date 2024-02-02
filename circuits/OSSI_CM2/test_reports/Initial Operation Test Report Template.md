@@ -31,12 +31,14 @@
 **Date of Measurement:** 
 **Test operator:**
 
+> ⚠ Observe that the tolerance of the measurement equipment has an impact on the measured value too. ⚠
+
 | **Signal Under Test** | **Allowed Voltage Range** | **Measured Value** | **Rating** |
 |----|:----:|----|----|
 | +3V3 (Supply) | +2.7 V…+3.5 V     |   |   |
 | +3V3_ANA      | +2.7 V…+3.5 V     |   |   |
-| +2V50_REF     | +2.463 V…+2.537 V |   |   |
-| +1V25_REF     | +1.230 V…+1.270 V |   |   |
+| +2V50_REF     | +2.496 V…+2.504 V |   |   |
+| +1V25_REF     | +1.247 V…+1.253 V |   |   |
 
 ## Controller Clock
 
