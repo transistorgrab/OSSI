@@ -9,3 +9,5 @@ To achieve this one needs to cut the signal trace for ```2V50_REF``` between ```
 Then solder a wire from ```R134``` to ```pin 3``` on connector ```X201``` and a wire from the signal connecting ```pin 7``` of ```U104``` and ```R134``` to the now unconnected pad of ```R133```.
 
 This error is **solved on Board Revision V1.1**.
+
+![1V25 modification](./1V25_modification.jpg "1V25_REF modification on CM2 V1.0")
