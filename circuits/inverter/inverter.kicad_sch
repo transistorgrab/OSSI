@@ -662,7 +662,7 @@
   (symbol (lib_id "OSSI_standard_components:Earth_Protective") (at 74.93 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60306fc6-2f05-4323-ac12-24dac2e47345)
-    (property "Reference" "#PWR?" (at 81.28 78.74 0)
+    (property "Reference" "#PWR0123" (at 81.28 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth_Protective" (at 86.36 76.2 0)
@@ -678,7 +678,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/00000000-0000-0000-0000-000056d9c185"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -687,7 +687,7 @@
   (symbol (lib_id "OSSI_standard_components:GND") (at 121.92 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acfce14d-664f-4864-9245-c60ab2efdb5e)
-    (property "Reference" "#PWR?" (at 121.92 124.206 0)
+    (property "Reference" "#PWR0122" (at 121.92 124.206 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "GND" (at 121.92 123.19 0)
@@ -703,7 +703,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/00000000-0000-0000-0000-000056d9c185"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )

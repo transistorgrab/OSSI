@@ -17,4 +17,5 @@
   (lib (name "NodeMCU")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/NodeMCU.kicad_sym")(options "")(descr ""))
   (lib (name "pin_headers")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/pin_headers.kicad_sym")(options "")(descr ""))
   (lib (name "OSSI_CM1")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/OSSI_CM1.kicad_sym")(options "")(descr ""))
+  (lib (name "OSSI_CM2")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/OSSI_CM2.kicad_sym")(options "")(descr ""))
 )

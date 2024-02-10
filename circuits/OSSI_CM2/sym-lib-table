@@ -19,4 +19,5 @@
   (lib (name "UCC23313")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/UCC23313.kicad_sym")(options "")(descr ""))
   (lib (name "OSSI_CM1")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/OSSI_CM1.kicad_sym")(options "")(descr ""))
   (lib (name "STM32-L412")(type "KiCad")(uri "D:/Projects/OSSI/Github_project/OSSI/circuits/lib/STM32-L412.kicad_sym")(options "")(descr ""))
+  (lib (name "OSSI_CM2")(type "KiCad")(uri "${KIPRJMOD}/lib/OSSI_CM2.kicad_sym")(options "")(descr ""))
 )

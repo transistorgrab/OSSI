@@ -2152,7 +2152,7 @@
   (symbol (lib_id "OSSI_standard_components:+3V3") (at 90.17 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000058de0718)
-    (property "Reference" "#+3V30101" (at 90.17 20.955 0)
+    (property "Reference" "#+3V030101" (at 90.17 20.955 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "+3V3" (at 90.17 22.86 0)
@@ -2168,7 +2168,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/00000000-0000-0000-0000-000056d9d375/00000000-0000-0000-0000-000056e3f85c"
-          (reference "#+3V30101") (unit 1)
+          (reference "#+3V030101") (unit 1)
         )
       )
     )

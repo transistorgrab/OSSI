@@ -1690,7 +1690,7 @@
   (symbol (lib_id "OSSI_standard_components:+3V3") (at 69.85 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24fd0624-2007-4122-82ab-d6982361155f)
-    (property "Reference" "#PWR?" (at 69.85 131.445 0)
+    (property "Reference" "#PWR0124" (at 69.85 131.445 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "+3V3" (at 69.85 133.35 0)
@@ -1706,7 +1706,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -1838,7 +1838,7 @@
   (symbol (lib_id "OSSI_standard_components:+3V3") (at 160.02 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4536eb1c-3ee1-40e4-bf2a-a50e43a75300)
-    (property "Reference" "#PWR?" (at 160.02 65.405 0)
+    (property "Reference" "#PWR0132" (at 160.02 65.405 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "+3V3" (at 160.02 67.31 0)
@@ -1854,7 +1854,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -1863,7 +1863,7 @@
   (symbol (lib_id "OSSI_standard_components:GND") (at 106.68 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56ce7a1d-027d-4d21-ba6a-c3f70a2bae0e)
-    (property "Reference" "#PWR?" (at 106.68 180.086 0)
+    (property "Reference" "#PWR0127" (at 106.68 180.086 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "GND" (at 106.68 177.8 0)
@@ -1879,7 +1879,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -1888,7 +1888,7 @@
   (symbol (lib_id "OSSI_standard_components:GND") (at 90.17 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cc2558d-561c-4033-bb6a-58ed22ed60fe)
-    (property "Reference" "#PWR?" (at 90.17 92.456 0)
+    (property "Reference" "#PWR0131" (at 90.17 92.456 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "GND" (at 90.17 90.17 0)
@@ -1904,7 +1904,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -2232,7 +2232,7 @@
   (symbol (lib_id "OSSI_standard_components:GND") (at 72.39 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8f53d73-e8e5-4f6b-b6ba-c54f6c8f0ffa)
-    (property "Reference" "#PWR?" (at 72.39 194.056 0)
+    (property "Reference" "#PWR0125" (at 72.39 194.056 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "GND" (at 72.39 191.77 0)
@@ -2248,7 +2248,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -2257,7 +2257,7 @@
   (symbol (lib_id "OSSI_standard_components:GND") (at 139.7 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad8138f3-f0be-43b5-9321-f65444e3e5c4)
-    (property "Reference" "#PWR?" (at 139.7 162.306 0)
+    (property "Reference" "#PWR0130" (at 139.7 162.306 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "GND" (at 139.7 160.02 0)
@@ -2273,7 +2273,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -2346,7 +2346,7 @@
   (symbol (lib_id "OSSI_standard_components:GND") (at 138.43 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db090e56-d20c-4650-8ee4-96538a65021b)
-    (property "Reference" "#PWR?" (at 138.43 93.726 0)
+    (property "Reference" "#PWR0126" (at 138.43 93.726 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "GND" (at 138.43 91.44 0)
@@ -2362,7 +2362,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -2410,7 +2410,7 @@
   (symbol (lib_id "OSSI_standard_components:+3V3") (at 153.67 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0cb021d-ba8a-46c5-9620-ce57802f4cb7)
-    (property "Reference" "#PWR?" (at 153.67 140.335 0)
+    (property "Reference" "#PWR0128" (at 153.67 140.335 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "+3V3" (at 153.67 142.24 0)
@@ -2426,7 +2426,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -2460,7 +2460,7 @@
   (symbol (lib_id "OSSI_standard_components:+3V3") (at 116.84 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f75eb83a-f7bb-4666-a9b5-32447e822f62)
-    (property "Reference" "#PWR?" (at 116.84 156.845 0)
+    (property "Reference" "#PWR0129" (at 116.84 156.845 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "+3V3" (at 116.84 158.75 0)
@@ -2476,7 +2476,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1/cab3d5bb-ff0d-4636-b5aa-2e3bdeaa7d38"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
