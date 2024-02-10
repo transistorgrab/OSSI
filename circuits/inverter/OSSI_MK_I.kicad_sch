@@ -12,11 +12,11 @@
   )
 
   (lib_symbols
-    (symbol "OSSI_CM1:OSSI-CM1" (in_bom yes) (on_board yes)
+    (symbol "OSSI_CM2:OSSI-CM2" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 16.51 -33.02 0)
-        (effects (font (size 1.2 1.2)) (justify left))
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "OSSI Control Module 1" (at -8.89 27.94 0)
+      (property "Value" "OSSI Control Module 2" (at -8.89 27.94 0)
         (effects (font (size 1.4 1.4)))
       )
       (property "Footprint" "" (at 7.62 5.08 0)
@@ -25,7 +25,7 @@
       (property "Datasheet" "" (at 7.62 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "OSSI-CM1_1_0"
+      (symbol "OSSI-CM2_1_0"
         (pin power_out line (at -11.43 -34.29 90) (length 2.54)
           (name "AGND" (effects (font (size 0.9906 0.9906))))
           (number "10" (effects (font (size 0.7874 0.7874))))
@@ -187,7 +187,7 @@
           (number "9" (effects (font (size 0.7874 0.7874))))
         )
       )
-      (symbol "OSSI-CM1_1_1"
+      (symbol "OSSI-CM2_1_1"
         (rectangle (start -19.05 31.75) (end 19.05 -31.75)
           (stroke (width 0) (type default))
           (fill (type background))
@@ -2396,19 +2396,19 @@
     )
   )
 
-  (symbol (lib_id "OSSI_CM1:OSSI-CM1") (at 189.23 229.87 0) (unit 1)
+  (symbol (lib_id "OSSI_CM2:OSSI-CM2") (at 189.23 229.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0a8d108-81eb-4ccc-b730-eb4050732e4a)
-    (property "Reference" "U101" (at 205.74 262.89 0)
+    (property "Reference" "U?" (at 205.74 262.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "OSSI Control Module 1" (at 180.34 200.66 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "OSSI Control Module 2" (at 180.34 201.93 0)
+      (effects (font (size 1.4 1.4)))
     )
-    (property "Footprint" "" (at 196.85 231.14 0)
+    (property "Footprint" "OSSI_CM:OSSI_CM" (at 196.85 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 196.85 231.14 0)
+    (property "Datasheet" "" (at 196.85 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "10" (uuid 5bc37e8a-f743-4cc2-9028-af38c02553a2))
@@ -2455,7 +2455,7 @@
     (instances
       (project "OSSI_MK_I"
         (path "/d0801617-76e9-4208-b8f3-e785d12b15a1"
-          (reference "U101") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
