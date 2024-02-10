@@ -16,3 +16,8 @@ On it's pins provides:
 * 1× I²C (Clk/Dat)
 
 [O.S.S.I. CM2 pinout](./bom/OSSI_CM2-Pinout.pdf "Pinout of the O.S.S.I. Control Module 2")
+
+## Remarks
+When building the board by hand the voltage devider R132/R133 can be realized by using 1% resistors. However, one needs to value-match them to be within the 0.1% tolerance.
+
+For example: When using 1 kΩ resistors they need to be within 1 Ω difference to each other.
