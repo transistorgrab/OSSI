@@ -1,0 +1,160 @@
+(footprint "0805_W_R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0805 resistor footprint for wave/hand soldering")
+	(property "Reference" "REF**"
+		(at 0 1.925 0)
+		(layer "F.SilkS")
+		(uuid "94aa6e02-5a45-4ad7-bc93-486b6c4b6597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.154)
+			)
+		)
+	)
+	(property "Value" "0805_W"
+		(at 0 -1.825 0)
+		(layer "F.Fab")
+		(uuid "3a950207-ae2a-48fb-af43-ae45123bb3cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf54bf6c-cc2e-458b-8496-676d485d7707")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c65b060-2172-4c47-bcf6-a07ec1edf167")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c52f3dc3-17ab-4fb6-9fc9-a220e584b63b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 -0.7)
+		(end 0.3 -0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd3c4d57-c96a-458f-88da-038dc4153000")
+	)
+	(fp_line
+		(start 0.3 0.7)
+		(end -0.3 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5198a16d-e6fb-4f86-a4c8-d55c84c8a746")
+	)
+	(fp_rect
+		(start -1.05 -0.7)
+		(end 1.05 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "38a58ed9-f948-4c77-8f65-72c54ba100cb")
+	)
+	(fp_line
+		(start -1.5 -1.05)
+		(end 1.5 -1.05)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9849332-e594-45b5-b5f5-2a829a4a29b7")
+	)
+	(fp_line
+		(start -1.5 1.05)
+		(end -1.5 -1.05)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d202fb5-618b-45f8-b19f-1b7325d85216")
+	)
+	(fp_line
+		(start 1.5 -1.05)
+		(end 1.5 1.05)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9086f065-865a-4b0b-9252-08088490d867")
+	)
+	(fp_line
+		(start 1.5 1.05)
+		(end -1.5 1.05)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a5d0434-b624-45dd-bdd5-e3f0cdb49dde")
+	)
+	(pad "1" smd rect
+		(at -1.025 0)
+		(size 1.25 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "451cb00c-c2b1-412c-a673-bff42e8e997f")
+	)
+	(pad "2" smd rect
+		(at 1.025 0)
+		(size 1.25 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fdd75ccc-3bfd-48f7-8223-3fbbea0cedfd")
+	)
+	(model ":KICAD8_3DMODEL_DIR:Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

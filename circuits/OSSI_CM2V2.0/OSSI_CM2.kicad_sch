@@ -12113,7 +12113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 168.91 97.536 0)
 			(effects
 				(font
@@ -12229,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED rd"
 			(at 35.56 66.04 0)
 			(effects
 				(font
@@ -12424,7 +12424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 111.76 262.636 0)
 			(effects
 				(font
@@ -12612,7 +12612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 315.722 68.58 0)
 			(effects
 				(font
@@ -12943,7 +12943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 55.372 0)
 			(effects
 				(font
@@ -13066,7 +13066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 222.25 263.906 0)
 			(effects
 				(font
@@ -13189,7 +13189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 244.602 0)
 			(effects
 				(font
@@ -13382,7 +13382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 292.608 71.12 0)
 			(effects
 				(font
@@ -13635,7 +13635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 45.212 0)
 			(effects
 				(font
@@ -13756,7 +13756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 47.752 0)
 			(effects
 				(font
@@ -13949,7 +13949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 124.46 262.636 0)
 			(effects
 				(font
@@ -14279,7 +14279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 361.95 61.976 0)
 			(effects
 				(font
@@ -14405,7 +14405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 302.514 77.47 0)
 			(effects
 				(font
@@ -14592,7 +14592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 56.642 0)
 			(effects
 				(font
@@ -14856,7 +14856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 185.42 263.906 0)
 			(effects
 				(font
@@ -14981,7 +14981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 118.11 271.526 0)
 			(effects
 				(font
@@ -15106,7 +15106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0805_W"
+		(property "Footprint" "OSSI_standard_footprints:0805_W_C"
 			(at 388.62 61.976 0)
 			(effects
 				(font
@@ -15365,7 +15365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 234.442 0)
 			(effects
 				(font
@@ -15558,7 +15558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 130.81 271.526 0)
 			(effects
 				(font
@@ -15809,7 +15809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 64.262 0)
 			(effects
 				(font
@@ -15932,7 +15932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0805_W"
+		(property "Footprint" "OSSI_standard_footprints:0805_W_C"
 			(at 241.3 215.646 0)
 			(effects
 				(font
@@ -16055,7 +16055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 231.14 202.692 0)
 			(effects
 				(font
@@ -16176,7 +16176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 259.08 160.782 0)
 			(effects
 				(font
@@ -16299,7 +16299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0805_W"
+		(property "Footprint" "OSSI_standard_footprints:0805_W_C"
 			(at 233.68 261.366 0)
 			(effects
 				(font
@@ -16424,7 +16424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 173.99 242.316 0)
 			(effects
 				(font
@@ -16548,7 +16548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 57.15 36.322 0)
 			(effects
 				(font
@@ -16806,7 +16806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 215.9 169.672 0)
 			(effects
 				(font
@@ -16928,7 +16928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 370.84 61.976 0)
 			(effects
 				(font
@@ -17122,7 +17122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 320.802 69.85 0)
 			(effects
 				(font
@@ -17608,7 +17608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 203.2 218.186 0)
 			(effects
 				(font
@@ -17731,7 +17731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 42.672 0)
 			(effects
 				(font
@@ -17924,7 +17924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 379.73 61.976 0)
 			(effects
 				(font
@@ -18117,7 +18117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 50.292 0)
 			(effects
 				(font
@@ -18239,7 +18239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 57.15 38.862 0)
 			(effects
 				(font
@@ -18362,7 +18362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0805_W"
+		(property "Footprint" "OSSI_standard_footprints:0805_W_C"
 			(at 196.85 263.906 0)
 			(effects
 				(font
@@ -18692,7 +18692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 231.902 0)
 			(effects
 				(font
@@ -19035,7 +19035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 99.06 262.636 0)
 			(effects
 				(font
@@ -19160,7 +19160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 86.36 262.636 0)
 			(effects
 				(font
@@ -19285,7 +19285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0805_W"
+		(property "Footprint" "OSSI_standard_footprints:0805_W_C"
 			(at 267.97 171.196 0)
 			(effects
 				(font
@@ -19479,7 +19479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 35.052 0)
 			(effects
 				(font
@@ -19600,7 +19600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 247.142 0)
 			(effects
 				(font
@@ -19723,7 +19723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 241.3 152.146 0)
 			(effects
 				(font
@@ -19986,7 +19986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 239.522 0)
 			(effects
 				(font
@@ -20177,7 +20177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 242.062 0)
 			(effects
 				(font
@@ -20300,7 +20300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 105.41 271.526 0)
 			(effects
 				(font
@@ -20424,7 +20424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 40.132 0)
 			(effects
 				(font
@@ -20546,7 +20546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 57.912 0)
 			(effects
 				(font
@@ -20870,7 +20870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 289.052 39.37 0)
 			(effects
 				(font
@@ -20994,7 +20994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 302.514 62.23 0)
 			(effects
 				(font
@@ -21117,7 +21117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 189.23 205.232 0)
 			(effects
 				(font
@@ -21238,7 +21238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 215.9 179.832 0)
 			(effects
 				(font
@@ -21428,7 +21428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 159.512 40.64 0)
 			(effects
 				(font
@@ -21550,7 +21550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 294.132 39.37 0)
 			(effects
 				(font
@@ -21881,7 +21881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 229.362 0)
 			(effects
 				(font
@@ -22002,7 +22002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 249.682 0)
 			(effects
 				(font
@@ -22193,7 +22193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 66.802 261.62 0)
 			(effects
 				(font
@@ -22439,7 +22439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 171.45 68.326 0)
 			(effects
 				(font
@@ -22557,7 +22557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 57.15 41.402 0)
 			(effects
 				(font
@@ -22679,7 +22679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 154.432 40.64 0)
 			(effects
 				(font
@@ -22801,7 +22801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 57.15 43.942 0)
 			(effects
 				(font
@@ -23107,7 +23107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 80.01 271.526 0)
 			(effects
 				(font
@@ -23825,7 +23825,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED gn"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -23948,7 +23948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0805_W"
+		(property "Footprint" "OSSI_standard_footprints:0805_W_L"
 			(at 214.63 248.793 0)
 			(effects
 				(font
@@ -24201,7 +24201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 178.562 199.39 0)
 			(effects
 				(font
@@ -24394,7 +24394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_C"
 			(at 92.71 271.526 0)
 			(effects
 				(font
@@ -24517,7 +24517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 66.802 0)
 			(effects
 				(font
@@ -24854,7 +24854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 107.95 37.592 0)
 			(effects
 				(font
@@ -24975,7 +24975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSI_standard_footprints:0603_W"
+		(property "Footprint" "OSSI_standard_footprints:0603_W_R"
 			(at 54.61 236.982 0)
 			(effects
 				(font

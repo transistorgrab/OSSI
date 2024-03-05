@@ -223,4 +223,15 @@
 		(roundrect_rratio 0.2)
 		(uuid "4c96be66-8cca-49c4-acde-30c72f1adc33")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-8_4.4x3mm_P0.65mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
