@@ -216,8 +216,8 @@
 	(net 71 "/TRACE_SWO{slash}PB3")
 	(net 72 "/SWD_CLK{slash}PA14")
 	(net 73 "UART_RX")
-	(net 74 "Net-(U101B-PH3{slash}BOOT0)")
-	(net 75 "Net-(U101B-~{RST})")
+	(net 74 "/BOOT")
+	(net 75 "/~{RESET}")
 	(net 76 "unconnected-(U103-~{O.S.}-Pad3)")
 	(net 77 "unconnected-(X101-Pad7)")
 	(net 78 "+3V3_ANA")
@@ -436,7 +436,7 @@
 			(at 0.8382 0 135)
 			(size 1.1 1.1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 74 "Net-(U101B-PH3{slash}BOOT0)")
+			(net 74 "/BOOT")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "430089ef-0a2a-4438-9868-d759fe5f068f")
@@ -1455,7 +1455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4030.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1467,7 +1467,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5 V shunt voltage reference in SOT-23-5 package"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1479,7 +1479,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Manufacturer" "M"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1540,6 +1540,8 @@
 			)
 		)
 		(path "/d06b3db2-6012-415e-8762-967bc02ae085")
+		(sheetname "Root")
+		(sheetfile "OSSI_CM2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5334 0.889)
@@ -1715,7 +1717,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 19 "Net-(D101-K)")
 			(pinfunction "K")
-			(pintype "bidirectional")
+			(pintype "input")
 			(uuid "f7d80de2-4624-43b6-a00e-3813e856cdef")
 		)
 		(pad "5" smd rect
@@ -1724,7 +1726,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "AGND")
 			(pinfunction "A")
-			(pintype "bidirectional")
+			(pintype "input")
 			(uuid "b036ced8-e9d1-4b01-80be-d74d92df6b3a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
@@ -2288,7 +2290,7 @@
 			(at 1 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 75 "Net-(U101B-~{RST})")
+			(net 75 "/~{RESET}")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "a4a58cc4-c651-426a-9443-e6eea6fad630")
@@ -7705,7 +7707,7 @@
 			(at 1 0 270)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 74 "Net-(U101B-PH3{slash}BOOT0)")
+			(net 74 "/BOOT")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "8cab65ab-6446-4637-93dc-0792f9546030")
@@ -11743,6 +11745,8 @@
 			)
 		)
 		(path "/e80dc2e0-4758-44fa-a035-a004cdaecbb0")
+		(sheetname "Root")
+		(sheetfile "OSSI_CM2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.61 3.61)
@@ -12202,7 +12206,7 @@
 			(size 1.475 0.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 75 "Net-(U101B-~{RST})")
+			(net 75 "/~{RESET}")
 			(pinfunction "~{RST}")
 			(pintype "bidirectional")
 			(uuid "f11be76a-8386-47cb-922b-765428232ac3")
@@ -12572,7 +12576,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 74 "Net-(U101B-PH3{slash}BOOT0)")
+			(net 74 "/BOOT")
 			(pinfunction "PH3/BOOT0")
 			(pintype "bidirectional")
 			(uuid "0cb72fbc-a61e-434d-aa81-25043655f328")
@@ -14033,7 +14037,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin header 2×5 pole"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14286,7 +14290,7 @@
 			(remove_unused_layers no)
 			(net 10 "+3V3")
 			(pinfunction "1")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "c18ad64c-e8f9-436c-9a8e-3312f1385d4d")
 		)
 		(pad "2" thru_hole oval
@@ -14297,7 +14301,7 @@
 			(remove_unused_layers no)
 			(net 70 "/SWD_DIO{slash}PA13")
 			(pinfunction "2")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "ceac8967-8a90-4e0a-9cb3-397e82c624a9")
 		)
 		(pad "3" thru_hole oval
@@ -14308,7 +14312,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "3")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "5abb069a-66d4-4c5f-8294-cf457886824b")
 		)
 		(pad "4" thru_hole oval
@@ -14319,7 +14323,7 @@
 			(remove_unused_layers no)
 			(net 72 "/SWD_CLK{slash}PA14")
 			(pinfunction "4")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "8babc81e-5f92-46da-b293-7856bd8fe75a")
 		)
 		(pad "5" thru_hole oval
@@ -14330,7 +14334,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "5")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "19bb28ab-b1df-496e-b768-90b52e18907a")
 		)
 		(pad "6" thru_hole oval
@@ -14341,7 +14345,7 @@
 			(remove_unused_layers no)
 			(net 71 "/TRACE_SWO{slash}PB3")
 			(pinfunction "6")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "f4feecc8-f479-4685-b3f1-f4e81aa40311")
 		)
 		(pad "7" thru_hole oval
@@ -14352,7 +14356,7 @@
 			(remove_unused_layers no)
 			(net 77 "unconnected-(X101-Pad7)")
 			(pinfunction "7")
-			(pintype "bidirectional+no_connect")
+			(pintype "passive+no_connect")
 			(uuid "24a44a3c-6df8-4658-86f3-4548d85419b8")
 		)
 		(pad "8" thru_hole oval
@@ -14361,9 +14365,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 74 "Net-(U101B-PH3{slash}BOOT0)")
+			(net 74 "/BOOT")
 			(pinfunction "8")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "48c665c2-8c0d-475b-b36c-c6d07f1f3d11")
 		)
 		(pad "9" thru_hole oval
@@ -14374,7 +14378,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "9")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "42c2bb13-cf75-4b20-bb1a-01256d55fa1a")
 		)
 		(pad "10" thru_hole oval
@@ -14383,9 +14387,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 75 "Net-(U101B-~{RST})")
+			(net 75 "/~{RESET}")
 			(pinfunction "10")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "568db84d-493f-4d66-be0c-4e94e0a77548")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.wrl"
@@ -15068,7 +15072,7 @@
 			(at 0.8382 0)
 			(size 1.1 1.1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 75 "Net-(U101B-~{RST})")
+			(net 75 "/~{RESET}")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "3e507cdf-691c-46bc-9fee-9b041477db10")
@@ -19828,14 +19832,26 @@
 		(uuid "076f158b-adac-4c05-8ff6-45570493b753")
 	)
 	(gr_line
-		(start 130.8 126.9)
-		(end 130.2 127.1)
+		(start 130.3 127)
+		(end 129.1 127.5)
 		(stroke
 			(width 0.154)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "121d942d-8a83-4c44-a296-ec8d5bb74624")
+	)
+	(gr_poly
+		(pts
+			(xy 130.3 127) (xy 129.669553 127.050338) (xy 129.825844 127.418538)
+		)
+		(stroke
+			(width 0.154)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6f13f8ed-db6b-4ade-a946-27ce438e1822")
 	)
 	(gr_rect
 		(start 140.968844 127.924499)
@@ -19960,7 +19976,7 @@
 		)
 	)
 	(gr_text "+3V3"
-		(at 126.200002 127.899998 0)
+		(at 124.8 128.1 0)
 		(layer "F.SilkS")
 		(uuid "4eb8a0a3-4f26-4caf-be60-a30e125cafc3")
 		(effects
